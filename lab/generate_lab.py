@@ -17,6 +17,8 @@ SLIDE_TEMPLATE = u"""
       SLIDE_NOTES_STUB
     </div>
   </div>
+  <hr />
+  SLIDE_FOOTNOTE_STUB
 """
 
 
@@ -24,19 +26,20 @@ TEMPLATE_CONTENT = u"<!-- CONTENT -->"
 
 def writeSlideNotes(notes_list):
   if not notes_list:
-    return u""
+    return (u"", u"")
 
   if not isinstance(notes_list, list):
     raise Exception("Non-List Note Object Found")
 
   gen_html = u""
+  footnote_html = u""
   for n in notes_list:
     typ = n['type']
     title = None
     if 'title' in n:
       title = n['title']
 
-    if   typ == 'video':
+    if typ == 'video':
       if not title: title = 'Video'
       srcs = n['src']
       if isinstance(srcs, basestring):
@@ -89,10 +92,16 @@ def writeSlideNotes(notes_list):
       gen_html += u"""
       </div>
       """
+    elif typ == 'footnote':
+     footnote_html += u"""
+  <div class="row-lab-slide">
+    """ + n['text'] +u"""
+  </div>
+  <hr />"""
     else:
       raise Exception('Unsupported Note Type: '+str(typ))
 
-  return gen_html
+  return (gen_html, footnote_html)
 
 def writeLabPage(directory, slide_images, slide_notes, lab_number):
   with open ("template.html", "r") as template:
@@ -107,7 +116,7 @@ def writeLabPage(directory, slide_images, slide_notes, lab_number):
     print('writing slide row '+str(index+1))
     note_html = ''
     if index < len(slide_notes):
-      note_html = writeSlideNotes(slide_notes[index])
+      note_html, footnote_html = writeSlideNotes(slide_notes[index])
     slide_template = string.replace(SLIDE_TEMPLATE,
                                     "SLIDE_NUMBER",
                                     str(index+1))
@@ -117,9 +126,11 @@ def writeLabPage(directory, slide_images, slide_notes, lab_number):
     slide_template = string.replace(slide_template,
                                     "SLIDE_NOTES_STUB",
                                     note_html)
+    slide_template = string.replace(slide_template,
+                                    "SLIDE_FOOTNOTE_STUB",
+                                    footnote_html)
     # ensure good visual separation between notes for one slide and the next
     # when in two-column layout
-    slide_template += u"<hr></hr>"
 
     slides.append(slide_template)
 
