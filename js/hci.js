@@ -1,13 +1,12 @@
 $(document).ready(function() {
     initializeSideNav();
-    var offset = 60;
+    var offset = 0;
 
     $('#sidenav-content li a').click(function(event) {
         event.preventDefault();
         $($(this).attr('href'))[0].scrollIntoView();
         scrollBy(0, -offset);
     });
-
 });
 
 function initializeSideNav() {
@@ -49,3 +48,4 @@ function initializeSideNav() {
         $('#sidenav-content').append('<li>' + elem + '</li>');
     });
 }
+
