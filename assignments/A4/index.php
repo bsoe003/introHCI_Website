@@ -183,9 +183,24 @@
 
 					<div id="evaluation" class="sidenav-anchor">
 						<h2>Evaluation Criteria &amp; Grading Rubric</h2>
-						<div class="table-responsive">
-<? include "rubric.html" ?>                        
-						</div>
+						<p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
+	                    <?php
+	                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/4");
+	                        $json = json_decode($result, true);
+	                        for ($x = 0; $x < count($json["criteria"]); $x++) {
+	                            echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
+	                            echo '<ol>';
+	                            $items = $json["criteria"][$x]["items"];
+	                            for ($y = 0; $y < count($items); $y++) {
+	                                echo '<li>'.$items[$y]["name"].'</li>';
+	                            }
+	                            echo '</ol>';
+	                            echo '</ul>';
+	                        }
+	                    ?>
+						<!-- <div class="table-responsive">
+							<? include "rubric.html" ?>                      
+						</div> -->
 					</div>
 					<div id='self-assessment' class='sidenav-anchor'>
 						<h2>Self assessment</h2>
