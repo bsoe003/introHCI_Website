@@ -1,35 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-<<<<<<< HEAD
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Human-Computer Interaction Design">
     <title>HCI Design</title>
-=======
-  	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Introduction to Human-Computer Interaction">
-    <title>Intro to HCI</title>
->>>>>>> 7d429d003c3b7676b150c8616ab460661fa9e904
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/hci.css" rel="stylesheet">
-<<<<<<< HEAD
     <style type="text/css">
-    .map-overlay {
-      background: transparent;
-      position: relative;
-      width: 280px;
-      height: 300px; /* your iframe height */
-      top: 300px;  /* your iframe height */
-      margin-top: -300px;  /* your iframe height */
+    .scrolloff {
+      pointer-events: none;
     }
     </style>
-=======
->>>>>>> 7d429d003c3b7676b150c8616ab460661fa9e904
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,11 +23,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-<<<<<<< HEAD
   <body data-spy="scroll" data-target=".navbar-fixed-top">
-=======
-  <body>
->>>>>>> 7d429d003c3b7676b150c8616ab460661fa9e904
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -54,7 +35,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-<<<<<<< HEAD
           <a class="navbar-brand" href="#" >HCI Design</a>
         </div>
         <div class="navbar-collapse collapse" >
@@ -73,41 +53,16 @@
                 <li><a href="logistics.html#faq">FAQ</a></li>
               </ul>
             </li>
-            <li><a href="index.html#calendar">Submit work</a></li>
+            <li><a href="http://www.ucsd-hci.com">Submit work</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
             <li><a href="http://piazza.com/ucsd/winter2016/cogs120cse170/home">Questions(Piazza forum)</a></li>
-=======
-          <a class="navbar-brand" href="#">Intro to HCI</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="index.html#calendar">Calendar</a></li>
-            <li><a href="lab/">Lab</a></li>
-            <li class="dropdown">
-			    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="logistics.html#prereqs">Prerequisites</a></li>
-		          <li><a href="logistics.html#lab">Lab</a></li>
-		          <li><a href="logistics.html#grading">Grading</a></li>
-		          <li><a href="logistics.html#attendance">Attendance</a></li>
-		          <li><a href="logistics.html#cs77">CS 77</a></li>
-		          <li><a href="logistics.html#faq">FAQ</a></li>
-		        </ul>
-      		</li>            
-            <li><a href="http://www.coursera.org">Submit Work</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="staffemailorpiazzaforum@university.edu">Questions</a></li>
->>>>>>> 7d429d003c3b7676b150c8616ab460661fa9e904
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
-<<<<<<< HEAD
   <!-- this is a comment in HTML -->
   <div class="container">
     <div class="jumbotron" id='home'>
@@ -137,7 +92,7 @@
       <div class="row">
         <div class="col-md-4">
           <strong>Weekly schedule</strong>
-          <p>Lecuture</p>
+          <p>Lecture</p>
           <span class="text-muted">
             Tuesdays 11:00am-12:20pm<br>
             CICC 101 (Copley International Conference Center)
@@ -164,18 +119,21 @@
       <div class="row">
         <div class='col-md-4'>
           <strong>Atkinson Hall location</strong>
-          <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1675.3110288831713!2d-117.2348361663194!3d32.88171777431913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3ab289115%3A0x729ac9ce585ae8ea!2sAtkinson+Hall%2C+University+of+California+San+Diego%2C+Warren+College%2C+9500+Gilman+Dr%2C+La+Jolla%2C+CA+92093!5e0!3m2!1sen!2sus!4v1420763843399" width="380" height="300" frameborder="0" style="border:0"></iframe>
+          <div id="atkinson_map">
+            <iframe id="atkiinson_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1675.3110288831713!2d-117.2348361663194!3d32.88171777431913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c3ab289115%3A0x729ac9ce585ae8ea!2sAtkinson+Hall%2C+University+of+California+San+Diego%2C+Warren+College%2C+9500+Gilman+Dr%2C+La+Jolla%2C+CA+92093!5e0!3m2!1sen!2sus!4v1420763843399" width="380" height="300" frameborder="0" style="border:0"></iframe>
+          </div>
         </div>
         <div class='col-md-4'>
           <strong>CogSci building location</strong>
-          <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1675.3279750117358!2d-117.2386609963746!3d32.88082127449335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x298f7274570a6f7a!2sCognitive+Science+Building!5e0!3m2!1sen!2sus!4v1420763765089" width="380" height="300" frameborder="0" style="border:0"></iframe>
+          <div id="cogsci_map">
+            <iframe id="cogsci_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1675.3279750117358!2d-117.2386609963746!3d32.88082127449335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x298f7274570a6f7a!2sCognitive+Science+Building!5e0!3m2!1sen!2sus!4v1420763765089" width="380" height="300" frameborder="0" style="border:0"></iframe>
+          </div>
         </div>
         <div class="col-md-4">
           <strong>HSS building location</strong>
-          <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.747883848692!2d-117.243862184926!3d32.87838938094143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c72c4e35a7%3A0xcf03aa9bc2d53eb1!2sHumanities+and+Social+Sciences+Building!5e0!3m2!1sen!2sus!4v1452390831782" width="380" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div id="hss_map">
+            <iframe id="hss_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.747883848692!2d-117.243862184926!3d32.87838938094143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c72c4e35a7%3A0xcf03aa9bc2d53eb1!2sHumanities+and+Social+Sciences+Building!5e0!3m2!1sen!2sus!4v1452390831782" width="380" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
       <hr>
@@ -191,6 +149,9 @@
               Adam Rule<span class="text-muted"> 1:00pm-2:00pm</span>
             </li>
             <li>
+              Tricia Ngoon<span class="text-muted"> 3:00-4:00pm</span>
+            </li>
+            <li>
               Bonnie Chinh<span class="text-muted"> 4:00pm-5:00pm</span>
             </li>
           </ul>
@@ -198,9 +159,6 @@
         <div class="col-md-4">
           <strong> Wednesday OH (in Atkinson 5204)</strong>
           <ul class="list-unstyled">
-            <li>
-              Tricia Ngoon<span class="text-muted"> 12:00pm-1:00pm</span>
-            </li>
             <li>
               Jasmine Roberts<span class="text-muted"> 1:00pm-3:00pm</span>
             </li>
@@ -313,7 +271,7 @@
                       <h6>January 26</h6>
                       <p>Heuristic evaluation</p>
                       <ul>
-                        <li><a href="lectures/HCI-04-1-HEs.pdf">slides</a></li>
+                        <li><a href="lectures/IntroHCI-2016-Week4.pdf">slides</a></li>
                         <li>Heuristic Evaluation Why and How <a href="https://ucsd.coursera.org/introhci-001/lecture/27">video</a></li>
                         <li>Design Heuristics(Part 1/2) <a href="https://ucsd.coursera.org/introhci-001/lecture/28">video</a></li>
                         <li>Design Heuristics(Part 1/2) <a href="https://ucsd.coursera.org/introhci-001/lecture/29">video</a></li>
@@ -482,233 +440,38 @@ https://creativecommons.org/licenses/by/4.0/deed.en_US
     <br/><br/>
 
   </div>
-=======
-	<!-- this is a comment in HTML -->
-	<div class="container">
-		<div class="jumbotron">
-  			<h1>Intro to Human-Computer Interaction Design</h1>
-  			<p>instructor name &middot; term</p>
-  			<!-- <p><a class="btn btn-primary btn-lg" role="button">Contact me</a></p> -->
-		</div>
-
-		<div id="syllabus">
-			<p class="lead">In this course, you will learn how to design technologies that bring people joy, rather than frustration. To do this, you'll learn techniques for rapidly prototyping and evaluating multiple interface alternatives — and why rapid prototyping and comparative evaluation are essential to excellent interaction design. You'll learn how to conduct fieldwork with people to help generate design ideas. You'll learn how to make paper prototypes and low-fidelity mock-ups that are interactive — and how to use these designs to get feedback from teammates, clients, and users. You'll learn principles of visual design, perception and cognition so that you can effectively organize and present information with your interfaces. And you'll learn how to perform and analyze controlled experiments online.</p>
-
-			<p class="lead">Through a series of weekly assignments, you will complete a quarter-long project in teams of three. Each week, in small design studios, you present and discuss work with peers. The setting for the course is mobile web applications. The constraints of this small form factor set the stage for this challenge.</p>
-
-			<hr>
-
-			<div class="row">
-				<div class="col-md-4">
-					<strong>Weekly schedule</strong>
-					<ul class="list-unstyled">
-	  					<li>Lecture <span class="text-muted">Mondays 2:15-3:45pm</span></li>
-	  					<li>Lab <span class="text-muted">Wednesdays 2:15-3:45pm</span></li>
-	  					<li>Studio <span class="text-muted">Fridays 9:30-10:45am, 11am-12:15pm, or 2:15-3:30pm</span></li>
-	  					<li>Lectures in Annenberg. Studio locations vary.</li>
-					</ul>
-				</div>
-				<div class="col-md-4">
-					<ul class="list-unstyled">
-						<strong>Staff and office hours</strong>
-	  					<li><a href="#">Prof. Instructor Name</a> <span class="text-muted">Wednesdays 3:45-5:30pm</span></li>
-	  					<li>TAName 1 <span class="text-muted">Monday 2:15-3:45pm</span></li>
-	  					<li>TAName 2 <span class="text-muted">Monday 2:15-3:45pm</span></li>
-	  					<li>TAName 3 <span class="text-muted">Monday 2:15-3:45pm</span></li>
-	  					<li>TAName 4 <span class="text-muted">Monday 2:15-3:45pm</span></li>
-	  				</ul>
-				</div>
-				<div class="col-md-4">
-					<strong>&nbsp;</strong>			
-					<ul class="list-unstyled">
-	  					<li>TAName 5 <span class="text-muted">Monday 2:15-3:45pm</span></li>
-	  					<li>TAName 6 <span class="text-muted">Monday 2:15-3:45pm</span></li>
-	  					<li>TAName 7 <span class="text-muted">Monday 2:15-3:45pm</span></li>
-	  					<li>TAName 8 <span class="text-muted">Monday 2:15-3:45pm</span></li>
-	  					<li>TAName 9 <span class="text-muted">Monday 2:15-3:45pm</span></li>  					
-	  				</ul>
-				</div>
-			</div>
-
-			<p>Instructor bio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac tincidunt felis, eget condimentum felis. Vestibulum porttitor accumsan erat, ut facilisis velit. Donec ligula tellus, aliquam vel sollicitudin sed, tempor ac dui. Pellentesque turpis arcu, venenatis sit amet purus ac, pellentesque facilisis massa. Nunc magna mauris, tincidunt nec egestas sed, tempor vel erat. Nunc risus est, tincidunt sed dui nec, viverra consequat diam. Curabitur faucibus tellus vitae facilisis sagittis. Fusce ultrices auctor mi, sit amet iaculis sem ultrices sit amet.</p>
-		</div>
-		<div id="calendar" class="anchor">
-			<h3>Calendar</h3>
-			<table class="table">
-	          	<thead>
-	            	<tr>
-	              		<th>Week</td>
-		              	<th>Lecture</td>
-		              	<th>Lab</td>
-		            	<th>Assignment</td>
-	            	</tr>
-	          	</thead>
-	          	<tbody>
-		            <tr>
-		              	<td><h6>1</h6></td>
-		              	<td>
-	              			<h6>January 6</h6>
-							<p>Needfinding</p>
-						</td>
-		              	<td>
-	              			<h6>January 8</h6>
-							<p><a href="./lab/lab1/">Source control</a></p>
-						</td>
-		              	<td>
-		              		<h6>Due Thursday, 1/9, 11:59 pm PDT</h6>
-	              			<p><a href="./assignments/assignment01.html">Assignment 1: Waiting in Line</a></p>
-						</td>						
-		            </tr>
-		            <tr>
-		              	<td><h6>2</h6></td>
-		              	<td>
-	              			<h6>January 13</h6>
-							<p>Prototyping</p>
-						</td>
-		              	<td>
-	              			<h6>January 15</h6>
-							<p><a href="./lab/lab2/">Styling</a></p>
-						</td>
-		              	<td>
-	              			<h6>Due Thursday, 1/16, 11:59 pm PDT</h6>
-							<p><a href="./assignments/assignment02.html">Assignment 2: Needfinding</a></p>
-						</td>						
-		            </tr>
-		            <tr>
-		              	<td><h6>3</h6></td>
-		              	<td>
-	              			<h6>January 20</h6>
-							<p>MLK Day: no class</p>
-						</td>
-		              	<td>
-	              			<h6>January 22</h6>
-							<p><a href="./lab/lab3/">Client-side interactivity</a></p>
-						</td>
-		              	<td>
-	              			<h6>Due Thursday, 1/23, 11:59 pm PDT</h6>
-							<p><a href="./assignments/assignment03.html">Assignment 3: Prototyping</a></p>
-						</td>						
-		            </tr>
-		            <tr>
-		              	<td><h6>4</h6></td>
-		              	<td>
-	              			<h6>January 27</h6>
-							<p>Heuristic evaluation</p>
-							<p><b>Quiz 1: Needﬁnding + Prototyping</b></p>
-						</td>
-		              	<td>
-	              			<h6>January 29</h6>
-							<p><a href="./lab/lab4/">Servers</a></p>
-						</td>
-		              	<td>
-	              			<h6>Due Thursday, 1/30, 11:59 pm PDT</h6>
-							<p><a href="./assignments/assignment04.html">Assignment 4: Heuristic evaluation</a></p>
-						</td>						
-		            </tr>
-		            <tr>
-		              	<td><h6>5</h6></td>
-		              	<td>
-	              			<h6>February 3</h6>
-							<p>Mental models and distributing cognition</p>
-						</td>
-		              	<td>
-	              			<h6>February 5</h6>
-							<p><a href="./lab/lab5/">Putting it together</a></p>
-						</td>
-		              	<td>
-	              			<h6>Due Thursday, 2/6, 11:59 pm PDT</h6>
-							<p><a href="./assignments/assignment05.html">Assignment 5: Skeleton and a plan</a></p>
-						</td>						
-		            </tr>
-		            <tr>
-		              	<td><h6>6</h6></td>
-		              	<td>
-	              			<h6>February 10</h6>
-							<p>Visual design and information design</p>
-						</td>
-		              	<td>
-	              			<h6>February 12</h6>
-							<p><a href="./lab/lab6/">Same-page Client-Server</a></p>
-						</td>
-		              	<td>
-	              			<h6>Due Thursday, 2/13, 11:59 pm PDT</h6>
-							<p><a href="./assignments/assignment06.html">Assignment 6: Meat on the bones</a></p>
-						</td>						
-		            </tr>
-		            <tr>
-		              	<td><h6>7</h6></td>
-		              	<td>
-	              			<h6>February 17</h6>
-							<p>Presidents' Day: no class</p>
-						</td>
-		              	<td>
-	              			<h6>February 19</h6>
-							<p><a href="./lab/lab7/">Databases</a></p>
-						</td>
-		              	<td>
-	              			<h6>Due Thursday, 2/20, 11:59 pm PDT</h6>
-							<p><a href="./assignments/assignment07.html">Assignment 7: Ready for testing</a></p>
-						</td>						
-		            </tr>
-		            <tr>
-		              	<td><h6>8</h6></td>
-		              	<td>
-	              			<h6>February 24</h6>
-							<p>Designing experiments</p>
-						</td>
-		              	<td>
-	              			<h6>February 26</h6>
-							<p><a href="./lab/lab8/">Analytics</a></p>
-						</td>
-		              	<td>
-	              			<h6>Due Thursday, 2/27, 11:59 pm PDT</h6>
-							<p><a href="./assignments/assignment08.html">Assignment 8: Test your prototype</a></p>
-						</td>						
-		            </tr>
-		            <tr>
-		              	<td><h6>9</h6></td>
-		              	<td>
-	              			<h6>March 3</h6>
-							<p>Input</p>
-						</td>
-		              	<td>
-	              			<h6>March 5</h6>
-							<p>Presenting design work</p>
-						</td>
-		              	<td>
-	              			<h6>Due Thursday, 3/6, 11:59 pm PDT</h6>
-							<p><a href="./assignments/assignment09.html">Assignment 9: Test your prototype online</a></p>
-						</td>						
-		            </tr>
-		            <tr>
-		              	<td><h6>10</h6></td>
-		              	<td>
-	              			<h6>March 10</h6>
-							<p>Social computing</p>
-						</td>
-		              	<td>
-	              			<h6>March 12</h6>
-							<p>Creating video summaries</p>
-						</td>
-		              	<td>
-	              			<h6>Due Thursday, 3/13, 11:59 pm PDT</h6>
-							<p><a href="./assignments/assignment10.html">Assignment 10: Final presentation</a></p>
-							<p><a href="./assignments/extracredit.html">Extra Credit Assignments</a></p>
-							<p><a href="./finalpresentation/index.html">Final Presentation 2014</a></p>
-
-							<h6>Final presentations date TBA</h6>
-						</td>						
-		            </tr>
-	          	</tbody>          
-        	</table>
-		</div>
-
-	</div>
->>>>>>> 7d429d003c3b7676b150c8616ab460661fa9e904
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        $('#atkiinson_canvas').addClass('scrolloff');
+        $("#cogsci_canvas").addClass('scrolloff');
+        $("#hss_canvas").addClass('scrolloff');
+
+        $('#atkinson_map').on('click', function () {
+            $('#atkiinson_canvas').removeClass('scrolloff');
+        });
+        $("#atkiinson_canvas").mouseleave(function () {
+            $('#atkiinson_canvas').addClass('scrolloff');
+        });
+
+        $('#cogsci_map').on('click', function () {
+            $('#cogsci_canvas').removeClass('scrolloff');
+        });
+        $("#cogsci_canvas").mouseleave(function () {
+            $('#cogsci_canvas').addClass('scrolloff');
+        });
+
+        $('#hss_map').on('click', function () {
+            $('#hss_canvas').removeClass('scrolloff');
+        });
+        $("#hss_canvas").mouseleave(function () {
+            $('#hss_canvas').addClass('scrolloff');
+        });
+    });
+    </script>
   </body>
 </html>

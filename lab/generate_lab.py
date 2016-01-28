@@ -1,7 +1,9 @@
+#!/usr/bin/python
 import argparse
 from os import listdir
 from os.path import isfile, join
 import string
+import re
 import json
 
 SLIDE_TEMPLATE = u"""
@@ -15,6 +17,8 @@ SLIDE_TEMPLATE = u"""
       SLIDE_NOTES_STUB
     </div>
   </div>
+  <hr />
+  SLIDE_FOOTNOTE_STUB
 """
 
 
@@ -22,19 +26,20 @@ TEMPLATE_CONTENT = u"<!-- CONTENT -->"
 
 def writeSlideNotes(notes_list):
   if not notes_list:
-    return u""
+    return (u"", u"")
 
   if not isinstance(notes_list, list):
     raise Exception("Non-List Note Object Found")
 
   gen_html = u""
+  footnote_html = u""
   for n in notes_list:
     typ = n['type']
     title = None
     if 'title' in n:
       title = n['title']
 
-    if   typ == 'video':
+    if typ == 'video':
       if not title: title = 'Video'
       srcs = n['src']
       if isinstance(srcs, basestring):
@@ -42,7 +47,7 @@ def writeSlideNotes(notes_list):
       gen_html += u"""
       <div class="video">
         <h4>"""+title+u"""</h4>"""
-      
+
       for vsrc in srcs:
         gen_html += u"""
         <video src='"""+ vsrc +u"""' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>"""
@@ -74,7 +79,7 @@ def writeSlideNotes(notes_list):
       </div>
       """
     elif typ == 'debug':
-      if not title: title = 'Debug'
+      if not title: title = 'Troubleshoot'
       gen_html += u"""
       <div class="debug">
         <h4>"""+title+u"""</h4>"""
@@ -87,12 +92,18 @@ def writeSlideNotes(notes_list):
       gen_html += u"""
       </div>
       """
+    elif typ == 'footnote':
+     footnote_html += u"""
+  <div class="row-lab-slide">
+    """ + n['text'] +u"""
+  </div>
+  <hr />"""
     else:
       raise Exception('Unsupported Note Type: '+str(typ))
 
-  return gen_html
+  return (gen_html, footnote_html)
 
-def writeLabPage(directory, slide_images, slide_notes):
+def writeLabPage(directory, slide_images, slide_notes, lab_number):
   with open ("template.html", "r") as template:
     page = unicode(template.read())
     if len(page) == 0:
@@ -105,7 +116,7 @@ def writeLabPage(directory, slide_images, slide_notes):
     print('writing slide row '+str(index+1))
     note_html = ''
     if index < len(slide_notes):
-      note_html = writeSlideNotes(slide_notes[index])
+      note_html, footnote_html = writeSlideNotes(slide_notes[index])
     slide_template = string.replace(SLIDE_TEMPLATE,
                                     "SLIDE_NUMBER",
                                     str(index+1))
@@ -115,9 +126,11 @@ def writeLabPage(directory, slide_images, slide_notes):
     slide_template = string.replace(slide_template,
                                     "SLIDE_NOTES_STUB",
                                     note_html)
+    slide_template = string.replace(slide_template,
+                                    "SLIDE_FOOTNOTE_STUB",
+                                    footnote_html)
     # ensure good visual separation between notes for one slide and the next
     # when in two-column layout
-    slide_template += u"<hr></hr>"
 
     slides.append(slide_template)
 
@@ -126,6 +139,7 @@ def writeLabPage(directory, slide_images, slide_notes):
   #return
 
   slide_html = '\n'.join(slides)
+  page = string.replace(page, "LAB_NUMBER", lab_number)
   page = string.replace(page, TEMPLATE_CONTENT, slide_html)
   with open(directory + '/index.html', 'w') as out:
     out.write(page.encode('utf-8'))
@@ -140,9 +154,17 @@ if __name__ == "__main__":
   args = parser.parse_args()
   directory = args.directory
 
+  lab_number = None
+  m = re.search('\d+', args.directory)
+  if m != None:
+      lab_number = m.group(0)
+      print("Lab number " + lab_number)
+
   slide_images = [
     f for f in listdir(directory)
-      if isfile(join(directory,f)) and f.lower().endswith('.png') or f.lower().endswith('.jpg') ]
+      if isfile(join(directory,f)) and not f.lower().startswith('._')
+          and f.lower().endswith('.png') or f.lower().endswith('.jpg') ]
+  slide_images.sort()
   print(str(len(slide_images)) + ' slides to process')
 
   print('Trying to load notes from: '+directory+'/notes.json')
@@ -157,5 +179,5 @@ if __name__ == "__main__":
   #print(isinstance(slide_notes[0], list))
 
   if len(slide_images) > 0:
-    writeLabPage(directory, slide_images, slide_notes)
+    writeLabPage(directory, slide_images, slide_notes, lab_number)
   print("Done.")

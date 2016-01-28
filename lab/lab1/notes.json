@@ -1,12 +1,13 @@
 [
+  [],
   [
     {
       "type": "links",
       "title": "Get accounts and install software",
       "list": [
-        "<a href='http://git-scm.com/downloads'>Install Git</a>",
+        "<a href='http://git-scm.com/downloads'>Install Git</a> <ul><li>WARNING: If you're using Windows, make sure you install git. Installing <em>GitHub</em> is not enough, as we need Git Bash.</li></ul>",
         "<a href='http://github.com'>Get a GitHub account</a>",
-        "<a href='http://www.sublimetext.com/2'>Install the Sublime Text 2 text editor</a>",
+        "<a href='http://www.sublimetext.com/2'>Install the Sublime Text 2 text editor</a> <ul><li>If you want to use a different editor, we won't stop you, but we also won't be able to support with editor related questions.</li></ul>",
         "<a href='https://www.virtualbox.org/wiki/Downloads'>Install VirtualBox</a>",
         "<a href='http://www.vagrantup.com/downloads.html'>Install Vagrant</a>"
       ]
@@ -14,7 +15,7 @@
     {
       "type": "debug",
       "list": [{
-        "problem":"[appname] can't be opened becuase it is from an unidentified developer.",
+        "problem":"<pre><code>[appname] can't be opened becuase it is from an unidentified developer.</code></pre>",
         "fix":"Control-click on the file and choose 'Open', and you'll get an additional 'Open' option when the window pops up."
       }]
     }
@@ -24,20 +25,19 @@
   [],
   [
     {
-      "comment": "hci.st/lab intro",
+      "comment": "lab intro",
       "type": "links",
-      "list": ["<a href='http://hci.st/lab'>http://hci.st/lab</a> (though you've probably already figured that out if you're looking at this page)"]
+      "list": ["<a href='http://d.ucsd.edu/class/intro-hci/2016/lab'>http://d.ucsd.edu/class/intro-hci/2016/lab</a>\n(though you've probably already figured that out if you're looking at this page)"]
     }
   ],
   [],
   [],
-  [],  
   [],
   [
     {
       "comment": "submit link",
       "type": "links",
-      "list": ["<a href='http://hci.st/lab-submit'>http://hci.st/lab-submit</a>"]
+      "list": ["<a href='http://www.ucsd-hci.com/student_labs'>Submission link</a>"]
     }
   ],
   [],
@@ -46,7 +46,7 @@
     {
       "comment": "download configuration files",
       "type": "links",
-      "list": ["<a href='http://hci.st/vagrant'>http://hci.st/vagrant</a>"]
+      "list": ["<a href='http://d.ucsd.edu/class/intro-hci/2016/config.zip'>config.zip</a>"]
     },
     {
       "type": "debug",
@@ -93,6 +93,8 @@
       "text": "➜  Desktop  cd ~/Documents/introHCI \n➜  introHCI  ls\nLICENSE            Vagrantfile\nintroHCI-extras.sh README.md\ncookbooks          lab1\n➜  introHCI"
     }
   ],
+  [],
+  [],
   [
     {
       "comment": "git clone the repo inside of introHCI",
@@ -115,7 +117,7 @@
       },
       {
         "problem":"Windows: how do I paste into Git Bash?",
-        "fix":"Click on the icon in the upper left of the window: Edit, Paste. For a shortcut: Alt-spacebar, then e, then p."
+        "fix":"Click on the terminal icon in the upper left of the window: Edit, Paste. For a shortcut: Alt-spacebar, then e, then p.\nIf that seems needlessly complicated, you can also enable QuickEdit mode by clicking on the terminal icon in the upper left of the window: Defaults(or Properties). Go to the Options tab and enable \"QuickEdit Mode\". Now you may paste by right-clicking in the terminal."
       }]
     }
   ],
@@ -132,11 +134,12 @@
     }
   ],
   [],
+  [],
   [
     {
       "comment": "set up git so we can commit",
       "type": "code",
-      "text": "git config --global user.name \"Your Name\"\ngit config --global user.email \"youremail@university.edu\"\ngit config --global push.default simple"
+      "text": "# No response means it succeeded. \ngit config --global user.name \"Your Name\"\ngit config --global user.email \"youremail@university.edu\"\ngit config --global push.default simple"
     },
     {
       "comment": "set up git so we can commit",
@@ -153,7 +156,7 @@
     },
     {
       "type": "code",
-      "text": "➜  lab1 git:(master) ✗ git status\n# On branch master\n# Changes not staged for commit:\n#   (use \"git add <file>...\" to update what will be committed)\n#   (use \"git checkout -- <file>...\" to discard changes in working directory)\n#\n# modified:   static/index.html\n#\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n➜  lab1 git:(master) ✗ git add static/index.html \n➜  lab1 git:(master) ✗ git status\n# On branch master\n# Changes to be committed:\n#   (use \"git reset HEAD <file>...\" to unstage)\n#\n# modified:   static/index.html\n#\n➜  lab1 git:(master) ✗"
+      "text": "➜  lab1 git:(master) ✗ git status\n# On branch master\n# Changes not staged for commit:\n#   (use \"git add <file>...\" to update what will be committed)\n#   (use \"git checkout -- <file>...\" to discard changes in working directory)\n#\n#    modified:   static/index.html\n#\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n➜  lab1 git:(master) ✗ git add static/index.html \n➜  lab1 git:(master) ✗ git status\n# On branch master\n# Changes to be committed:\n#   (use \"git reset HEAD <file>...\" to unstage)\n#\n# modified:   static/index.html\n#\n➜  lab1 git:(master) ✗"
     },
     {
       "type": "debug",
@@ -181,7 +184,20 @@
       },
       {
         "problem":"<pre><code>git-credential-osxkeychain died of signal 11</code></pre>",
-        "fix":"If you're willing to enter your password every time you push to git, you can run <code>sudo rm /usr/local/git/etc/gitconfig</code>. That's a pretty huge sledgehammer for this problem, though. <a href=\"http://stackoverflow.com/questions/14272634/error-git-credential-osxkeychain-died-of-signal-11\">StackOverflow has more solutions.</a>"
+        "fix":"If you're willing to enter your password every time you push to git, you can run <code>sudo rm /usr/local/git/etc/gitconfig</code>. That's a pretty huge sledgehammer for this problem, though. <a href='http://stackoverflow.com/questions/14272634/error-git-credential-osxkeychain-died-of-signal-11'>StackOverflow has more solutions.</a>"
+      },
+      {
+        "problem":"When running git commit, git says: <pre class='pre-scrollable'><code>On branch master\nYour branch is up-to-date with 'origin/master'.\nChanges not staged for commit:\nmodified: static/index.html\n\nno changes added to commit</code></pre>",
+        "fix":"Make sure you've done the git add step from <a href='#slide-26'>the previous slide.</a>"
+      }]
+    }
+  ],
+  [
+    {
+      "type": "debug",
+      "list": [{
+        "problem":"Your submission URL will be of the form:",
+        "fix":"<pre>https://github.com/{YOUR_USER_NAME}/lab1</pre>"
       }]
     }
   ],
@@ -201,7 +217,7 @@
     {
       "type": "debug",
       "list": [{
-        "problem": "I made a mistake typing in the address for <pre><code>git remote add conflict https://github.com/IntroHCI/lab1conflict.git</code></pre>  Now it says <pre><code>fatal: remote conflict already exists</code></pre> if I try to <code>git remote add conflict</code> again",
+        "problem": "I made a mistake typing in the address for <pre><code>git remote add conflict https://github.com/IntroHCI/lab1conflict.git</code></pre>Now when I try to <code>git remote add conflict</code> again it says <pre><code>fatal: remote conflict already exists</code></pre>",
         "fix": "run <code>git remote rm conflict</code> to remove the bad address"
       }]
     }
@@ -293,8 +309,8 @@
   [
     {
       "comment":"last slide",
-      "type":"links",
-      "list":["<a href='http://hci.st/lab-submit'>http://hci.st/lab-submit</a>"]
+      "type": "links",
+      "list": ["<a href='http://www.ucsd-hci.com/student_labs'>Submission link</a>"]
     }
   ]
 ]

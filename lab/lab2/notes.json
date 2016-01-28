@@ -1,4 +1,13 @@
 [
+  [],
+  [  
+    { 
+      "type": "links",
+      "title": "Student examples",
+      "list": ["Check out these awesome examples from your peers!"]
+    }
+  ], 
+  [],
   [
     {
       "comment": "first slide",
@@ -7,7 +16,6 @@
       "list": ["go to <a href='https://www.heroku.com/'>https://www.heroku.com/</a> and get an account"]
     }
   ],
-  [],
   [
     {
       "comment": "command review cheat sheet",
@@ -36,7 +44,6 @@
       }]
     }
   ],
-  [],
   [],
   [],
   [],
@@ -129,6 +136,10 @@
     {
       "type": "debug",
       "list": [{
+          "problem": "I see <code>vagrant@trusty64:~$</code> instead of <code>vagrant@precise32:~$</code>",
+          "fix":"Not an issue! That just means you're using the newer and better Ubuntu 14.04."
+        },
+        {
         "problem": "What's the password?",
         "fix": "vagrant"
       }]
@@ -144,7 +155,7 @@
     {
       "type": "code",
       "title": "Terminal",
-      "text": "$ ls\ncookbooks  intorHCI-extras.sh  lab1  lab2  LICENSE  README.md  Vagrantfile\n$ cd lab2\n$ ls\nLICENSE  node_modules  package.json  Procfile  README.md  server.js  static"
+      "text": "$ ls\nintroHCI\n$ cd introHCI\n$ ls\ncookbooks  intorHCI-extras.sh  lab1  lab2  LICENSE  README.md  Vagrantfile\n$ cd lab2\n$ ls\nLICENSE  node_modules  package.json  Procfile  README.md  server.js  static"
     }
   ],
   [],
@@ -165,6 +176,10 @@
       "list": [{
         "problem": "I didn't see <code>Git remote heroku added</code> after running <code>heroku create</code>",
         "fix": "Did you run the create command inside of the <code>lab2</code> directory?"
+        },
+        {
+        "problem":"<code>heroku login</code> gives me a <code>heroku: command not found</code>",
+        "fix":"From within the VM, try running <pre><code>sudo ~/introHCI/heroku.sh</code></pre>"
       }]
     }
   ],

@@ -1,13 +1,16 @@
 body {
-  min-height: 2000px;
   padding-top: 70px;
   background-color: #f7f7f7;
 }
 
 .anchor {
-	padding-top: 40px; /* prevents the fixed navbar from obscuring the anchors */
+  padding-top: 40px; /* prevents the fixed navbar from obscuring the anchors */
   margin-top: -40px;
   display: inline-block; /* required for webkit browsers */
+}
+
+#submit li{
+  margin-top: 10px;
 }
 
 .jumbotron {
@@ -24,7 +27,7 @@ body {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;       
+  z-index: -1;
 }
 
 .navbar-default {
@@ -101,8 +104,17 @@ body {
 
 .lab-slide video {
   border: 1px solid gray;
+  height: 200px;
 }
 
-#evaluation th {
-  min-width: 150px;
+.navbar-default .navbar-brand{
+  font-size: 15px;
+}
+
+.navbar-collapse{
+  font-size: 12px;
+}
+
+#faq .row{
+  margin-top: 10px;
 }
