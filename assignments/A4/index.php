@@ -133,6 +133,16 @@
 						<h4>Step 5: (Team) Create a Home Screen </h4>
 						<p>To get your feet wet with web development of your app, create a home screen. It should include the suggestions your evaluators have.  It shouldn't be pretty yet: don't worry about styling.</p>
 					</div>
+          <div id="reada4" class="sidenav-anchor">
+              <h4>In Studio</h4>
+              <p>You will present your heurisitc evaluations, with the group that you evaluated with(not your usual project group). Prepare a 2-minute presentation of the things you learned:
+              <ul>
+                <li>What did you like about the prototype?</li>
+                <li>What did you wish the group had done?</li>
+                <li>What were some common findings you arrived at?</li>
+              </ul>
+              </p>
+          </div>
 					<div id="examples" class="sidenav-anchor">
 						<h2>Student Examples</h2>
 						<p><a href="http://d.ucsd.edu/class/intro-hci/2015/assignments/examples/pdfs/a04e1.pdf">Example 1</a> - This student did an incredibly thorough heuristic evaluation. We especially like how this student incorporated comparative feedback. Keep in mind that the this assignment was slightly different last year.</p>
