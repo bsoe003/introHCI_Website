@@ -214,7 +214,7 @@
 					</div>
 					<div id='self-assessment' class='sidenav-anchor'>
 						<h2>Self assessment</h2>
-						<a class='btn btn-primary' href="https://docs.google.com/forms/d/1251ynXaVlBblx6dsac-r3p7QDcXEfPIXh3ZSEVAvbmM/viewform">During studio, click here to self assess your work.</a>
+						<a class='btn btn-primary' href="https://docs.google.com/forms/d/14b3tCOoOcWpZgQa7523DIlJWz3SbHbA9H5y_71naNRQ/viewform">During studio, click here to self assess your work.</a>
                         <br/><br/>
 						<h2>Mid-quarter evaluation</h2>
 						<a class='btn btn-primary' href="https://docs.google.com/forms/d/1F8QM-8qMxfpnHOE3p9floMcOrEeerEuTKQLnN0kSixo/viewform">During studio, click here to evaluate the course.</a>
