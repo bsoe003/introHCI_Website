@@ -66,7 +66,7 @@
         },
         {
           "problem": "I get errors that look like <pre><code>check-setup.sh: line 2: $'\\r': command not found</code></pre>",
-          "fix": "Try running the following command. <pre><code>sed -i 's/\r//' lab4/check-setup.sh</code></pre> This will remove any Carriage Returns which Windows systems likes to add."
+          "fix": "Try running the following command. <pre><code>sed -i 's/\\r//' lab4/check-setup.sh</code></pre> This will remove any Carriage Returns which Windows systems likes to add."
       }]
     }
   ],

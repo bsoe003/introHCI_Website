@@ -477,7 +477,7 @@
         </div>
         <div class="well well-sm">
           <span class="lead"><p>I get errors that look like <pre><code>check-setup.sh: line 2: $'\r': command not found</code></pre></p></span>
-          <p>Try running the following command. <pre><code>sed -i 's///' lab4/check-setup.sh</code></pre> This will remove any Carriage Returns which Windows systems likes to add.</p>
+          <p>Try running the following command. <pre><code>sed -i 's/\r//' lab4/check-setup.sh</code></pre> This will remove any Carriage Returns which Windows systems likes to add.</p>
         </div>
       </div>
       
