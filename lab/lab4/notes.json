@@ -63,6 +63,10 @@
       "list": [{
         "problem": "I got the error <pre><code>bash: lab4/check-setup.sh: No such file or directory</code></pre>",
         "fix": "Make sure you're in your 'introHCI' directory and that you've cloned lab4 here."
+        },
+        {
+          "problem": "I get errors that look like <pre><code>check-setup.sh: line 2: $'\\r': command not found</code></pre>",
+          "fix": "Try running the following command. <pre><code>sed -i 's/\r//' lab4/check-setup.sh</code></pre> This will remove any Carriage Returns which Windows systems likes to add."
       }]
     }
   ],
