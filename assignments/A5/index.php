@@ -66,7 +66,7 @@
             <li><a href="../../index.html#calendar">Submit work</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://piazza.com/ucsd/winter2015/cogs120/home">Questions(Piazza forum)</a></li>
+            <li><a href="http://piazza.com/ucsd/winter2016/cogs120cse170/home">Questions(Piazza forum)</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -106,35 +106,35 @@
                     <p>Complete your home screen with a full set of navigational links, and flesh out two additional major screens. The remaining screens can be placeholders; the goal is to get a navigational skeleton up there that someone can click around and get a good feel of the application's flow. Make sure that if you have a button or icon, it links to something, whether it’s an implemented page or simply a holding page. You will fill in the blanks and flesh out the details later. You're of course welcome and encouraged to get more done this week.</p>
                     <p>You can use the HTML, CSS, Bootstrap, and Javascript skills you've learned in lab. Say, for example, your project was this course site. For A5, you might make the home page, the submission page, and the logistics page. For A5, you could have empty, dummy stub pages for the other things that the nav links to. You'll flesh those out in A6/7. Using your lab skills, source control and update your project with your team through github.</p>
                 </div>
-				<div id="revisitthebrief" class="sidenav-anchor">
-					<h4>Step 4: Revisit the Brief</h4>
-					<p>Write a paragraph summarizing how your team has used the tools you’ve learned so far to meet your studio’s brief, how well your project fits the brief, and why. Summarize the user and task that you are designing for.</p>
-				</div>
-				<div id="instudio" class="sidenav-anchor">
-					<h4>In Studio</h4>
+                <div id="revisitthebrief" class="sidenav-anchor">
+                    <h4>Step 4: Revisit the Brief</h4>
+                    <p>Write a paragraph summarizing how your team has used the tools you’ve learned so far to meet your studio’s brief, how well your project fits the brief, and why. Summarize the user and task that you are designing for.</p>
+                </div>
+                <div id="instudio" class="sidenav-anchor">
+                    <h4>In Studio</h4>
                     <p>When you arrive to studio this week, your studio leader will have your design loaded on a mobile device, plugged into the shared display. You'll use this to present your in-progress design work, then you'll discuss your development plan with your studio.</p>
-				</div>
+                </div>
                 <div id="thinkingahead" class="sidenav-anchor">
                     <h4>Looking Ahead</h4>
                     <p>We know that many of you have midterms or major projects this week, so this week's assignment is lighter than the next two. Despite this, we <b>strongly</b> encourage you to use this time to start working on the functionality of your prototype. It is in your own best interests to get started on the functionality as soon as possible.</p>
-					<p>Some teams may also be pivoting the direction of their projects, and the coding will only get harder later. Now is the opportunity to implement any major changes or reinvisionings to the direction of your projects. Remember you can also spend time needfinding, storyboarding, and paper prototyping, revisiting the previous assignments for inspiration and guidance. There is an <a href ="http://d.ucsd.edu/class/intro-hci/2015/assignments/extracredit.html" target = "_blank">extra credit assignment</a> titled "Revisit Inspiration" to motivate this.</p>
+                    <p>Some teams may also be pivoting the direction of their projects, and the coding will only get harder later. Now is the opportunity to implement any major changes or reinvisionings to the direction of your projects. Remember you can also spend time needfinding, storyboarding, and paper prototyping, revisiting the previous assignments for inspiration and guidance. There is an <a href ="http://d.ucsd.edu/class/intro-hci/2015/assignments/extracredit.html" target = "_blank">extra credit assignment</a> titled "Revisit Inspiration" to motivate this.</p>
                 </div>
                 <div id="examples" class="sidenav-anchor">
                     <h2>Student Examples</h2>
-					<p>
-					Here are some examples of development plans:<a href="https://docs.google.com/spreadsheet/ccc?key=0Ame-4omKIpLddDlvTGFqN0JqNEVXbGRGSndLc2NuTUE&usp=sharing" target="_blank"> (1)</a> is very stylized, dynamic, and mostly thorough,<a href="https://docs.google.com/spreadsheet/ccc?key=0AlCum_THvFsddGJlR1FrZ2xiSzlRdFZfUHBKcm9HUVE#gid=0" target="_blank"> (2)</a> is fairly thorough, colorful, but is missing time estimates and has only one stretch goal listed,
-					<a href="https://docs.google.com/spreadsheet/ccc?key=0AkDAkl06cS84dDdoWnJKNmFPLVhNTUx4Ry1mYWZob2c&hl=en_US#gid=0" target="_blank"> (3)</a> is a mediocre plan that's mostly thorough, where most tasks are broken down into less than 1 hour chunks,
-					<a href="https://docs.google.com/spreadsheet/ccc?key=0AnCm_JDaoi7ndG5fNl92YUFrWDgwdUxyVVB2azg5SVE#gid=2" target="_blank"> (4)</a> is very thorough, with time estimates and time costs, but some tasks could be more actionable,
-					<a href="http://www.google.com/url?q=http%3A%2F%2Fspark-public.s3.amazonaws.com%2Fhci%2Fsource_videos%2FEvolutionOfAProjectPlan.mp4&sa=D&sntz=1&usg=AFQjCNECkSqe0VFyN4wOICycQIFhJoAslg" target="_blank"> (5)</a> is a great video of the dynamic nature of implementation plans throughout the project.</p>
-					
-					<p>Stay tuned for an example of a complete home screen, key screens, and navigational skeleton. </p>
+                    <p>
+                    Here are some examples of development plans:<a href="https://docs.google.com/spreadsheet/ccc?key=0Ame-4omKIpLddDlvTGFqN0JqNEVXbGRGSndLc2NuTUE&usp=sharing" target="_blank"> (1)</a> is very stylized, dynamic, and mostly thorough,<a href="https://docs.google.com/spreadsheet/ccc?key=0AlCum_THvFsddGJlR1FrZ2xiSzlRdFZfUHBKcm9HUVE#gid=0" target="_blank"> (2)</a> is fairly thorough, colorful, but is missing time estimates and has only one stretch goal listed,
+                    <a href="https://docs.google.com/spreadsheet/ccc?key=0AkDAkl06cS84dDdoWnJKNmFPLVhNTUx4Ry1mYWZob2c&hl=en_US#gid=0" target="_blank"> (3)</a> is a mediocre plan that's mostly thorough, where most tasks are broken down into less than 1 hour chunks,
+                    <a href="https://docs.google.com/spreadsheet/ccc?key=0AnCm_JDaoi7ndG5fNl92YUFrWDgwdUxyVVB2azg5SVE#gid=2" target="_blank"> (4)</a> is very thorough, with time estimates and time costs, but some tasks could be more actionable,
+                    <a href="http://www.google.com/url?q=http%3A%2F%2Fspark-public.s3.amazonaws.com%2Fhci%2Fsource_videos%2FEvolutionOfAProjectPlan.mp4&sa=D&sntz=1&usg=AFQjCNECkSqe0VFyN4wOICycQIFhJoAslg" target="_blank"> (5)</a> is a great video of the dynamic nature of implementation plans throughout the project.</p>
+                    
+                    <p>Stay tuned for an example of a complete home screen, key screens, and navigational skeleton. </p>
                 </div>
-				<div id="whatsthisfor" class="sidenav-anchor">
+                <div id="whatsthisfor" class="sidenav-anchor">
                     <h2><i>What’s this for? A UX agency perspective</i></h2>
-                    	<i><p>The prototype is a very powerful tool, but it can also be a nightmare to implement and demonstrate to a client. Often they will approach it like they would a finished product, and expect every link, every tool and every function to work. If it did....we may as well just build the final product, and it can be hard to find the balance.</p>
-						<p>Always remember; a prototype is a mock up, it’s to test a solution. Prototypes can be incredibly comprehensive, or very basic - it depends on what you want to test. However, make sure it is clear - using comment bubbles, instructions or tool tips - what functionality you are trying to test.</p>
-						<p>DON’T tell a user how your application is supposed to work, of course....a good prototype will be intuitive. We have experienced "spot-the-click" with some users, who will simply move their mouse around until the pointer turns to the tell tell finger appego, a working link! Users will often work their way along a navigation bar in a prototype, clicking each button from one end to the other.</p>
-						<p>Make sure that your application isn’t going to throw an error because you forgot to implement a holding page - make it feel real, even if it’s not! If you have an online store where only one product works for testing purposes, make sure that is clear to your user.</p></i>
+                        <i><p>The prototype is a very powerful tool, but it can also be a nightmare to implement and demonstrate to a client. Often they will approach it like they would a finished product, and expect every link, every tool and every function to work. If it did....we may as well just build the final product, and it can be hard to find the balance.</p>
+                        <p>Always remember; a prototype is a mock up, it’s to test a solution. Prototypes can be incredibly comprehensive, or very basic - it depends on what you want to test. However, make sure it is clear - using comment bubbles, instructions or tool tips - what functionality you are trying to test.</p>
+                        <p>DON’T tell a user how your application is supposed to work, of course....a good prototype will be intuitive. We have experienced "spot-the-click" with some users, who will simply move their mouse around until the pointer turns to the tell tell finger appego, a working link! Users will often work their way along a navigation bar in a prototype, clicking each button from one end to the other.</p>
+                        <p>Make sure that your application isn’t going to throw an error because you forgot to implement a holding page - make it feel real, even if it’s not! If you have an online store where only one product works for testing purposes, make sure that is clear to your user.</p></i>
                 </div>
                 <div id="submit" class="sidenav-anchor">
                     <h2>Your Team's Submitted PDF should comprise</h2>
@@ -142,8 +142,8 @@
                         <li>A list of HE violations</li>
                         <li>A list of changes your team has made and will make to your prototype. <b>(List of Changes)</b></li>
                         <li>A snapshot of your development plan. We recommend making a Google spreadsheet and saving it as a pdf; this gives you a snapshot for comparison. Do not submit a link. <b>(Development Plan)</b> </li>
-                        <li>URL of your prototype. <b>(Home Screen & Key Screens, Navigational Skeleton)</b></li>
-						<li>A paragraph summarizing the user, task, and how your project meets the studio brief. <b>(Brief Revisit Summary)</b></li>
+                        <li>URL of your prototype. <b>(Home Screen &amp; Key Screens, Navigational Skeleton)</b></li>
+                        <li>A paragraph summarizing the user, task, and how your project meets the studio brief. <b>(Brief Revisit Summary)</b></li>
                     </ul>
                     <a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a>
 
@@ -151,58 +151,23 @@
 
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Evaluation Criteria &amp; Grading Rubric</h2>
-                    <div class="table-responsive">
-                        <table class="table">
-                            <tbody>
-                                <tr>
-                                    <th id="guiding" valign="top">Category</th>
-                                    <th id="unsatisfactory" valign="top">Nope</th>
-                                    <th id="minimum" valign="top">Weak</th>
-                                    <th id="satisfactory" valign="top">Proficient</th>
-                                    <th id="above" valign="top">Mastery</th>
-                                </tr>
-                                <tr>
-                                    <td>List of Changes<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>No changes or completely irrelevant changes.</td>
-                                    <td>The student only identified a few changes from the heuristic evaluation feedback and a large amount of feedback is ignored in the prototype without justification; or the changes would introduce some HE violations.</td>
-                                    <td>Many of the simpler suggested changes were made, but some of the more complex or difficult issues were not addressed without justification; the changes would not introduce any obvious HE violations.</td>
-                                    <td>Made several thoughtful and specific changes based on the heuristic evaluation feedback. Few, if any, HE violations remain.</td>
-                                </tr>
-                                <tr>
-                                    <td>Development Plan<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>No development plan or development plan without deadlines.</td>
-                                    <td>The student's development plan does not address every step of development and does not create clear actionable tasks. The timeline seems haphazard and the deadlines are obviously impossible to follow.</td>
-                                    <td>The development plan has several reasonable steps for development, but they are not clearly defined or do not cover all aspects of development. The timeline is well-organized and mostly doable, although a few of the deadlines seem idealistic or unreasonable.</td>
-                                    <td>The development plan has many distinct, logical steps that give a clear path for development. The timeline is well-organized, has feasible deadlines, has an owner assigned, and takes into account time for unforeseen issues.</td>
-                                </tr>
-                                <tr>
-                                    <td>Home Screen &amp; Key Screens<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>No home screen or additional screens.</td>
-                                    <td>Home screen has little content. Only one additional screen fleshed out.</td>
-                                    <td>The home screen and two additional screens appear to have most of their content.</td>
-                                    <td>Home screen and two additional screens are very thorough.</td>
-                                </tr>
-                                <tr>
-                                    <td>Navigational Skeleton<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>No navigational skeleton.</td>
-                                    <td>Navigation does not work. </td>
-                                    <td>The major navigations are present.</td>
-                                    <td>Navigational skeleton is very thorough and well planned. It gives a real feel for the flow of the application and is clearly thought through.</td>
-                                </tr>
-								<tr>
-                                    <td>Revisit the Brief<br /><span style="color:lightGray;">2 points</span></td>
-                                    <td>No paragraph submitted.</td>
-                                    <td>Paragraph doesn't clearly explain the user, task, and/or relationship of the project to the brief.</td>
-                                    <td>The paragraph is written with insight, and changes to the project were made to reflect these insights if necessary.</td>
-                                    <td>The paragraph is a thoughtful reflection of the project’s trajectory so far, and how it has fit into the brief. The project meets the brief's constraints well.</td>
-                                </tr>
-                                <tr>
-                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">+1. Reserved for unusually impressive submissions.</span></td>
-                                    <td colspan=3 align=right>The changes based on the heuristic evaluation are not only insightful and specific, but show creativity and thought in the changes that are made. These changes do not just change the prototype in the most obvious manner to get rid of the HE violation, but reflect careful design to avoid HE violations in the future.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
+                    <?php
+                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/5");
+                        $json = json_decode($result, true);
+                        $cur_item = 1;
+                        for ($x = 0; $x < count($json["criteria"]); $x++) {
+                            echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
+                            $items = $json["criteria"][$x]["items"];
+                            echo '<ol start = '.$cur_item.'>';
+                            for ($y = 0; $y < count($items); $y++) {
+                                echo '<li>'.$items[$y]["name"].'</li>';
+                                $cur_item++;
+                            }
+                            echo '</ol>';
+                            echo '</ul>';
+                        }
+                    ?>
                 </div>
 
                 <div id='self-assessment' class='sidenav-anchor'>
@@ -213,11 +178,11 @@
                         <a style="margin-top: 10px;" class='btn btn-primary' href="https://docs.google.com/forms/d/1bdw6S3o_XPcDYvAPMKqIYgEAiSMVAi-cDEwJDG1fAOc/viewform"> During studio, click here to assess your own work and each of your team member's work.</a>
                     </p>
                 </div>
-				<br>
-				<footer>
-					<p>This course was created by <a href='http://d.ucsd.edu/srk'>Scott Klemmer</a>, and revised in collaboration with <a href='http://hci.stanford.edu/msb'>Michael Bernstein</a>, and our teaching staffs. Instructors: you are welcome to use these materials for your own class, and dozens of courses around the world do. We share all course materials <a href=https://creativecommons.org/licenses/by/4.0/deed.en_US
-					>through a CC-BY license</a>. Please let Scott know if you use them, and also any suggestions you have. We thank <a href=http://www.calit2.net/>CalIT2</a> and the <a href=http://www.jacobsschool.ucsd.edu/moxiecenter>Moxie Center</a> for helping support our studios.</p>
-				</footer>   
+                <br>
+                <footer>
+                    <p>This course was created by <a href='http://d.ucsd.edu/srk'>Scott Klemmer</a>, and revised in collaboration with <a href='http://hci.stanford.edu/msb'>Michael Bernstein</a>, and our teaching staffs. Instructors: you are welcome to use these materials for your own class, and dozens of courses around the world do. We share all course materials <a href=https://creativecommons.org/licenses/by/4.0/deed.en_US
+                    >through a CC-BY license</a>. Please let Scott know if you use them, and also any suggestions you have. We thank <a href=http://www.calit2.net/>CalIT2</a> and the <a href=http://www.jacobsschool.ucsd.edu/moxiecenter>Moxie Center</a> for helping support our studios.</p>
+                </footer>   
 
             </div>
         </div>

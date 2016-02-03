@@ -66,7 +66,7 @@
             <li><a href="../../index.html#calendar">Submit work</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://piazza.com/ucsd/winter2015/cogs120/home">Questions(Piazza forum)</a></li>
+            <li><a href="http://piazza.com/ucsd/winter2016/cogs120cse170/home">Questions(Piazza forum)</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -210,12 +210,14 @@
                     <?php
                         $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/2");
                         $json = json_decode($result, true);
+                        $cur_item = 1;
                         for ($x = 0; $x < count($json["criteria"]); $x++) {
                             echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
-                            echo '<ol>';
                             $items = $json["criteria"][$x]["items"];
+                            echo '<ol start = '.$cur_item.'>';
                             for ($y = 0; $y < count($items); $y++) {
                                 echo '<li>'.$items[$y]["name"].'</li>';
+                                $cur_item++;
                             }
                             echo '</ol>';
                             echo '</ul>';

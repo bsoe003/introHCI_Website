@@ -66,7 +66,7 @@
 				<li><a href="../../index.html#calendar">Submit work</a></li>
 			  </ul>
 			  <ul class="nav navbar-nav navbar-right">
-				<li><a href="http://piazza.com/ucsd/winter2015/cogs120/home">Questions(Piazza forum)</a></li>
+				<li><a href="http://piazza.com/ucsd/winter2016/cogs120cse170/home">Questions(Piazza forum)</a></li>
 			  </ul>
 			</div><!--/.nav-collapse -->
 		  </div>
@@ -156,7 +156,7 @@
 								<strong>How many heuristic violations should we find?</strong>
 							</div>
 							<div class="col-md-8">
-								<p> We're not requiring an exact number of heuristic violations-- you can follow the assignment examples as a guideline for what we are expecting.</p>
+								<p>See the rubric. We don't have a maximum limit on the number of heuristic violations, by the way, and actually encourage having as many as possible. You can follow the assignment examples as a guideline for what we are expecting.</p>
 							</div>
 						</div>
 
@@ -194,23 +194,28 @@
 					<div id="evaluation" class="sidenav-anchor">
 						<h2>Evaluation Criteria &amp; Grading Rubric</h2>
 						<p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
-	                    <?php
-	                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/4");
-	                        $json = json_decode($result, true);
-	                        for ($x = 0; $x < count($json["criteria"]); $x++) {
-	                            echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
-	                            echo '<ol>';
-	                            $items = $json["criteria"][$x]["items"];
-	                            for ($y = 0; $y < count($items); $y++) {
-	                                echo '<li>'.$items[$y]["name"].'</li>';
-	                            }
-	                            echo '</ol>';
-	                            echo '</ul>';
-	                        }
-	                    ?>
-						<!-- <div class="table-responsive">
+                    <?php
+                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/4");
+                        $json = json_decode($result, true);
+                        $cur_item = 1;
+                        for ($x = 0; $x < count($json["criteria"]); $x++) {
+                            echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
+                            $items = $json["criteria"][$x]["items"];
+                            echo '<ol start = '.$cur_item.'>';
+                            for ($y = 0; $y < count($items); $y++) {
+                                echo '<li>'.$items[$y]["name"].'</li>';
+                                $cur_item++;
+                            }
+                            echo '</ol>';
+                            echo '</ul>';
+                        }
+                    ?>
+						 <!--
+						 <div class="table-responsive">
 							<? include "rubric.html" ?>
-						</div> -->
+						</div>
+						-->
+                        
 					</div>
 					<div id='self-assessment' class='sidenav-anchor'>
 						<h2>Self assessment</h2>

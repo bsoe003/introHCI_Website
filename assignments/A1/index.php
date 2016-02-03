@@ -68,7 +68,7 @@
                <li><a href="../../index.html#calendar">Submit work</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-               <li><a href="http://piazza.com/ucsd/winter2015/cogs120/home">Questions(Piazza forum)</a></li>
+               <li><a href="http://piazza.com/ucsd/winter2016/cogs120cse170/home">Questions(Piazza forum)</a></li>
             </ul>
          </div>
          <!--/.nav-collapse -->
