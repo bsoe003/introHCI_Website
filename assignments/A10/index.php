@@ -128,6 +128,23 @@
                 </div>
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Evaluation criteria &amp; Grading rubric</h2>
+                    <!--<p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
+                    <?php
+                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/10");
+                        $json = json_decode($result, true);
+                        $cur_item = 1;
+                        for ($x = 0; $x < count($json["criteria"]); $x++) {
+                            echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
+                            $items = $json["criteria"][$x]["items"];
+                            echo '<ol start = '.$cur_item.'>';
+                            for ($y = 0; $y < count($items); $y++) {
+                                echo '<li>'.$items[$y]["name"].'</li>';
+                                $cur_item++;
+                            }
+                            echo '</ol>';
+                            echo '</ul>';
+                        }
+                    ?>-->
                     <div class="table-responsive">
                         <table class="table">
                             <tbody>
