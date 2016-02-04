@@ -120,6 +120,10 @@
 	"fix":"\".handlebar\" files contain the html and \"public/js\" contains the javascript files(See <a target='blank'href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab4/#slide-13'>Lab 4-slide 13</a> for a review of where HTML comes from)! Now ala <a target='blank' href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab3/#slide-39'>Lab3-slide 39: Linking js to an HTML file</a>, add the script tags with the script files location in the handlebar file."
       },
       {
+        "problem":"My console doesn't say <em>Javascript connected</em> when I included my javascript like so <pre><code>&lt;script src=\"public/js/{javascripti filename}.js\"&gt;&lt;/script&gt;</code></pre>",
+        "fix":"You don't need the <code>public</code> at the beginning of src. Node.js automatically sets the root(\"/\") as our <code>public</code> directory. This goes for including css in the next slide as well."
+      },
+      {
         "problem":"I think I have included the javascript correctly but my browser console keeps saying this upon refresh: <pre><code>Uncaught ReferenceError: $ is not defined</code></pre>",
         "fix":"You have included the files correctly. Just ensure that the jquery script is the first one you include, followed by hci-friends and bootstrap. Include order matters!"
       }]
@@ -171,7 +175,12 @@
   ],
   [],
   [],
-  [],
+  [
+    { 
+      "type":"links",
+      "list":["<a target='blank' href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab3/#slide-14'> Lab3-slide14: Adding click listener</a>"] 
+    }
+  ],
   [
     {
       "type":"debug",
