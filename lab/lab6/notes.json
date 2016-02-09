@@ -96,6 +96,10 @@
       "comment":"Final Result",
       "type":"video",
       "src":"video/final-result.mov"
+    },
+    {
+      "type":"footnote",
+      "text":"<h2>&rarr; Your part starts here.</h2>"
     }
   ],
   [
