@@ -1,6 +1,15 @@
 [
   [],
-  [],
+  [
+    {
+      "type":"debug",
+      "title":"How will this lab help me?",
+      "list":[{
+        "problem":"This lab will get you well-versed in serving data from the server, and changing your page without refreshing the page. They form an important portion of your app. Especially, Assignment 7 includes these tasks!",
+        "fix":""
+      }]
+    }
+  ],
   [
     {
       "type":"debug",
@@ -147,7 +156,16 @@
     }
   ],
   [],
-  [],
+  [
+    {
+      "comment":"Write the callback function",
+      "type":"debug",
+      "title":"Hint",
+      "list":[{
+        "problem":"Wait what's the callback?",
+        "fix":"Check back on <a href='#slide-13'>slide 13</a> and 14. The callback will be called once <code>$.get(&lt;URL&gt;, &lt;callback&gt;);</code> completes and will have the result passed in. If you're curious it's the success parameter mentioned in the <a target='_blank' href='https://api.jquery.com/jquery.get/'>jquery.get documentation.</a>"
+      }]
+  }],
   [
     {
       "comment":"Insert the project details into the page (1)",
@@ -155,11 +173,24 @@
       "title":"Hint",
       "list":[{
         "problem":"I'm having trouble figuring out how to select the right div!",
-        "fix":"Try looking at lab 3, slide 21"
+        "fix":"Try looking at <a target='_blank' href='../lab3/#slide-24'>lab 3 slide 24</a> for selecting the correct class based on the id. Once you've done that, you're one step away."
+      },
+      {
+        "problem":"I'm still having problems picking the details class out for the specific project id!",
+        "fix":"Yes this is an interesting selector puzzle! You can use selectors to select a hierarchy like so: <a href='https://api.jquery.com/descendant-selector/'>Descendant Selector</a>. If you want more practice with selectors, have fun with this game: <a href='http://flukeout.github.io/'>CSS Diner</a>."
       }]
     }
   ],
-  [],
+  [
+    {
+      "comment":"Insert the project details into the page (2)",
+      "type":"debug",
+      "title":"Hint",
+      "list":[{
+        "problem":"How do I create the HTML string?",
+        "fix":"Check back on <a href='#slide-14'>slide 14</a>. It will be very similar to the variable <code>projectHTML</code>."
+      }]
+  }],
   [],
   [],
   [],
@@ -212,7 +243,7 @@
   [
     {
       "type":"links",
-      "list":["<a href='http://hci.st/lab-submit' target=\"_blank\">http://hci.st/lab-submit</a>"]
+      "list":["<a target='blank' href='http://www.ucsd-hci.com/student_labs' target=\"_blank\">Submission link</a>"]
     }
   ],
   [],
