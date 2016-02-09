@@ -108,9 +108,9 @@
 					<a href="https://docs.google.com/spreadsheet/ccc?key=0AkDAkl06cS84dDdoWnJKNmFPLVhNTUx4Ry1mYWZob2c&hl=en_US#gid=0" target="_blank"> (3) is a mediocre plan</a> that's mostly thorough, where most tasks are broken down into less than 1 hour chunks,
 					<a href="https://docs.google.com/spreadsheet/ccc?key=0AnCm_JDaoi7ndG5fNl92YUFrWDgwdUxyVVB2azg5SVE#gid=2" target="_blank"> (4) is very thorough</a>, with time estimates and time costs, but some tasks could be more actionable,
 					<a href="http://www.google.com/url?q=http%3A%2F%2Fspark-public.s3.amazonaws.com%2Fhci%2Fsource_videos%2FEvolutionOfAProjectPlan.mp4&sa=D&sntz=1&usg=AFQjCNECkSqe0VFyN4wOICycQIFhJoAslg" target="_blank"> (5) is a great video</a> of the dynamic nature of implementation plans throughout the project.</p>
-					
+
 					<p>In this assignment, we want to emphasize the user task at this stage of development. The interface should be fluid with respect to a particular task made intuitively easy to step through as a user. <a href="http://iamherefor.com/index.html" target="_blank"> Here we see a good example of an app that is fully centered on the user's task. </a> For this assignment, this team would complete functionality by capturing all of the relevant information entered into the text boxes, and updating the content of each page with that new information.</p>
-					
+
 					<p><a href="../examples/images/a07e1p1.mp4">GradeSource++</a>: This example project from last year abstracts GradeSource for you and works with the data to show you where you are in a class. </p>
                     <p><a href="../examples/images/a07e2p1.mp4">Balancr</a>: This app helps people balance their time between work and play. They have done a wonderful job making the app functional-- you can create a sign-up, add activities, and see it reflected on the pie chart.</p>
 					<p>For both examples above, simply imagine that the data that undergirds the functionality of the apps are only temporarily stored in a data variable that is pre-populated with data from a .json file.</p>
@@ -123,6 +123,8 @@
                         <li>The PDF of your updated development plan. (<i>We recommend making a Google spreadsheet and saving it as a pdf; this gives you a snapshot for comparison.</i>) <b>(Updated Development Plan)</b></li>
                         <li>A ~2-sentence description of the task you'd like us to try. This should include any needed login/password information. <b>(Supporting Info)</b></li>
                         <li>The shared Github URL for your project. <b>(Supporting Info)</b></li>
+                        <li>Description of how submission is distinct from other
+			apps<b> (e.g. competive analysis)</b></li>
                     </ul>
                     <p>Note: since we may grade your assignment up to a few days after submission, per the honor code, we expect that the prototype URL show the state of your prototype at the time of submission. You will very likely be updating your prototype after submission, but please do so on another version.</p>
                     <a href="http://ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a>
@@ -131,7 +133,7 @@
 
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Evaluation criteria &amp; Grading rubric</h2>
-                    <!--<p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
+                    <p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
                     <?php
                         $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/6");
                         $json = json_decode($result, true);
@@ -147,64 +149,15 @@
                             echo '</ol>';
                             echo '</ul>';
                         }
-                    ?>-->
-                    <div class="table-responsive">
-                        <table class="table">
-                            <tbody>
-                                <tr>
-                                    <th id="guiding" valign="top">Category</th>
-                                    <th id="unsatisfactory" valign="top">Nope</th>
-                                    <th id="minimum" valign="top">Weak</th>
-                                    <th id="satisfactory" valign="top">Proficient</th>
-                                    <th id="above" valign="top">Mastery</th>
-                                </tr>
-                                <tr>
-                                    <td>Interaction Flow<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td>0: No pages are connected and interactive.</td>
-                                    <td>1: Few pages are connected interactive. </td>
-                                    <td>3: Most pages are connected and interactive.</td>
-                                    <td>4: Overall flow and navigation are complete. Pages are fleshed out and interactive.</td>
-                                </tr>
-                                <tr>
-                                    <td>Reading data w/JSON & Handlebars (or equivalent)<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>0: No pages read JSON data with Handlebars (or equivalent).</td>
-                                    <td>1: A few pages read data. OR header/footer included programmatically, as opposed to copy&paste (either sufficient). Handlebars were used only sometimes.</td>
-                                    <td>2: Most pages read JSON data OR login/other rich interactivity implemented (either sufficient). Handlebars were used.</td>
-                                    <td>3: The entire prototype uses Handlebars to read JSON data and deliver rich interactivity.</td>
-                                </tr>
-                                <tr>
-                                    <td>Goals Met<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td>0: No goals were met.</td>
-                                    <td>1: Only a few goals or equivalent were met.</td>
-                                    <td>3: Most, but not all, of the goals or equivalent were met.</td>
-                                    <td>4: All goals or equivalent were met. Stretch goals need not be met.</td>
-                                </tr>
-                                <tr>
-                                    <td>Development Plan: Quality & Updates<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>No updates to plan.</td>
-                                    <td>Aspects of the plan remain are not actionable or overly vague; changes were insufficient. For example, "working on the home page" is much too vague as a line item :)<br>And/or only one member did the majority of the work.</td>
-                                    <td>Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable. Only two members did the majority of the work, excepting external constraints that were identified.</td>
-                                    <td>Plan items are comprehensive and actionable (like "Implement allergies as a search parameter"). Plan reflects progress, new tasks, and any changes to previous tasks. All three members contributed by taking into account external constraints and thoughtfully distributing workload.</td>
-                                </tr>
-                                <tr>
-                                    <td headers="guiding" colspan=2><br>Supporting Info<br><span style="color:lightGray;"><span style="color:lightGray;">1 point.</span></td>
-                                    <td colspan=3 align=right>Github Repo URL & 2-sentence task description present.</td>
-                                </tr>
-                                <tr>
-                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 pt. Reserved for unusually impressive submissions.</span></td>
-                                    <td colspan=3 align=right>Pages are complete and all functionality is in place. Weekly stretch goals are met. The team is way ahead of the curve with respect to the interactions in their application.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    ?>
                 </div>
 
                 <div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
-                    <h2>Group Evaluation, Team Evaluation</h2>
+                    <h2>In Studio Assessments</h2>
                     <p>
-                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1LclkizllpeAHFqAUDrlAzLDekO2I9MMFK3AETUlpwLY/edit">During studio, click here to assess your group's work as a collective unit.</a>
+                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1LclkizllpeAHFqAUDrlAzLDekO2I9MMFK3AETUlpwLY/edit">Team Assessment (submit 1 per team)</a>
                         </br>
-                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1vLE2OjB8j2EHR8tprweCiGPop1201OpVKP5YRERkCCQ/edit"> During studio, click here to assess your own work and each of your team member's work.</a>
+                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1vLE2OjB8j2EHR8tprweCiGPop1201OpVKP5YRERkCCQ/edit">Self + Teammate Assessment</a>
                     </p>
                 </div>
 
