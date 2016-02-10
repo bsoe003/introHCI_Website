@@ -1,4 +1,9 @@
 #!/usr/bin/python
+###############################################
+# You can find information on how to run this script and how notes.json
+# works by viewing the doc in google drive TA Guides/TA Tools/How to
+# Edit Labs.
+###############################################
 import argparse
 from os import listdir
 from os.path import isfile, join
@@ -169,11 +174,6 @@ if __name__ == "__main__":
 
   print('Trying to load notes from: '+directory+'/notes.json')
   slide_notes = json.load(open(directory+'/notes.json'))
-
-  #slide_notes = [None] * len(slide_images)
-  #for i in range(0,len(slide_images)):
-  #  if str(i+1) in json_data:
-  #    slide_notes[i] = json_data[str(i+1)]
 
   #print(isinstance(slide_notes, list))
   #print(isinstance(slide_notes[0], list))
