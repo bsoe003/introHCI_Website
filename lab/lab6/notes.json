@@ -193,6 +193,10 @@
       "type":"debug",
       "title":"Hint",
       "list":[{
+        "problem":"What should it look like when I click the project?",
+        "fix":"<a href='images/details_result.png'><img src='images/details_result.png' style='width:90%; margin:auto;'/></a>."
+      },
+      {
         "problem":"How do I create the HTML string?",
         "fix":"Check back on <a href='#slide-15'>slide 15</a>. It will be very similar to the way we construct the string variable <code>projectHTML</code> in that slide."
       }]
