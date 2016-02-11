@@ -88,12 +88,11 @@
       title="2" />
     <div class="col-md-5">
       
-      <div class="debug">
-        <h4>How will this lab help me?</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>This lab will get you well-versed in serving data from the server, and changing your page without refreshing the page. They form an important portion of your app. Especially, Assignment 7 includes these tasks!</p></span>
-          <p></p>
-        </div>
+      <div class="links">
+        <h4>Student examples</h4>
+        <ul>
+          <li>Check out these awesome lab 5 stretch goals from your peers</li>
+        </ul>
       </div>
       
     </div>
@@ -124,9 +123,12 @@
       title="4" />
     <div class="col-md-5">
       
-      <div class="video">
-        <h4>Video</h4>
-        <video src='video/example-gmail.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
+      <div class="debug">
+        <h4>How will this lab help me?</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>This lab will get you well-versed in serving data from the server, and changing your page without refreshing the page. They form an important portion of your app. Especially, Assignment 7 includes these tasks!</p></span>
+          <p></p>
+        </div>
       </div>
       
     </div>
@@ -142,11 +144,6 @@
     <img src="2016-lab06-Ajax.005.png" class="img-responsive col-md-6"
       title="5" />
     <div class="col-md-5">
-      
-      <div class="video">
-        <h4>Video</h4>
-        <video src='video/example-github.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
-      </div>
       
     </div>
   </div>
@@ -164,7 +161,7 @@
       
       <div class="video">
         <h4>Video</h4>
-        <video src='video/example-google.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
+        <video src='video/example-gmail.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
       </div>
       
     </div>
@@ -180,6 +177,11 @@
     <img src="2016-lab06-Ajax.007.png" class="img-responsive col-md-6"
       title="7" />
     <div class="col-md-5">
+      
+      <div class="video">
+        <h4>Video</h4>
+        <video src='video/example-github.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
+      </div>
       
     </div>
   </div>
@@ -197,7 +199,7 @@
       
       <div class="video">
         <h4>Video</h4>
-        <video src='video/ajax-helloworld.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
+        <video src='video/example-google.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
       </div>
       
     </div>
@@ -227,6 +229,11 @@
     <img src="2016-lab06-Ajax.010.png" class="img-responsive col-md-6"
       title="10" />
     <div class="col-md-5">
+      
+      <div class="video">
+        <h4>Video</h4>
+        <video src='video/ajax-helloworld.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
+      </div>
       
     </div>
   </div>
@@ -452,13 +459,6 @@
       title="26" />
     <div class="col-md-5">
       
-      <div class="code">
-        <h4>APIs</h4>
-        <pre class='pre-scrollable'><code>$.get("http://URL", callBackFn)
-
-$.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
-      </div>
-      
     </div>
   </div>
   <hr />
@@ -487,6 +487,13 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
       title="28" />
     <div class="col-md-5">
       
+      <div class="code">
+        <h4>APIs</h4>
+        <pre class='pre-scrollable'><code>$.get("http://URL", callBackFn)
+
+$.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
+      </div>
+      
     </div>
   </div>
   <hr />
@@ -500,17 +507,6 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
     <img src="2016-lab06-Ajax.029.png" class="img-responsive col-md-6"
       title="29" />
     <div class="col-md-5">
-      
-      <div class="code">
-        <h4>Code</h4>
-        <pre class='pre-scrollable'><code>function addProject(result) {
-  var projectHTML = '&lt;a href="#" class="thumbnail"&gt;' +
-    '&lt;img src="' + result['image'] + '" class="img"&gt;' +
-    '&lt;p&gt;' + result['title'] + '&lt;/p&gt;' +
-    '&lt;p&gt;&lt;small&gt;' + result['date'] +
-    '&lt;/small&gt;&lt;/p&gt;&lt;/a&gt;'; 
-}</code></pre>
-      </div>
       
     </div>
   </div>
@@ -540,6 +536,45 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
       title="31" />
     <div class="col-md-5">
       
+      <div class="code">
+        <h4>Code</h4>
+        <pre class='pre-scrollable'><code>function addProject(result) {
+  var projectHTML = '&lt;a href="#" class="thumbnail"&gt;' +
+    '&lt;img src="' + result['image'] + '" class="img"&gt;' +
+    '&lt;p&gt;' + result['title'] + '&lt;/p&gt;' +
+    '&lt;p&gt;&lt;small&gt;' + result['date'] +
+    '&lt;/small&gt;&lt;/p&gt;&lt;/a&gt;'; 
+}</code></pre>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-32" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>32</h2>
+    </div>
+    <img src="2016-lab06-Ajax.032.png" class="img-responsive col-md-6"
+      title="32" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-33" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>33</h2>
+    </div>
+    <img src="2016-lab06-Ajax.033.png" class="img-responsive col-md-6"
+      title="33" />
+    <div class="col-md-5">
+      
       <div class="video">
         <h4>Video</h4>
         <video src='video/final-result.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
@@ -555,12 +590,12 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
   <hr />
 
 
-  <div id="slide-32" class="row lab-slide">
+  <div id="slide-34" class="row lab-slide">
     <div class="col-md-1">
-      <h2>32</h2>
+      <h2>34</h2>
     </div>
-    <img src="2016-lab06-Ajax.032.png" class="img-responsive col-md-6"
-      title="32" />
+    <img src="2016-lab06-Ajax.034.png" class="img-responsive col-md-6"
+      title="34" />
     <div class="col-md-5">
       
       <div class="links">
@@ -576,12 +611,12 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
   
 
 
-  <div id="slide-33" class="row lab-slide">
+  <div id="slide-35" class="row lab-slide">
     <div class="col-md-1">
-      <h2>33</h2>
+      <h2>35</h2>
     </div>
-    <img src="2016-lab06-Ajax.033.png" class="img-responsive col-md-6"
-      title="33" />
+    <img src="2016-lab06-Ajax.035.png" class="img-responsive col-md-6"
+      title="35" />
     <div class="col-md-5">
       
       <div class="code">
@@ -603,12 +638,12 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
   
 
 
-  <div id="slide-34" class="row lab-slide">
+  <div id="slide-36" class="row lab-slide">
     <div class="col-md-1">
-      <h2>34</h2>
+      <h2>36</h2>
     </div>
-    <img src="2016-lab06-Ajax.034.png" class="img-responsive col-md-6"
-      title="34" />
+    <img src="2016-lab06-Ajax.036.png" class="img-responsive col-md-6"
+      title="36" />
     <div class="col-md-5">
       
       <div class="code">
@@ -621,49 +656,6 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
         <div class="well well-sm">
           <span class="lead"><p>What's the vagrant password?</p></span>
           <p>vagrant</p>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  <hr />
-  
-
-
-  <div id="slide-35" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>35</h2>
-    </div>
-    <img src="2016-lab06-Ajax.035.png" class="img-responsive col-md-6"
-      title="35" />
-    <div class="col-md-5">
-      
-    </div>
-  </div>
-  <hr />
-  
-
-
-  <div id="slide-36" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>36</h2>
-    </div>
-    <img src="2016-lab06-Ajax.036.png" class="img-responsive col-md-6"
-      title="36" />
-    <div class="col-md-5">
-      
-      <div class="links">
-        <h4>Links</h4>
-        <ul>
-          <li><a href='http://localhost:3000' target="_blank">http://localhost:3000</a></li>
-        </ul>
-      </div>
-      
-      <div class="debug">
-        <h4>Troubleshoot</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>I get a blank page!</p></span>
-          <p>Make sure node is running (see previous slide).</p>
         </div>
       </div>
       
@@ -698,8 +690,16 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
       <div class="links">
         <h4>Links</h4>
         <ul>
-          <li><a href='http://localhost:3000/project/1' target="_blank">http://localhost:3000/project/1</a></li>
+          <li><a href='http://localhost:3000' target="_blank">http://localhost:3000</a></li>
         </ul>
+      </div>
+      
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>I get a blank page!</p></span>
+          <p>Make sure node is running (see previous slide).</p>
+        </div>
       </div>
       
     </div>
@@ -716,13 +716,6 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
       title="39" />
     <div class="col-md-5">
       
-      <div class="links">
-        <h4>Links</h4>
-        <ul>
-          <li><a target='blank'href='#slide-12'>Slide 12: Example use of $.get</a></li>
-        </ul>
-      </div>
-      
     </div>
   </div>
   <hr />
@@ -737,12 +730,11 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
       title="40" />
     <div class="col-md-5">
       
-      <div class="debug">
-        <h4>Troubleshoot</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>Wait what's the callback?</p></span>
-          <p>Check back on <a href='#slide-13'>slide 13</a> and 14. The callback will be called once your <code>$.get(&lt;URL&gt;, &lt;callback&gt;);</code> inside the <code>addProjectDetails</code> completes, and will have the result of the <code>GET</code> passed in. If you're extra curious it's the success parameter mentioned in the <a target='_blank' href='https://api.jquery.com/jquery.get/'>jquery.get documentation.</a></p>
-        </div>
+      <div class="links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href='http://localhost:3000/project/1' target="_blank">http://localhost:3000/project/1</a></li>
+        </ul>
       </div>
       
     </div>
@@ -757,6 +749,49 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
     </div>
     <img src="2016-lab06-Ajax.041.png" class="img-responsive col-md-6"
       title="41" />
+    <div class="col-md-5">
+      
+      <div class="links">
+        <h4>Links</h4>
+        <ul>
+          <li><a target='_blank'href='#slide-14'>Slide 14: Example use of $.get</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-42" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>42</h2>
+    </div>
+    <img src="2016-lab06-Ajax.042.png" class="img-responsive col-md-6"
+      title="42" />
+    <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Wait what's the callback?</p></span>
+          <p>Check back on <a target='_blank' href='#slide-14'>slide 14</a> and 15. The callback will be called once your <code>$.get(&lt;URL&gt;, &lt;callback&gt;);</code> inside the <code>addProjectDetails</code> completes, and will have the result of the <code>GET</code> passed in. If you're extra curious it's the success parameter mentioned in the <a target='_blank' href='https://api.jquery.com/jquery.get/'>jquery.get documentation.</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-43" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>43</h2>
+    </div>
+    <img src="2016-lab06-Ajax.043.png" class="img-responsive col-md-6"
+      title="43" />
     <div class="col-md-5">
       
       <div class="debug">
@@ -781,42 +816,6 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
   
 
 
-  <div id="slide-42" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>42</h2>
-    </div>
-    <img src="2016-lab06-Ajax.042.png" class="img-responsive col-md-6"
-      title="42" />
-    <div class="col-md-5">
-      
-      <div class="debug">
-        <h4>Hint</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>How do I create the HTML string?</p></span>
-          <p>Check back on <a href='#slide-13'>slide 13</a>. It will be very similar to the way we construct the string variable <code>projectHTML</code> in that slide.</p>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  <hr />
-  
-
-
-  <div id="slide-43" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>43</h2>
-    </div>
-    <img src="2016-lab06-Ajax.043.png" class="img-responsive col-md-6"
-      title="43" />
-    <div class="col-md-5">
-      
-    </div>
-  </div>
-  <hr />
-  
-
-
   <div id="slide-44" class="row lab-slide">
     <div class="col-md-1">
       <h2>44</h2>
@@ -824,6 +823,14 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
     <img src="2016-lab06-Ajax.044.png" class="img-responsive col-md-6"
       title="44" />
     <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Hint</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>How do I create the HTML string?</p></span>
+          <p>Check back on <a href='#slide-15'>slide 15</a>. It will be very similar to the way we construct the string variable <code>projectHTML</code> in that slide.</p>
+        </div>
+      </div>
       
     </div>
   </div>
@@ -853,13 +860,6 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
       title="46" />
     <div class="col-md-5">
       
-      <div class="links">
-        <h4>Links</h4>
-        <ul>
-          <li><a href='http://localhost:3000/palette' target="_blank">http://localhost:3000/palette</a></li>
-        </ul>
-      </div>
-      
     </div>
   </div>
   <hr />
@@ -888,13 +888,11 @@ $.post("http://URL", {"json":"json"}, callBackFn)</code></pre>
       title="48" />
     <div class="col-md-5">
       
-      <div class="code">
-        <h4>Code for changing CSS of page</h4>
-        <pre class='pre-scrollable'><code>$('body').css('background-color', colors[0]);
-$('.thumbnail').css('background-color', colors[1]);
-$('h1, h2, h3, h4, h5, h5').css('color', colors[2]);
-$('p').css('color', colors[3]);
-$('.project img').css('opacity', .75);</code></pre>
+      <div class="links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href='http://localhost:3000/palette' target="_blank">http://localhost:3000/palette</a></li>
+        </ul>
       </div>
       
     </div>
@@ -911,11 +909,6 @@ $('.project img').css('opacity', .75);</code></pre>
       title="49" />
     <div class="col-md-5">
       
-      <div class="video">
-        <h4>Video</h4>
-        <video src='video/final-color-result.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
-      </div>
-      
     </div>
   </div>
   <hr />
@@ -930,6 +923,15 @@ $('.project img').css('opacity', .75);</code></pre>
       title="50" />
     <div class="col-md-5">
       
+      <div class="code">
+        <h4>Code for changing CSS of page</h4>
+        <pre class='pre-scrollable'><code>$('body').css('background-color', colors[0]);
+$('.thumbnail').css('background-color', colors[1]);
+$('h1, h2, h3, h4, h5, h5').css('color', colors[2]);
+$('p').css('color', colors[3]);
+$('.project img').css('opacity', .75);</code></pre>
+      </div>
+      
     </div>
   </div>
   <hr />
@@ -942,6 +944,39 @@ $('.project img').css('opacity', .75);</code></pre>
     </div>
     <img src="2016-lab06-Ajax.051.png" class="img-responsive col-md-6"
       title="51" />
+    <div class="col-md-5">
+      
+      <div class="video">
+        <h4>Video</h4>
+        <video src='video/final-color-result.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-52" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>52</h2>
+    </div>
+    <img src="2016-lab06-Ajax.052.png" class="img-responsive col-md-6"
+      title="52" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-53" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>53</h2>
+    </div>
+    <img src="2016-lab06-Ajax.053.png" class="img-responsive col-md-6"
+      title="53" />
     <div class="col-md-5">
       
       <div class="code">
@@ -972,18 +1007,18 @@ git commit -m "putting it together lab"</code></pre>
   
 
 
-  <div id="slide-52" class="row lab-slide">
+  <div id="slide-54" class="row lab-slide">
     <div class="col-md-1">
-      <h2>52</h2>
+      <h2>54</h2>
     </div>
-    <img src="2016-lab06-Ajax.052.png" class="img-responsive col-md-6"
-      title="52" />
+    <img src="2016-lab06-Ajax.054.png" class="img-responsive col-md-6"
+      title="54" />
     <div class="col-md-5">
       
       <div class="links">
         <h4>Links</h4>
         <ul>
-          <li><a target='blank' href='http://www.ucsd-hci.com/student_labs' target="_blank">Submission link</a></li>
+          <li><a target='_blank' href='http://www.ucsd-hci.com/student_labs' target="_blank">Submission link</a></li>
         </ul>
       </div>
       
@@ -993,12 +1028,12 @@ git commit -m "putting it together lab"</code></pre>
   
 
 
-  <div id="slide-53" class="row lab-slide">
+  <div id="slide-55" class="row lab-slide">
     <div class="col-md-1">
-      <h2>53</h2>
+      <h2>55</h2>
     </div>
-    <img src="2016-lab06-Ajax.053.png" class="img-responsive col-md-6"
-      title="53" />
+    <img src="2016-lab06-Ajax.055.png" class="img-responsive col-md-6"
+      title="55" />
     <div class="col-md-5">
       
       <div class="debug">
@@ -1025,12 +1060,12 @@ git commit -m "putting it together lab"</code></pre>
   
 
 
-  <div id="slide-54" class="row lab-slide">
+  <div id="slide-56" class="row lab-slide">
     <div class="col-md-1">
-      <h2>54</h2>
+      <h2>56</h2>
     </div>
-    <img src="2016-lab06-Ajax.054.png" class="img-responsive col-md-6"
-      title="54" />
+    <img src="2016-lab06-Ajax.056.png" class="img-responsive col-md-6"
+      title="56" />
     <div class="col-md-5">
       
     </div>
@@ -1039,12 +1074,12 @@ git commit -m "putting it together lab"</code></pre>
   
 
 
-  <div id="slide-55" class="row lab-slide">
+  <div id="slide-57" class="row lab-slide">
     <div class="col-md-1">
-      <h2>55</h2>
+      <h2>57</h2>
     </div>
-    <img src="2016-lab06-Ajax.055.png" class="img-responsive col-md-6"
-      title="55" />
+    <img src="2016-lab06-Ajax.057.png" class="img-responsive col-md-6"
+      title="57" />
     <div class="col-md-5">
       
       <div class="code">
@@ -1058,12 +1093,12 @@ git commit -m "putting it together lab"</code></pre>
   
 
 
-  <div id="slide-56" class="row lab-slide">
+  <div id="slide-58" class="row lab-slide">
     <div class="col-md-1">
-      <h2>56</h2>
+      <h2>58</h2>
     </div>
-    <img src="2016-lab06-Ajax.056.png" class="img-responsive col-md-6"
-      title="56" />
+    <img src="2016-lab06-Ajax.058.png" class="img-responsive col-md-6"
+      title="58" />
     <div class="col-md-5">
       
     </div>

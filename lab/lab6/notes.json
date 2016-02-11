@@ -2,6 +2,14 @@
   [],
   [
     {
+     "type":"links",
+     "title":"Student examples",
+     "list": ["Check out these awesome lab 5 stretch goals from your peers"]
+    }
+  ],
+  [],
+  [
+    {
       "type":"debug",
       "title":"How will this lab help me?",
       "list":[{
@@ -147,7 +155,7 @@
     {
       "comment":"Call the AJAX Endpoint",
       "type":"links",
-      "list":["<a target='blank'href='#slide-12'>Slide 12: Example use of $.get</a>"]
+      "list":["<a target='_blank'href='#slide-14'>Slide 14: Example use of $.get</a>"]
     }
   ],
   [
@@ -156,7 +164,7 @@
       "type":"debug",
       "list":[{
         "problem":"Wait what's the callback?",
-        "fix":"Check back on <a href='#slide-13'>slide 13</a> and 14. The callback will be called once your <code>$.get(&lt;URL&gt;, &lt;callback&gt;);</code> inside the <code>addProjectDetails</code> completes, and will have the result of the <code>GET</code> passed in. If you're extra curious it's the success parameter mentioned in the <a target='_blank' href='https://api.jquery.com/jquery.get/'>jquery.get documentation.</a>"
+        "fix":"Check back on <a target='_blank' href='#slide-14'>slide 14</a> and 15. The callback will be called once your <code>$.get(&lt;URL&gt;, &lt;callback&gt;);</code> inside the <code>addProjectDetails</code> completes, and will have the result of the <code>GET</code> passed in. If you're extra curious it's the success parameter mentioned in the <a target='_blank' href='https://api.jquery.com/jquery.get/'>jquery.get documentation.</a>"
       }]
     }
   ],
@@ -186,7 +194,7 @@
       "title":"Hint",
       "list":[{
         "problem":"How do I create the HTML string?",
-        "fix":"Check back on <a href='#slide-13'>slide 13</a>. It will be very similar to the way we construct the string variable <code>projectHTML</code> in that slide."
+        "fix":"Check back on <a href='#slide-15'>slide 15</a>. It will be very similar to the way we construct the string variable <code>projectHTML</code> in that slide."
       }]
   }],
   [],
@@ -241,7 +249,7 @@
   [
     {
       "type":"links",
-      "list":["<a target='blank' href='http://www.ucsd-hci.com/student_labs' target=\"_blank\">Submission link</a>"]
+      "list":["<a target='_blank' href='http://www.ucsd-hci.com/student_labs' target=\"_blank\">Submission link</a>"]
     }
   ],
   [
