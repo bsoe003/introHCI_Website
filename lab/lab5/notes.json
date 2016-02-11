@@ -22,7 +22,7 @@
     {
       "type":"links",
       "comment":"Starter code github link",
-      "list":["<a target='blank' href='https://github.com/IntroHCI/lab5'>https://github.com/IntroHCI/lab5</a>"]
+      "list":["<a target='_blank' href='https://github.com/IntroHCI/lab5'>https://github.com/IntroHCI/lab5</a>"]
     }
   ],
   [
@@ -40,11 +40,11 @@
         },
         {
           "problem": "I get errors that look like <pre><code>check-setup.sh: line 2: $'\\r': command not found</code></pre>",
-          "fix": "Try following the <code>sed</code> instructions in <a target='blank' href='../lab4/#slide-27'>lab4 slide 27</a> but run it on the </code>lab5/check-setup.sh</code>"
+          "fix": "Try following the <code>sed</code> instructions in <a target='_blank' href='../lab4/#slide-27'>lab4 slide 27</a> but run it on the </code>lab5/check-setup.sh</code>"
         },
         {
           "problem":"I get errors of the form <code>You don't have ****</code>.",
-          "fix":"Check <a target='blank' href='../lab4/#slide-28'>slide 28 of lab4</a>."
+          "fix":"Check <a target='_blank' href='../lab4/#slide-28'>slide 28 of lab4</a>."
       }]
     }
   ],
@@ -103,7 +103,7 @@
     {
       "comment":"Test that it's working on localhost",
       "type":"links",
-      "list":["<a target='blank' href='http://localhost:3000' target=\"_blank\">http://localhost:3000</a>"]
+      "list":["<a target='_blank' href='http://localhost:3000' target=\"_blank\">http://localhost:3000</a>"]
     },
     {
       "type":"debug",
@@ -117,7 +117,7 @@
       "type":"debug",
       "list":[{
         "problem":"I don't understand how to include javascript in my html. Where is the html?",
-	"fix":"\".handlebar\" files contain the html and \"public/js\" contains the javascript files(See <a target='blank'href='../lab4/#slide-13'>Lab 4-slide 13</a> for a review of where HTML comes from)! Now ala <a target='blank' href='../lab3/#slide-39'>Lab3-slide 39: Linking js to an HTML file</a>, add the script tags with the script files location in the handlebar file."
+	"fix":"\".handlebar\" files contain the html and \"public/js\" contains the javascript files(See <a target='_blank'href='../lab4/#slide-13'>Lab 4-slide 13</a> for a review of where HTML comes from)! Now ala <a target='_blank' href='../lab3/#slide-39'>Lab3-slide 39: Linking js to an HTML file</a>, add the script tags with the script files location in the handlebar file."
       },
       {
         "problem":"My console doesn't say <em>Javascript connected</em> when I included my javascript like so <pre><code>&lt;script src=\"public/js/{javascripti filename}.js\"&gt;&lt;/script&gt;</code></pre>",
@@ -132,13 +132,13 @@
   [
     {
       "type":"links",
-      "list":["<a target='blank'href='../lab2/#slide-52'>Lab 2-slide 52: Using link tags</a>"]
+      "list":["<a target='_blank' href='../lab2/#slide-52'>Lab 2-slide 52: Using link tags</a>"]
     }
   ],
   [
     {
       "type":"links",
-      "list":["<a target='blank' href='../lab2/#slide-54'>Lab 2-slide 54: Add Bootstrap container class</a>"]
+      "list":["<a target='_blank' href='../lab2/#slide-54'>Lab 2-slide 54: Add Bootstrap container class</a>"]
     },
     {
       "comment":"Set up the Bootstrap container",
@@ -152,25 +152,25 @@
       "comment":"Stub out the HTML for one friend",
       "type":"links",
       "title":"Random image generator link",
-      "list":["<a target='blank' href='http://lorempixel.com/500/500/people'>http://lorempixel.com/500/500/people</a>"]
+      "list":["<a target='_blank' href='http://lorempixel.com/500/500/people'>http://lorempixel.com/500/500/people</a>"]
     }
   ],
   [
     {
       "type":"links",
-      "list":["<a target='blank' href='../lab4/#slide-35'>Lab 4-slide 35: Passing JSON from index.js</a>"]
+      "list":["<a target='_blank' href='../lab4/#slide-35'>Lab 4-slide 35: Passing JSON from index.js</a>"]
     }
   ],
   [
     {
       "type":"links",
-      "list":["<a target='blank' href='../lab4/#slide-32'>Lab 4-slide 32: Access the passed in JSON through handlebars</a>"]
+      "list":["<a target='_blank' href='../lab4/#slide-32'>Lab 4-slide 32: Access the passed in JSON through handlebars</a>"]
     }
   ],
   [
     {
       "type":"links",
-      "list":["<a target='blank' href='../lab2/#slide-42'>Lab2-slide42: CSS selectors</a>"]
+      "list":["<a target='_blank' href='../lab2/#slide-42'>Lab2-slide42: CSS selectors</a>"]
     }
   ],
   [],
@@ -178,7 +178,7 @@
   [
     { 
       "type":"links",
-      "list":["<a target='blank' href='../lab3/#slide-14'> Lab3-slide14: Adding click listener</a>"] 
+      "list":["<a target='_blank' href='../lab3/#slide-14'> Lab3-slide14: Adding click listener</a>"] 
     }
   ],
   [
@@ -231,7 +231,7 @@
   [
     {
       "type":"links",
-      "list":["<a target='blank' href='http://www.ucsd-hci.com/student_labs' target=\"_blank\">Submission link</a>"]
+      "list":["<a target='_blank' href='http://www.ucsd-hci.com/student_labs'>Submission link</a>"]
     }
   ],
   [
