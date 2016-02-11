@@ -1,8 +1,8 @@
 #!/usr/bin/python
 ###############################################
 # You can find information on how to run this script and how notes.json
-# works by viewing the doc in google drive TA Guides/TA Tools/How to
-# Edit Labs.
+# works by viewing the doc in google drive "TA Guides/TA Tools/How to
+# Edit Labs".
 ###############################################
 import argparse
 from os import listdir
