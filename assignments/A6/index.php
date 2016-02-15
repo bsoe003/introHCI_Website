@@ -36,41 +36,7 @@
 
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="../../index.html">HCI DESIGN</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class=""><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#calendar">Calendar</a></li>
-            <li><a href="../../studio.html">Studio</a></li>
-            <li ><a href="../../mobile_app_tips.html">Development Resources</a></li>
-            <li class="dropdown active">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="../../logistics.html#prereqs">Prerequisites</a></li>
-                  <li><a href="../../logistics.html#lab">Lab</a></li>
-                  <li><a href="../../logistics.html#grading">Grading</a></li>
-                  <li><a href="../../logistics.html#attendance">Attendance</a></li>
-                  <li><a href="../../logistics.html#faq">FAQ</a></li>
-                </ul>
-            </li>
-            <li><a href="../../index.html#calendar">Submit work</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://piazza.com/ucsd/winter2016/cogs120cse170/home">Questions(Piazza forum)</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+    <? include "../../nav.php" ?>
 
     <div class="container">
         <div class="row">
@@ -108,9 +74,9 @@
 					<a href="https://docs.google.com/spreadsheet/ccc?key=0AkDAkl06cS84dDdoWnJKNmFPLVhNTUx4Ry1mYWZob2c&hl=en_US#gid=0" target="_blank"> (3) is a mediocre plan</a> that's mostly thorough, where most tasks are broken down into less than 1 hour chunks,
 					<a href="https://docs.google.com/spreadsheet/ccc?key=0AnCm_JDaoi7ndG5fNl92YUFrWDgwdUxyVVB2azg5SVE#gid=2" target="_blank"> (4) is very thorough</a>, with time estimates and time costs, but some tasks could be more actionable,
 					<a href="http://www.google.com/url?q=http%3A%2F%2Fspark-public.s3.amazonaws.com%2Fhci%2Fsource_videos%2FEvolutionOfAProjectPlan.mp4&sa=D&sntz=1&usg=AFQjCNECkSqe0VFyN4wOICycQIFhJoAslg" target="_blank"> (5) is a great video</a> of the dynamic nature of implementation plans throughout the project.</p>
-
+					
 					<p>In this assignment, we want to emphasize the user task at this stage of development. The interface should be fluid with respect to a particular task made intuitively easy to step through as a user. <a href="http://iamherefor.com/index.html" target="_blank"> Here we see a good example of an app that is fully centered on the user's task. </a> For this assignment, this team would complete functionality by capturing all of the relevant information entered into the text boxes, and updating the content of each page with that new information.</p>
-
+					
 					<p><a href="../examples/images/a07e1p1.mp4">GradeSource++</a>: This example project from last year abstracts GradeSource for you and works with the data to show you where you are in a class. </p>
                     <p><a href="../examples/images/a07e2p1.mp4">Balancr</a>: This app helps people balance their time between work and play. They have done a wonderful job making the app functional-- you can create a sign-up, add activities, and see it reflected on the pie chart.</p>
 					<p>For both examples above, simply imagine that the data that undergirds the functionality of the apps are only temporarily stored in a data variable that is pre-populated with data from a .json file.</p>
@@ -123,8 +89,6 @@
                         <li>The PDF of your updated development plan. (<i>We recommend making a Google spreadsheet and saving it as a pdf; this gives you a snapshot for comparison.</i>) <b>(Updated Development Plan)</b></li>
                         <li>A ~2-sentence description of the task you'd like us to try. This should include any needed login/password information. <b>(Supporting Info)</b></li>
                         <li>The shared Github URL for your project. <b>(Supporting Info)</b></li>
-                        <li>Description of how submission is distinct from other
-			apps<b> (e.g. competive analysis)</b></li>
                     </ul>
                     <p>Note: since we may grade your assignment up to a few days after submission, per the honor code, we expect that the prototype URL show the state of your prototype at the time of submission. You will very likely be updating your prototype after submission, but please do so on another version.</p>
                     <a href="http://ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a>
@@ -153,11 +117,11 @@
                 </div>
 
                 <div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
-                    <h2>In Studio Assessments</h2>
+                    <h2>Group Evaluation, Team Evaluation</h2>
                     <p>
-                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1LclkizllpeAHFqAUDrlAzLDekO2I9MMFK3AETUlpwLY/edit">Team Assessment (submit 1 per team)</a>
+                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/forms/d/1x935lHCmU4OoM7ET8kz7-bKBfOJWUManRHWf1s6Iw78/viewform">During studio, click here to assess your group's work as a collective unit.</a>
                         </br>
-                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1vLE2OjB8j2EHR8tprweCiGPop1201OpVKP5YRERkCCQ/edit">Self + Teammate Assessment</a>
+                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/forms/d/1Z5oqvzyLD81bpD2ZO4AtLUqQ3dZDJNCVAnz4gftwf5E/viewform"> During studio, click here to assess your own work and each of your team member's work.</a>
                     </p>
                 </div>
 
