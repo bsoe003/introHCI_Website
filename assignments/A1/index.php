@@ -38,42 +38,7 @@
 
 
    <!-- Fixed navbar -->
-   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="../../index.html">HCI DESIGN</a>
-         </div>
-         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-               <li class=""><a href="../../index.html">Home</a></li>
-               <li><a href="../../index.html#calendar">Calendar</a></li>
-               <li><a href="../../studio.html">Studio</a></li>
-               <li><a href="../../mobile_app_tips.html">Development Resources</a></li>
-               <li class="dropdown active">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                     <li><a href="../../logistics.html#prereqs">Prerequisites</a></li>
-                     <li><a href="../../logistics.html#lab">Lab</a></li>
-                     <li><a href="../../logistics.html#grading">Grading</a></li>
-                     <li><a href="../../logistics.html#attendance">Attendance</a></li>
-                     <li><a href="../../logistics.html#faq">FAQ</a></li>
-                  </ul>
-               </li>
-               <li><a href="../../index.html#calendar">Submit work</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-               <li><a href="http://piazza.com/ucsd/winter2016/cogs120cse170/home">Questions(Piazza forum)</a></li>
-            </ul>
-         </div>
-         <!--/.nav-collapse -->
-      </div>
-   </div>
+   <? include "../../nav.php" ?>
 
    <div class="container">
       <div class="row">
