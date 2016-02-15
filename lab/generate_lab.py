@@ -146,9 +146,9 @@ def writeLabPage(directory, slide_images, slide_notes, lab_number):
   slide_html = '\n'.join(slides)
   page = string.replace(page, "LAB_NUMBER", lab_number)
   page = string.replace(page, TEMPLATE_CONTENT, slide_html)
-  with open(directory + '/index.html', 'w') as out:
+  with open(directory + '/index.php', 'w') as out:
     out.write(page.encode('utf-8'))
-  print("Wrote " + directory + '/index.html')
+  print("Wrote " + directory + '/index.php')
 
 
 if __name__ == "__main__":
