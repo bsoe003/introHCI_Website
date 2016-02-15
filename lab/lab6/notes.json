@@ -179,7 +179,7 @@
       },
       {
         "problem":"I'm still having problems picking the details class out for the specific project id!",
-        "fix":"Yes this is an interesting selector puzzle! You can use selectors to select a hierarchy like so: <a href='https://api.jquery.com/descendant-selector/'>Descendant Selector</a>. If you want more practice with selectors, have fun with this game: <a href='http://flukeout.github.io/'>CSS Diner</a>."
+        "fix":"Yes this is an interesting selector puzzle! You can use selectors to select a hierarchy like so: <a target='_blank' href='../lab3/#slide-22'>slide 22-Selectors:space indicate hierarchy</a> or <a href='https://api.jquery.com/descendant-selector/'>jQuery: Descendant Selector</a>. If you want more practice with selectors, have fun with this game: <a href='http://flukeout.github.io/'>CSS Diner</a>."
       },
       {
         "problem":"Wait, wait! Where do I get the ID from?",
@@ -193,12 +193,12 @@
       "type":"debug",
       "title":"Hint",
       "list":[{
-        "problem":"What should it look like when I click the project?",
-        "fix":"<a href='images/details_result.png'><img src='images/details_result.png' style='width:90%; margin:auto;'/></a>."
+        "problem":"What should it look like when I click a project?",
+        "fix":"<p><a target='_blank' href='images/details_result.png'><img src='images/details_result.png' style='width:90%; margin:auto;'/></a></p>Also see the video in <a target='_blank' href='#slide-33'>slide 33</a>"
       },
       {
         "problem":"How do I create the HTML string?",
-        "fix":"Check back on <a href='#slide-15'>slide 15</a>. It will be very similar to the way we construct the string variable <code>projectHTML</code> in that slide."
+        "fix":"Check back on <a target='_blank' href='#slide-15'>slide 15</a>. It will be very similar to the way we construct the string variable <code>projectHTML</code> in that slide."
       }]
   }],
   [],

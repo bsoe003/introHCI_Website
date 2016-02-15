@@ -23,41 +23,7 @@
   <body>
 
 <!-- Fixed navbar -->
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="../../index.html">HCI DESIGN</a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class=""><a href="../../index.html">Home</a></li>
-          <li><a href="../../index.html#calendar">Calendar</a></li>
-          <li><a href="../">Lab</a></li>
-          <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="../../logistics.html#prereqs">Prerequisites</a></li>
-            <li><a href="../../logistics.html#lab">Lab</a></li>
-            <li><a href="../../logistics.html#grading">Grading</a></li>
-            <li><a href="../../logistics.html#attendance">Attendance</a></li>
-            <li><a href="../../logistics.html#cs77">CS 77</a></li>
-            <li><a href="../../logistics.html#faq">FAQ</a></li>
-          </ul>
-        </li>
-          <li><a href="http://www.ucsd-hci.com">Submit Work</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://piazza.com/class/hp4nrlq45uo5nz?cid=9">Questions</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
+  <? include "../../nav.php" ?>
 
 	<!-- this is a comment in HTML -->
 	<div class="container">
@@ -190,11 +156,11 @@
         </div>
         <div class="well well-sm">
           <span class="lead"><p>I get errors that look like <pre><code>check-setup.sh: line 2: $'\r': command not found</code></pre></p></span>
-          <p>Try following the <code>sed</code> instructions in <a target='blank' href='../lab4/#slide-27'>lab4 slide 27</a> but run it on the </code>lab5/check-setup.sh</code></p>
+          <p>Try following the <code>sed</code> instructions in <a target='blank' href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab4/#slide-27'>lab4 slide 27</a> but run it on the </code>lab5/check-setup.sh</code></p>
         </div>
         <div class="well well-sm">
           <span class="lead"><p>I get errors of the form <code>You don't have ****</code>.</p></span>
-          <p>Check <a target='blank' href='../lab4/#slide-28'>slide 28 of lab4</a>.</p>
+          <p>Check <a target='blank' href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab4/#slide-28'>slide 28 of lab4</a>.</p>
         </div>
       </div>
       
@@ -313,11 +279,6 @@
       title="14" />
     <div class="col-md-5">
       
-      <div class="code">
-        <h4>Code</h4>
-        <pre class='pre-scrollable'><code>var data = require('../data.json');</code></pre>
-      </div>
-      
     </div>
   </div>
   <hr />
@@ -330,6 +291,25 @@
     </div>
     <img src="2016-lab-05-putting-it-together.015.png" class="img-responsive col-md-6"
       title="15" />
+    <div class="col-md-5">
+      
+      <div class="code">
+        <h4>Code</h4>
+        <pre class='pre-scrollable'><code>var data = require('../data.json');</code></pre>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-16" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>16</h2>
+    </div>
+    <img src="2016-lab-05-putting-it-together.016.png" class="img-responsive col-md-6"
+      title="16" />
     <div class="col-md-5">
       
       <div class="code">
@@ -359,12 +339,12 @@ Express server listening on port 3000</code></pre>
   
 
 
-  <div id="slide-16" class="row lab-slide">
+  <div id="slide-17" class="row lab-slide">
     <div class="col-md-1">
-      <h2>16</h2>
+      <h2>17</h2>
     </div>
-    <img src="2016-lab-05-putting-it-together.016.png" class="img-responsive col-md-6"
-      title="16" />
+    <img src="2016-lab-05-putting-it-together.017.png" class="img-responsive col-md-6"
+      title="17" />
     <div class="col-md-5">
       
       <div class="links">
@@ -388,20 +368,6 @@ Express server listening on port 3000</code></pre>
   
 
 
-  <div id="slide-17" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>17</h2>
-    </div>
-    <img src="2016-lab-05-putting-it-together.017.png" class="img-responsive col-md-6"
-      title="17" />
-    <div class="col-md-5">
-      
-    </div>
-  </div>
-  <hr />
-  
-
-
   <div id="slide-18" class="row lab-slide">
     <div class="col-md-1">
       <h2>18</h2>
@@ -409,22 +375,6 @@ Express server listening on port 3000</code></pre>
     <img src="2016-lab-05-putting-it-together.018.png" class="img-responsive col-md-6"
       title="18" />
     <div class="col-md-5">
-      
-      <div class="debug">
-        <h4>Troubleshoot</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>I don't understand how to include javascript in my html. Where is the html?</p></span>
-          <p>".handlebar" files contain the html and "public/js" contains the javascript files(See <a target='blank'href='../lab4/#slide-13'>Lab 4-slide 13</a> for a review of where HTML comes from)! Now ala <a target='blank' href='../lab3/#slide-39'>Lab3-slide 39: Linking js to an HTML file</a>, add the script tags with the script files location in the handlebar file.</p>
-        </div>
-        <div class="well well-sm">
-          <span class="lead"><p>My console doesn't say <em>Javascript connected</em> when I included my javascript like so <pre><code>&lt;script src="public/js/{javascripti filename}.js"&gt;&lt;/script&gt;</code></pre></p></span>
-          <p>You don't need the <code>public</code> at the beginning of src. Node.js automatically sets the root("/") as our <code>public</code> directory. This goes for including css in the next slide as well.</p>
-        </div>
-        <div class="well well-sm">
-          <span class="lead"><p>I think I have included the javascript correctly but my browser console keeps saying this upon refresh: <pre><code>Uncaught ReferenceError: $ is not defined</code></pre></p></span>
-          <p>You have included the files correctly. Just ensure that the jquery script is the first one you include, followed by hci-friends and bootstrap. Include order matters!</p>
-        </div>
-      </div>
       
     </div>
   </div>
@@ -440,11 +390,16 @@ Express server listening on port 3000</code></pre>
       title="19" />
     <div class="col-md-5">
       
-      <div class="links">
-        <h4>Links</h4>
-        <ul>
-          <li><a target='blank'href='../lab2/#slide-52'>Lab 2-slide 52: Using link tags</a></li>
-        </ul>
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>I don't understand how to include javascript in my html. Where is the html?</p></span>
+          <p>".handlebar" files contain the html and "public/js" contains the javascript files(See <a target='blank'href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab4/#slide-13'>Lab 4-slide 13</a> for a review of where HTML comes from)! Now ala <a target='blank' href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab3/#slide-39'>Lab3-slide 39: Linking js to an HTML file</a>, add the script tags with the script files location in the handlebar file.</p>
+        </div>
+        <div class="well well-sm">
+          <span class="lead"><p>I think I have included the javascript correctly but my browser console keeps saying this upon refresh: <pre><code>Uncaught ReferenceError: $ is not defined</code></pre></p></span>
+          <p>You have included the files correctly. Just ensure that the jquery script is the first one you include, followed by hci-friends and bootstrap. Include order matters!</p>
+        </div>
       </div>
       
     </div>
@@ -464,13 +419,8 @@ Express server listening on port 3000</code></pre>
       <div class="links">
         <h4>Links</h4>
         <ul>
-          <li><a target='blank' href='../lab2/#slide-54'>Lab 2-slide 54: Add Bootstrap container class</a></li>
+          <li><a target='blank'href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab2/#slide-52'>Lab 2-slide 52: Using link tags</a></li>
         </ul>
-      </div>
-      
-      <div class="code">
-        <h4>Code</h4>
-        <pre class='pre-scrollable'><code>&lt;div class="container"&gt;</code></pre>
       </div>
       
     </div>
@@ -487,6 +437,18 @@ Express server listening on port 3000</code></pre>
       title="21" />
     <div class="col-md-5">
       
+      <div class="links">
+        <h4>Links</h4>
+        <ul>
+          <li><a target='blank' href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab2/#slide-54'>Lab 2-slide 54: Add Bootstrap container class</a></li>
+        </ul>
+      </div>
+      
+      <div class="code">
+        <h4>Code</h4>
+        <pre class='pre-scrollable'><code>&lt;div class="container"&gt;</code></pre>
+      </div>
+      
     </div>
   </div>
   <hr />
@@ -500,13 +462,6 @@ Express server listening on port 3000</code></pre>
     <img src="2016-lab-05-putting-it-together.022.png" class="img-responsive col-md-6"
       title="22" />
     <div class="col-md-5">
-      
-      <div class="links">
-        <h4>Random image generator link</h4>
-        <ul>
-          <li><a target='blank' href='http://lorempixel.com/500/500/people'>http://lorempixel.com/500/500/people</a></li>
-        </ul>
-      </div>
       
     </div>
   </div>
@@ -523,9 +478,9 @@ Express server listening on port 3000</code></pre>
     <div class="col-md-5">
       
       <div class="links">
-        <h4>Links</h4>
+        <h4>Random image generator link</h4>
         <ul>
-          <li><a target='blank' href='../lab4/#slide-35'>Lab 4-slide 35: Passing JSON from index.js</a></li>
+          <li><a target='blank' href='http://lorempixel.com/500/500/people'>http://lorempixel.com/500/500/people</a></li>
         </ul>
       </div>
       
@@ -546,7 +501,7 @@ Express server listening on port 3000</code></pre>
       <div class="links">
         <h4>Links</h4>
         <ul>
-          <li><a target='blank' href='../lab4/#slide-32'>Lab 4-slide 32: Access the passed in JSON through handlebars</a></li>
+          <li><a target='blank' href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab4/#slide-35'>Lab 4-slide 35: Passing JSON from index.js</a></li>
         </ul>
       </div>
       
@@ -567,7 +522,7 @@ Express server listening on port 3000</code></pre>
       <div class="links">
         <h4>Links</h4>
         <ul>
-          <li><a target='blank' href='../lab2/#slide-42'>Lab2-slide42: CSS selectors</a></li>
+          <li><a target='blank' href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab4/#slide-32'>Lab 4-slide 32: Access the passed in JSON through handlebars</a></li>
         </ul>
       </div>
       
@@ -584,6 +539,13 @@ Express server listening on port 3000</code></pre>
     <img src="2016-lab-05-putting-it-together.026.png" class="img-responsive col-md-6"
       title="26" />
     <div class="col-md-5">
+      
+      <div class="links">
+        <h4>Links</h4>
+        <ul>
+          <li><a target='blank' href='http://d.ucsd.edu/class/intro-hci/2016/lab/lab2/#slide-42'>Lab2-slide42: CSS selectors</a></li>
+        </ul>
+      </div>
       
     </div>
   </div>
@@ -613,13 +575,6 @@ Express server listening on port 3000</code></pre>
       title="28" />
     <div class="col-md-5">
       
-      <div class="links">
-        <h4>Links</h4>
-        <ul>
-          <li><a target='blank' href='../lab3/#slide-14'> Lab3-slide14: Adding click listener</a></li>
-        </ul>
-      </div>
-      
     </div>
   </div>
   <hr />
@@ -632,6 +587,20 @@ Express server listening on port 3000</code></pre>
     </div>
     <img src="2016-lab-05-putting-it-together.029.png" class="img-responsive col-md-6"
       title="29" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-30" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>30</h2>
+    </div>
+    <img src="2016-lab-05-putting-it-together.030.png" class="img-responsive col-md-6"
+      title="30" />
     <div class="col-md-5">
       
       <div class="debug">
@@ -648,25 +617,6 @@ Express server listening on port 3000</code></pre>
   
 
 
-  <div id="slide-30" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>30</h2>
-    </div>
-    <img src="2016-lab-05-putting-it-together.030.png" class="img-responsive col-md-6"
-      title="30" />
-    <div class="col-md-5">
-      
-      <div class="video">
-        <h4>Video</h4>
-        <video src='video/anagram.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
-      </div>
-      
-    </div>
-  </div>
-  <hr />
-  
-
-
   <div id="slide-31" class="row lab-slide">
     <div class="col-md-1">
       <h2>31</h2>
@@ -674,6 +624,11 @@ Express server listening on port 3000</code></pre>
     <img src="2016-lab-05-putting-it-together.031.png" class="img-responsive col-md-6"
       title="31" />
     <div class="col-md-5">
+      
+      <div class="video">
+        <h4>Video</h4>
+        <video src='video/anagram.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
+      </div>
       
     </div>
   </div>
@@ -801,6 +756,20 @@ Express server listening on port 3000</code></pre>
       title="40" />
     <div class="col-md-5">
       
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-41" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>41</h2>
+    </div>
+    <img src="2016-lab-05-putting-it-together.041.png" class="img-responsive col-md-6"
+      title="41" />
+    <div class="col-md-5">
+      
       <div class="code">
         <h4>GitHub - Commit</h4>
         <pre class='pre-scrollable'><code>git status
@@ -829,12 +798,12 @@ git commit -m "putting it together lab"</code></pre>
   
 
 
-  <div id="slide-41" class="row lab-slide">
+  <div id="slide-42" class="row lab-slide">
     <div class="col-md-1">
-      <h2>41</h2>
+      <h2>42</h2>
     </div>
-    <img src="2016-lab-05-putting-it-together.041.png" class="img-responsive col-md-6"
-      title="41" />
+    <img src="2016-lab-05-putting-it-together.042.png" class="img-responsive col-md-6"
+      title="42" />
     <div class="col-md-5">
       
       <div class="links">
@@ -850,12 +819,12 @@ git commit -m "putting it together lab"</code></pre>
   
 
 
-  <div id="slide-42" class="row lab-slide">
+  <div id="slide-43" class="row lab-slide">
     <div class="col-md-1">
-      <h2>42</h2>
+      <h2>43</h2>
     </div>
-    <img src="2016-lab-05-putting-it-together.042.png" class="img-responsive col-md-6"
-      title="42" />
+    <img src="2016-lab-05-putting-it-together.043.png" class="img-responsive col-md-6"
+      title="43" />
     <div class="col-md-5">
       
       <div class="debug">
