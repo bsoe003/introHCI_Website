@@ -62,7 +62,7 @@
                     <p>By the end of this week, your interactive prototypes should be fully functional. Your app should write JSON data as well as read it. (The JSON data won't be persistent when you close the browser, but it will endure across pages within the same session.) Your app should have several pages where users can submit and view data stored in JSON. Remember, we are not at the "making it pretty" phase yet, so don't procrastinate by playing with Photoshop. If you planned it out right and you have been doing your work, you should be in good shape. If not, it's time to step it up. You will get much less out of user testing if you are still struggling with bugs and a half finished interface. Now is also the time to make sure your app fits into a mobile form factor, <a href = "https://developer.chrome.com/devtools/docs/device-mode" target="_blank"> use Google device mode to help with this </a> or your own devices.</p>
 
                     <p>Follow the development plan you created last week, and update it as you go. Keep marking tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.</p>
-					
+
 					<p>
                 </div>
 				<div id="submit" class="sidenav-anchor">
@@ -76,7 +76,7 @@
                 </div>
 				<div id="submit" class="sidenav-anchor">
                     <h2>In Studio</h2>
-					<p>In studio, to follow up this assignment, you will receive feedback in the form of a brief heuristic evaluation from another member of your studio directly. Your team will pool that feedback, update your implementation plan accordingly, and then present your app to the whole studio.</p>
+					<p>In studio, to follow up this assignment, you will receive feedback in the form of a brief heuristic evaluation from another member of your studio directly. Your team will pool that feedback and update your implementation plan accordingly.</p>
 				</div>
                 <div id="examples" class="sidenav-anchor">
                     <h2>Student Examples</h2>
@@ -88,7 +88,7 @@
                     <p><a href="../examples/images/a07e1p1.mp4">GradeSource++</a>: This example project from last year abstracts GradeSource for you and works with the data to show you where you are in a class. </p>
                     <p><a href="../examples/images/a07e2p1.mp4">Balancr</a>: This app helps people balance their time between work and play. They have done a wonderful job making the app functional-- you can create a sign-up, add activities, and see it reflected on the pie chart.</p>
 					<p>For both examples above, the data that undergirds the functionality of the apps are pre-populated and updated from JSON. For instance, login information should be stored as JSON. You should have a pre-canned user that is persistent, and the ability for creating a new user whose credentials will be stored in JSON for the duration of the session. <a href="http://d.ucsd.edu/class/intro-hci/2015/lab/lab6/index.html" target="_blank"> Look to Lab 6 for the necessary machinery to implement this. </a></p>
-					
+
                     <p><b> Example of task description for an office hour reservation app that encourages group discussions: Make an appointment with a professor and mark it public so that other people can join. Then cancel this appointment and make a new one. </b></p>
                 </div>
 
