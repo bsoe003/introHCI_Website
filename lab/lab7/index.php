@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<meta charset="utf-8">
-  	<!--<meta http-equiv="refresh" content="120">  force the page to update with new help  -->
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="1200"> <!-- force the page to update with new help  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Introduction to Human-Computer Interaction: Labs">
-    <title>Intro to HCI: Labs</title>
+    <meta name="description" content="Introduction to Human-Computer Interaction: Logistics">
+    <title>Lab&thinsp;7&thinsp;&middot;&thinsp;HCI Design</title>
 
     <!-- Bootstrap -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -22,916 +22,1301 @@
   </head>
   <body>
 
-<!-- Fixed navbar -->
-  <? include "../../nav.php" ?>
+   <!-- Fixed navbar -->
+   <? include "../../nav.php" ?>
 
 	<!-- this is a comment in HTML -->
 	<div class="container">
-    <div id="instructions" class="alert alert-warning">
-      When done, submit at <a href="https://docs.google.com/forms/d/1-80-I_9N9qjbDe0xoDALcvyn2WoQOS21D6j9MgJK9tw/viewform" class="alert-link">here</a>.
+    <div id="instructions" class="alert alert-info">
+      When done, submit <a href="http://www.ucsd-hci.com/student_labs" class="alert-link">here</a>.
     </div>
 
-
-
+    
   <div id="slide-1" class="row lab-slide">
     <div class="col-md-1">
       <h2>1</h2>
     </div>
-    <img src="2014-lab-07-databases-final.001.jpg" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics_yfk.001.png" class="img-responsive col-md-6"
       title="1" />
     <div class="col-md-5">
-
+      
+      <div class="links">
+        <h4>Student examples</h4>
+        <ul>
+          <li>Check out this awesome lab 6 stretch goal!</li>
+        </ul>
+      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-2" class="row lab-slide">
     <div class="col-md-1">
       <h2>2</h2>
     </div>
-    <img src="2014-lab-07-databases-final.002.jpg" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics_yfk.002.png" class="img-responsive col-md-6"
       title="2" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-3" class="row lab-slide">
+
+  <div id="slide-3" class="row lab-slide">
     <div class="col-md-1">
       <h2>3</h2>
     </div>
-    <img src="2014-lab-07-databases-final.003.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.003.png" class="img-responsive col-md-6"
+      title="3" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-4" class="row lab-slide">
+
+  <div id="slide-4" class="row lab-slide">
     <div class="col-md-1">
       <h2>4</h2>
     </div>
-    <img src="2014-lab-07-databases-final.004.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.004.png" class="img-responsive col-md-6"
+      title="4" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-5" class="row lab-slide">
+
+  <div id="slide-5" class="row lab-slide">
     <div class="col-md-1">
       <h2>5</h2>
     </div>
-    <img src="2014-lab-07-databases-final.005.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.005.png" class="img-responsive col-md-6"
+      title="5" />
     <div class="col-md-5">
-
+      
+      <div class="debug">
+        <h4>How will this lab help me?</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>This lab will teach you how to run A/B testing using Google Analytics. This is a fundamental skill for testing user behavior on the web, and assignment 8, and especially assignment 9 includes these tasks!</p></span>
+          <p></p>
+        </div>
+      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-6" class="row lab-slide">
+
+  <div id="slide-6" class="row lab-slide">
     <div class="col-md-1">
       <h2>6</h2>
     </div>
-    <img src="2014-lab-07-databases-final.006.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.006.png" class="img-responsive col-md-6"
+      title="6" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-7" class="row lab-slide">
+
+  <div id="slide-7" class="row lab-slide">
     <div class="col-md-1">
       <h2>7</h2>
     </div>
-    <img src="2014-lab-07-databases-final.007.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.007.png" class="img-responsive col-md-6"
+      title="7" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-8" class="row lab-slide">
+
+  <div id="slide-8" class="row lab-slide">
     <div class="col-md-1">
       <h2>8</h2>
     </div>
-    <img src="2014-lab-07-databases-final.008.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.008.png" class="img-responsive col-md-6"
+      title="8" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-9" class="row lab-slide">
+
+  <div id="slide-9" class="row lab-slide">
     <div class="col-md-1">
       <h2>9</h2>
     </div>
-    <img src="2014-lab-07-databases-final.009.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.009.png" class="img-responsive col-md-6"
+      title="9" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-10" class="row lab-slide">
+
+  <div id="slide-10" class="row lab-slide">
     <div class="col-md-1">
       <h2>10</h2>
     </div>
-    <img src="2014-lab-07-databases-final.010.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.010.png" class="img-responsive col-md-6"
+      title="10" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-2" class="row lab-slide">
+
+  <div id="slide-11" class="row lab-slide">
     <div class="col-md-1">
       <h2>11</h2>
     </div>
-    <img src="2014-lab-07-databases-final.011.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.011.png" class="img-responsive col-md-6"
+      title="11" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-12" class="row lab-slide">
+
+  <div id="slide-12" class="row lab-slide">
     <div class="col-md-1">
       <h2>12</h2>
     </div>
-    <img src="2014-lab-07-databases-final.012.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.012.png" class="img-responsive col-md-6"
+      title="12" />
     <div class="col-md-5">
+      
+      <div class="code">
+        <h4>Sample event calls</h4>
+        <pre class='pre-scrollable'><code>ga("send", "event", "friendsuggestion", "dismiss");
+ga("send", "event", "friendsuggestion", "accept");
+ga("send", "event", "humankind", "destroy");
 
+ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
+      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-12" class="row lab-slide">
+
+  <div id="slide-13" class="row lab-slide">
     <div class="col-md-1">
       <h2>13</h2>
     </div>
-    <img src="2014-lab-07-databases-final.013.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.013.png" class="img-responsive col-md-6"
+      title="13" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-<div id="slide-14" class="row lab-slide">
+
+  <div id="slide-14" class="row lab-slide">
     <div class="col-md-1">
       <h2>14</h2>
     </div>
-    <img src="2014-lab-07-databases-final.014.jpg" class="img-responsive col-md-6"
-      title="2" />
+    <img src="2016-lab-07-analytics_yfk.014.png" class="img-responsive col-md-6"
+      title="14" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
-
+  <hr />
+  
 
 
   <div id="slide-15" class="row lab-slide">
     <div class="col-md-1">
       <h2>15</h2>
     </div>
-    <img src="2014-lab-07-databases-final.015.jpg" class="img-responsive col-md-6"
-      title="3" />
+    <img src="2016-lab-07-analytics_yfk.015.png" class="img-responsive col-md-6"
+      title="15" />
     <div class="col-md-5">
-
-      <div class="debug">
-        <h4>Stretch Goals</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>Add comments to your projects.</p></span>
-          <p>Do this by adding a new schema and linking it to the project schema</p>
-        </div>
-      </div>
-
-      <div class="links">
-        <h4>Links</h4>
-        <ul>
-          <li><a href='http://mongoosejs.com/docs/guide.html' target="_blank">http://mongoosejs.com/docs/guide.html</a></li>
-          <li><a href='http://stackoverflow.com/questions/14730676/linking-2-mongoose-schemas' target="_blank">http://stackoverflow.com/questions/14730676/linking-2-mongoose-schemas</a></li>
-        </ul>
-      </div>
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-16" class="row lab-slide">
     <div class="col-md-1">
       <h2>16</h2>
     </div>
-    <img src="2014-lab-07-databases-final.016.jpg" class="img-responsive col-md-6"
-      title="4" />
+    <img src="2016-lab-07-analytics_yfk.016.png" class="img-responsive col-md-6"
+      title="16" />
     <div class="col-md-5">
-    	 <div class="debug">
-        <h4>How will this lab help me?</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>This lab will get you well-versed in using databases. 
-          	They will form an important portion of your app and future assignments. </p></div>
-      </div>
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-17" class="row lab-slide">
     <div class="col-md-1">
       <h2>17</h2>
     </div>
-    <img src="2014-lab-07-databases-final.017.jpg" class="img-responsive col-md-6"
-      title="5" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-<div id="slide-18" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>18</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.018.jpg" class="img-responsive col-md-6"
-      title="2" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-<div id="slide-19" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>19</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.019.jpg" class="img-responsive col-md-6"
-      title="2" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-<div id="slide-20" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>20</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.020.jpg" class="img-responsive col-md-6"
-      title="2" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-<div id="slide-21" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>21</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.021.jpg" class="img-responsive col-md-6"
-      title="2" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-<div id="slide-22" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>22</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.022.jpg" class="img-responsive col-md-6"
-      title="6" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-7" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>23</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.023.jpg" class="img-responsive col-md-6"
-      title="7" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-8" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>24</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.024.jpg" class="img-responsive col-md-6"
-      title="8" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-9" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>25</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.025.jpg" class="img-responsive col-md-6"
-      title="9" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-26" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>26</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.026.jpg" class="img-responsive col-md-6"
-      title="10" />
-    <div class="col-md-5">
-      <div class="video">
-        <h4>Video</h4>
-        <video src='video/blog_broken_create-25482.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
-      </div>
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-27" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>27</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.027.jpg" class="img-responsive col-md-6"
-      title="11" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-28" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>28</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.028.jpg" class="img-responsive col-md-6"
-      title="12" />
-    <div class="col-md-5">
-      <div class="code">
-        <h4>Code</h4>
-        <pre class='pre-scrollable'><code>newPost.save(afterSaving);
-
-function afterSaving(err) { // this is a callback
-  if(err) {console.log(err); res.send(500); }
-  res.redirect('/');
-}</code></pre>
-      </div>
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-29" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>29</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.029.jpg" class="img-responsive col-md-6"
-      title="13" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-30" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>30</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.030.jpg" class="img-responsive col-md-6"
-      title="14" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-31" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>31</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.031.jpg" class="img-responsive col-md-6"
-      title="15" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-32" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>32</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.032.jpg" class="img-responsive col-md-6"
-      title="16" />
-    <div class="col-md-5">
-
-    </div>
-  </div>
-<hr></hr>
-
-  <div id="slide-33" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>33</h2>
-    </div>
-    <img src="2014-lab-07-databases-final.033.jpg" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics_yfk.017.png" class="img-responsive col-md-6"
       title="17" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-18" class="row lab-slide">
     <div class="col-md-1">
-      <h2>34</h2>
+      <h2>18</h2>
     </div>
-    <img src="2014-lab-07-databases-final.034.jpg" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics_yfk.018.png" class="img-responsive col-md-6"
       title="18" />
     <div class="col-md-5">
-
-      <div class="video">
-        <h4>Video</h4>
-        <video src="video/blog_broken_delete-26358.mov" style="width:100%" controls="" preload="none" poster="../video-poster.jpg"></video>
-      </div>
-
-    </div>  
-  </div>
-<hr></hr>
-
-  <div id="slide-35" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>35</h2>
+      
     </div>
-    <img src="2014-lab-07-databases-final.035.jpg" class="img-responsive col-md-6"
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-19" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>19</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.019.png" class="img-responsive col-md-6"
       title="19" />
     <div class="col-md-5">
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-  <div id="slide-36" class="row lab-slide">
+
+  <div id="slide-20" class="row lab-slide">
     <div class="col-md-1">
-      <h2>36</h2>
+      <h2>20</h2>
     </div>
-    <img src="2014-lab-07-databases-final.036.jpg" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics_yfk.020.png" class="img-responsive col-md-6"
       title="20" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-  <div id="slide-37" class="row lab-slide">
+
+  <div id="slide-21" class="row lab-slide">
     <div class="col-md-1">
-      <h2>37</h2>
+      <h2>21</h2>
     </div>
-    <img src="2014-lab-07-databases-final.037.jpg" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics_yfk.021.png" class="img-responsive col-md-6"
       title="21" />
     <div class="col-md-5">
-      <div class="debug">
-        <h4>Mongoose cheatsheet</h4>
-      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-  <div id="slide-38" class="row lab-slide">
+
+  <div id="slide-22" class="row lab-slide">
     <div class="col-md-1">
-      <h2>38</h2>
+      <h2>22</h2>
     </div>
-    <img src="2014-lab-07-databases-final.038.jpg" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics_yfk.022.png" class="img-responsive col-md-6"
       title="22" />
     <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+  <div class="row-lab-slide">
+    <h2>&rarr; Your part starts here.</h2>
+  </div>
+  <hr />
+
+
+  <div id="slide-23" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>23</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.023.png" class="img-responsive col-md-6"
+      title="23" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-24" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>24</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.024.png" class="img-responsive col-md-6"
+      title="24" />
+    <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Goal</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Install pageview analytics on your portfolio.</p></span>
+          <p></p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-25" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>25</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.025.png" class="img-responsive col-md-6"
+      title="25" />
+    <div class="col-md-5">
+      
       <div class="links">
         <h4>Links</h4>
         <ul>
           <li><a href='https://github.com/IntroHCI/lab7/fork' target="_blank">https://github.com/IntroHCI/lab7/fork</a></li>
         </ul>
       </div>
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
 
-  <div id="slide-39" class="row lab-slide">
+
+  <div id="slide-26" class="row lab-slide">
     <div class="col-md-1">
-      <h2>39</h2>
+      <h2>26</h2>
     </div>
-    <img src="2014-lab-07-databases-final.039.jpg" class="img-responsive col-md-6"
-      title="23" />
+    <img src="2016-lab-07-analytics_yfk.026.png" class="img-responsive col-md-6"
+      title="26" />
     <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-27" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>27</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.027.png" class="img-responsive col-md-6"
+      title="27" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-28" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>28</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.028.png" class="img-responsive col-md-6"
+      title="28" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-29" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>29</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.029.png" class="img-responsive col-md-6"
+      title="29" />
+    <div class="col-md-5">
+      
       <div class="links">
         <h4>Links</h4>
         <ul>
           <li><a href='http://localhost:3000' target="_blank">http://localhost:3000</a></li>
         </ul>
       </div>
-
-      <div class="debug">
-        <h4>Debug</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>When I run <code>node app.js</code> I get the following error <code><pre>Error: failed to connect to [localhost:xxxxx]</pre></code></p></span>
-          <p>Mongo isn't running!  Did you remember to run the <code>check-setup.sh</code> script?</p>
-        </div>
-      </div>
-      
-         <div class="debug">
-        <h4>Debug</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>When I go to localhost:3000, there are no placeholders like described in the lab slides?</p></span>
-          <p>Once you define the schema (next 4 slides), they appear!</p>
-        </div>
-      </div>   
       
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
+
+  <div id="slide-30" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>30</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.030.png" class="img-responsive col-md-6"
+      title="30" />
+    <div class="col-md-5">
+      
+      <div class="code">
+        <h4>Heroku - Create</h4>
+        <pre class='pre-scrollable'><code>heroku create <i>newapplicationname</i></code></pre>
+      </div>
+      
+      <div class="code">
+        <h4>Heroku - Push</h4>
+        <pre class='pre-scrollable'><code>git push heroku master</code></pre>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-31" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>31</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.031.png" class="img-responsive col-md-6"
+      title="31" />
+    <div class="col-md-5">
+      
+      <div class="links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href='http://analytics.google.com/analytics/' target="_blank">http://analytics.google.com/analytics/</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-32" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>32</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.032.png" class="img-responsive col-md-6"
+      title="32" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-33" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>33</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.033.png" class="img-responsive col-md-6"
+      title="33" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-34" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>34</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.034.png" class="img-responsive col-md-6"
+      title="34" />
+    <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Tracking Code</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Where do I get my code again if I've lost it?</p></span>
+          <p>Use the instructions on the next slide.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-35" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>35</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.035.png" class="img-responsive col-md-6"
+      title="35" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-36" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>36</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.036.png" class="img-responsive col-md-6"
+      title="36" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-37" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>37</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.037.png" class="img-responsive col-md-6"
+      title="37" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-38" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>38</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.038.png" class="img-responsive col-md-6"
+      title="38" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-39" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>39</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.039.png" class="img-responsive col-md-6"
+      title="39" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
 
   <div id="slide-40" class="row lab-slide">
     <div class="col-md-1">
       <h2>40</h2>
     </div>
-    <img src="2014-lab-07-databases-final.040.jpg" class="img-responsive col-md-6"
-      title="24" />
+    <img src="2016-lab-07-analytics_yfk.040.png" class="img-responsive col-md-6"
+      title="40" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-41" class="row lab-slide">
     <div class="col-md-1">
       <h2>41</h2>
     </div>
-    <img src="2014-lab-07-databases-final.041.jpg" class="img-responsive col-md-6"
-      title="25" />
+    <img src="2016-lab-07-analytics_yfk.041.png" class="img-responsive col-md-6"
+      title="41" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-42" class="row lab-slide">
     <div class="col-md-1">
       <h2>42</h2>
     </div>
-    <img src="2014-lab-07-databases-final.042.jpg" class="img-responsive col-md-6"
-      title="26" />
+    <img src="2016-lab-07-analytics_yfk.042.png" class="img-responsive col-md-6"
+      title="42" />
     <div class="col-md-5">
-
+      
+      <div class="debug">
+        <h4>Goal</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Run an A/B test on a grid vs. the old vertical layout</p></span>
+          <p></p>
+        </div>
+      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-43" class="row lab-slide">
     <div class="col-md-1">
       <h2>43</h2>
     </div>
-    <img src="2014-lab-07-databases-final.043.jpg" class="img-responsive col-md-6"
-      title="27" />
+    <img src="2016-lab-07-analytics_yfk.043.png" class="img-responsive col-md-6"
+      title="43" />
     <div class="col-md-5">
-
-      <div class="debug">
-        <h4>Debug Hints</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>I restarted the server, but nothing shows!</p></span>
-          <p>In index.js, add a console.log(projects) inside renderProjects. Is your data formatted correctly? Perhaps you need to change the schema. Don't forget to rerun node initDB.js after changing your schema.</p>
-        </div>
-      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-44" class="row lab-slide">
     <div class="col-md-1">
       <h2>44</h2>
     </div>
-    <img src="2014-lab-07-databases-final.044.jpg" class="img-responsive col-md-6"
-      title="28" />
+    <img src="2016-lab-07-analytics_yfk.044.png" class="img-responsive col-md-6"
+      title="44" />
     <div class="col-md-5">
-
+      
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>It says "Cannot GET /grid"</p></span>
+          <p>Did you add the route in app.js? (See Prev Slide)</p>
+        </div>
+      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-45" class="row lab-slide">
     <div class="col-md-1">
       <h2>45</h2>
     </div>
-    <img src="2014-lab-07-databases-final.045.jpg" class="img-responsive col-md-6"
-      title="29" />
+    <img src="2016-lab-07-analytics_yfk.045.png" class="img-responsive col-md-6"
+      title="45" />
     <div class="col-md-5">
-
+      
+      <div class="debug">
+        <h4>Hint</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Hint: <a href='#slide-15'>Slide 15-Sending different data to the template</a> may have relevant information.</p></span>
+          <p></p>
+        </div>
+      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-46" class="row lab-slide">
     <div class="col-md-1">
       <h2>46</h2>
     </div>
-    <img src="2014-lab-07-databases-final.046.jpg" class="img-responsive col-md-6"
-      title="30" />
+    <img src="2016-lab-07-analytics_yfk.046.png" class="img-responsive col-md-6"
+      title="46" />
     <div class="col-md-5">
-      <div class="debug">
-        <h4>Debug</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>I can't access res in my callback.</p></span>
-          <p>You need to declare the callback function within the projectInfo function to get access to res.</p>
-        </div>
-        <div class="well well-sm">
-          <p>Remember that the ID field is automatically generated and is called "_id"</p>
-        </div>
-      </div>
       
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-47" class="row lab-slide">
     <div class="col-md-1">
       <h2>47</h2>
     </div>
-    <img src="2014-lab-07-databases-final.047.jpg" class="img-responsive col-md-6"
-      title="31" />
+    <img src="2016-lab-07-analytics_yfk.047.png" class="img-responsive col-md-6"
+      title="47" />
     <div class="col-md-5">
-      <div class="video">
-        <h4>Video</h4>
-        <video src="video/practice-projectinfo-26941.mov" style="width:100%" controls="" preload="none" poster="../video-poster.jpg"></video>
+      
+      <div class="code">
+        <h4>Code</h4>
+        <pre class='pre-scrollable'><code>
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;project col-md-4&quot; id=&quot;{{projects.0.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.0.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.0.image}}&quot; alt=&quot;Lorem Pixel image&quot;&gt;
+			&lt;h4&gt;{{projects.0.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;project col-md-4&quot; id=&quot;{{projects.1.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.1.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.1.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.1.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;project col-md-4&quot; id=&quot;{{projects.2.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.2.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.2.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.2.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.3.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.3.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.3.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.3.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.4.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.4.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.4.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.4.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.5.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.5.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.5.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.5.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.6.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.6.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.6.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.6.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.7.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.7.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.7.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.7.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.8.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.8.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.8.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.8.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.9.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.9.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.9.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.9.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.10.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.10.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.10.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.10.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.11.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.11.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.11.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.11.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.12.id}}&quot;&gt;
+	&lt;div class=&quot;thumbnail&quot;&gt;
+		&lt;a href=&quot;/project/{{projects.12.id}}&quot;&gt;
+			&lt;img src=&quot;images/{{projects.12.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;
+			&lt;h4&gt;{{projects.12.title}}&lt;/h4&gt;
+		&lt;/a&gt;
+		&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;						
+		&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
       </div>
+      
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>It still looks the same!</p></span>
+          <p>Restart node and maximize your browser window.</p>
+        </div>
+      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-48" class="row lab-slide">
     <div class="col-md-1">
       <h2>48</h2>
     </div>
-    <img src="2014-lab-07-databases-final.048.jpg" class="img-responsive col-md-6"
-      title="32" />
+    <img src="2016-lab-07-analytics_yfk.048.png" class="img-responsive col-md-6"
+      title="48" />
     <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Hint</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>How do I register a user click?</p></span>
+          <p>Check back to <a href='../lab3/#slide-42'>Lab 3 slide 42-Listening to clicks</a></p>
+        </div>
+        <div class="well well-sm">
+          <span class="lead"><p>How do I add the Google Analytics event?</p></span>
+          <p>Remember back from <a href='#slide-12'>slide 12-Store any kind of event</a> on the form of <pre><code>ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre> Substitute out category <code>'like'</code> into <code>&lt;Category&gt;</code>, and our action <code>'click'</code> into <code>&lt;Action&gt;</code>, and place it in the click event handler.</p>
+        </div>
+      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-49" class="row lab-slide">
     <div class="col-md-1">
       <h2>49</h2>
     </div>
-    <img src="2014-lab-07-databases-final.049.jpg" class="img-responsive col-md-6"
-      title="33" />
+    <img src="2016-lab-07-analytics_yfk.049.png" class="img-responsive col-md-6"
+      title="49" />
     <div class="col-md-5">
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-50" class="row lab-slide">
     <div class="col-md-1">
       <h2>50</h2>
     </div>
-    <img src="2014-lab-07-databases-final.050.jpg" class="img-responsive col-md-6"
-      title="34" />
+    <img src="2016-lab-07-analytics_yfk.050.png" class="img-responsive col-md-6"
+      title="50" />
     <div class="col-md-5">
-
-      <div class="video">
-        <h4>Video</h4>
-        <video src='video/practice-deleteproject-27154.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
-      </div>
-
-      <div class="debug">
-        <h4>Debug Hints</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>Doesn't work and I can't findout why!</p></span>
-          <p>In your callback, make sure there's a 'if (err) { console.log(err) }'. What does the console output say?</p>
-        </div>
-         <div class="well well-sm">
-          <span class="lead"><p> When I'm working on the delete part , everything is deleted when I click on the delete button. Is there a way to get them back?</p></span>
-          <p>You can run node initDB.js. It will reset the db for you.</p>
-        </div>
-       
-        
-      </div>
-
-      <div class="code">
-        <h4>Callback Structure</h4>
-        <pre class='pre-scrollable'><code>function deleteCallback(err) {
-  if(err) { console.log(err); }
-  ...
-}</code></pre>
-      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-51" class="row lab-slide">
     <div class="col-md-1">
       <h2>51</h2>
     </div>
-    <img src="2014-lab-07-databases-final.051.jpg" class="img-responsive col-md-6"
-      title="35" />
+    <img src="2016-lab-07-analytics_yfk.051.png" class="img-responsive col-md-6"
+      title="51" />
     <div class="col-md-5">
-    	
-
-    	
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-52" class="row lab-slide">
     <div class="col-md-1">
       <h2>52</h2>
     </div>
-    <img src="2014-lab-07-databases-final.052.jpg" class="img-responsive col-md-6"
-      title="36" />
+    <img src="2016-lab-07-analytics_yfk.052.png" class="img-responsive col-md-6"
+      title="52" />
     <div class="col-md-5">
-    	<div class="debug">
-        <h4>Debug Hints</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>When I add a project using the form, the new project gets added to the top instead of the bottom of the page as it's supposed to. How can I fix this?</p></span>
-          <p>The mongoose date constructor seems to choose a random date when only given a month and day. The query displaying the results is sorting by date, if you add a year to your date input it will use that to create the date and place the image in the correct location.</p>
-        </div>
-         <div class="well well-sm">
-          <span class="lead"><p> The dates for all the projects are displayed as a day before its actual date.</p></span>
-          <p>It is just due to time zone stuff (we are in pacific time not UTC) so the days are off by like 8 hours and that messes with the dates. </p>
-        </div>
+      
+      <div class="code">
+        <h4>GitHub - Commit</h4>
+        <pre class='pre-scrollable'><code>git status
+git add ... 
+git commit -m "initial analytics lab"</code></pre>
+      </div>
+      
+      <div class="code">
+        <h4>Github - Push</h4>
+        <pre class='pre-scrollable'><code>git push</code></pre>
+      </div>
+      
+      <div class="code">
+        <h4>Heroku - Push</h4>
+        <pre class='pre-scrollable'><code>git push heroku master</code></pre>
       </div>
       
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-53" class="row lab-slide">
     <div class="col-md-1">
       <h2>53</h2>
     </div>
-    <img src="2014-lab-07-databases-final.053.jpg" class="img-responsive col-md-6"
-      title="37" />
+    <img src="2016-lab-07-analytics_yfk.053.png" class="img-responsive col-md-6"
+      title="53" />
     <div class="col-md-5">
-      <div class="video">
-        <h4>Video</h4>
-        <video src='video/practice-addproject-27146.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
-      </div>
-
-
-      <div class="debug">
-        <h4>Debug Hints</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>Doesn't work sand I can't findout why!</p></span>
-          <p>In your callback, make sure there's a 'if (err) { console.log(err) }'. What does the console output say?</p>
-        </div>
-        
-
-      </div>
-
-      <div class="code">
-        <h4>Callback Structure</h4>
-        <pre class='pre-scrollable'><code>function addCallback(err) {
-  if(err) { console.log(err); }
-  ...
-}</code></pre>
-      </div>
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-54" class="row lab-slide">
     <div class="col-md-1">
       <h2>54</h2>
     </div>
-    <img src="2014-lab-07-databases-final.054.jpg" class="img-responsive col-md-6"
-      title="38" />
+    <img src="2016-lab-07-analytics_yfk.054.png" class="img-responsive col-md-6"
+      title="54" />
     <div class="col-md-5">
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-55" class="row lab-slide">
     <div class="col-md-1">
       <h2>55</h2>
     </div>
-    <img src="2014-lab-07-databases-final.055.jpg" class="img-responsive col-md-6"
-      title="39" />
+    <img src="2016-lab-07-analytics_yfk.055.png" class="img-responsive col-md-6"
+      title="55" />
     <div class="col-md-5">
-      <div class="code">
-        <h4>GitHub - Commit</h4>
-        <pre class='pre-scrollable'><code>git status
-git add ...
-git commit -m "putting it together lab"</code></pre>
-      </div>
-
-      <div class="code">
-        <h4>Github - Push</h4>
-        <pre class='pre-scrollable'><code>git push</code></pre>
-      </div>
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-56" class="row lab-slide">
     <div class="col-md-1">
       <h2>56</h2>
     </div>
-    <img src="2014-lab-07-databases-final.056.jpg" class="img-responsive col-md-6"
-      title="40" />
+    <img src="2016-lab-07-analytics_yfk.056.png" class="img-responsive col-md-6"
+      title="56" />
     <div class="col-md-5">
-      <div class="video">
-        <h4>Video</h4>
-        <video src='video/heroku_credit_card-28066.mov' style='width:100%' controls preload="none" poster="../video-poster.jpg"></video>
-      </div>
-
-      <div class="links">
-        <h4>Links</h4>
-        <ul>
-          <li><a href='https://www.heroku.com' target="_blank">Heroku</a></li>
-        </ul>
-      </div>
-
-      <div class="debug">
-        <h4>Debug</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>I don't really want to give my credit card to a company I dont trust and am not buying a product from. Is there any alternative to adding this addon?</p></span>
-          <p>We don't know of any other way!</p>
-        </div>
-      </div>
       
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-57" class="row lab-slide">
     <div class="col-md-1">
       <h2>57</h2>
     </div>
-    <img src="2014-lab-07-databases-final.057.jpg" class="img-responsive col-md-6"
-      title="41" />
+    <img src="2016-lab-07-analytics_yfk.057.png" class="img-responsive col-md-6"
+      title="57" />
     <div class="col-md-5">
-      <div class="code">
-        <h4>Heroku - Create</h4>
-        <pre class='pre-scrollable'><code>heroku create <i>newapplicationname</i></code></pre>
-      </div>
-
-      <div class="code">
-        <h4>Heroku - Addon for Mongo</h4>
-        <pre class='pre-scrollable'><code>heroku addons:add mongolab</code></pre>
-      </div>
-
-      <div class="code">
-        <h4>Heroku - Push</h4>
-        <pre class='pre-scrollable'><code>git push heroku master</code></pre>
-      </div>
-
-      <div class="code">
-        <h4>Heroku - Initialize the Database</h4>
-        <pre class='pre-scrollable'><code>heroku run node initDB.js</code></pre>
-      </div>
-
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
+  
+
 
   <div id="slide-58" class="row lab-slide">
     <div class="col-md-1">
       <h2>58</h2>
     </div>
-    <img src="2014-lab-07-databases-final.058.jpg" class="img-responsive col-md-6"
-      title="42" />
+    <img src="2016-lab-07-analytics_yfk.058.png" class="img-responsive col-md-6"
+      title="58" />
     <div class="col-md-5">
-
+      
+      <div class="code">
+        <h4>GitHub - Commit</h4>
+        <pre class='pre-scrollable'><code>git status
+git add ... 
+git commit -m "Added Experiment Header"</code></pre>
+      </div>
+      
+      <div class="code">
+        <h4>Heroku - Push</h4>
+        <pre class='pre-scrollable'><code>git push heroku master</code></pre>
+      </div>
+      
     </div>
   </div>
-<hr></hr>
+  <hr />
   
 
-    <div id="instructions" class="alert alert-warning">
-      When done, submit at <a href="https://docs.google.com/forms/d/1-80-I_9N9qjbDe0xoDALcvyn2WoQOS21D6j9MgJK9tw/viewform" class="alert-link">here</a>.
+
+  <div id="slide-59" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>59</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.059.png" class="img-responsive col-md-6"
+      title="59" />
+    <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Experiment code not found</p></span>
+          <p>Make sure you inserted the code on step 3 inside the &lt;head&gt;...&lt;/head&gt; block of index.handlebars</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-60" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>60</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.060.png" class="img-responsive col-md-6"
+      title="60" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-61" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>61</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.061.png" class="img-responsive col-md-6"
+      title="61" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-62" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>62</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.062.png" class="img-responsive col-md-6"
+      title="62" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-63" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>63</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.063.png" class="img-responsive col-md-6"
+      title="63" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-64" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>64</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.064.png" class="img-responsive col-md-6"
+      title="64" />
+    <div class="col-md-5">
+      
+      <div class="code">
+        <h4>GitHub - Commit</h4>
+        <pre class='pre-scrollable'><code>git status
+git add ... 
+git commit -m "final analytics lab"</code></pre>
+      </div>
+      
+      <div class="code">
+        <h4>Github - Push</h4>
+        <pre class='pre-scrollable'><code>git push</code></pre>
+      </div>
+      
+      <div class="code">
+        <h4>Heroku - Push</h4>
+        <pre class='pre-scrollable'><code>git push heroku master</code></pre>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-65" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>65</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.065.png" class="img-responsive col-md-6"
+      title="65" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-66" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>66</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.066.png" class="img-responsive col-md-6"
+      title="66" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-67" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>67</h2>
+    </div>
+    <img src="2016-lab-07-analytics_yfk.067.png" class="img-responsive col-md-6"
+      title="67" />
+    <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Stretch Goals</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Include analytic tracking for user timing.</p></span>
+          <p></p>
+        </div>
+      </div>
+      
+      <div class="links">
+        <h4>API</h4>
+        <ul>
+          <li><a href='https://developers.google.com/analytics/devguides/collection/analyticsjs/user-timings' target="_blank">User-Timings Dev Guide</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+    <div id="instructions-bottom" class="alert alert-info">
+      When done, submit <a href="http://www.ucsd-hci.com/student_labs" class="alert-link">here</a>.
     </div>
 
 	</div>

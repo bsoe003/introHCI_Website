@@ -1,84 +1,60 @@
 [
-  [],
-  [],
   [
-    {
-      "type":"debug",
-      "title":"Stretch Goals",
-      "comment":"Stretch Goals",
-      "list":[{"problem":"Add comments to your projects.","fix":"Do this by adding a new schema and linking it to the project schema"}]
-    },
     {
       "type":"links",
-      "list": [
-                "<a href='http://mongoosejs.com/docs/guide.html' target=\"_blank\">http://mongoosejs.com/docs/guide.html</a>",
-                "<a href='http://stackoverflow.com/questions/14730676/linking-2-mongoose-schemas' target=\"_blank\">http://stackoverflow.com/questions/14730676/linking-2-mongoose-schemas</a>"
-              ]
-    }
-  ],
-  [
-    {
-      "comment":"Let's build a blog",
-      "type":"video",
-      "src":"video/full_blog-24711.mov"
+      "title":"Student examples",
+      "list":["Check out this awesome lab 6 stretch goal!"]
     }
   ],
   [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [
-    {
-      "comment":"Creating New Blog Posts",
-      "type":"video",
-      "src":"video/blog_broken_create-25482.mov"
-    }
-  ],
-  [],
-  [
-    {
-      "comment":"Saving Documents",
-      "type":"code",
-      "text":"newPost.save(afterSaving);\n\nfunction afterSaving(err) { // this is a callback\n  if(err) {console.log(err); res.send(500); }\n  res.redirect('/');\n}"
-    }
-  ],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [
-    {
-      "comment":"Deleting Documents",
-      "type":"video",
-      "src":"video/blog_broken_delete-26358.mov"
-    }
-  ],
   [],
   [],
   [
     {
       "type":"debug",
-      "title":"Mongoose cheatsheet",
-      "list":""
+      "title":"How will this lab help me?",
+      "list":[{
+        "problem":"This lab will teach you how to run A/B testing using Google Analytics. This is a fundamental skill for testing user behavior on the web, and assignment 8, and especially assignment 9 includes these tasks!",
+        "fix":""
+      }]
+    }
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+    {
+      "comment":"Store any kind of event",
+      "type":"code",
+      "title":"Sample event calls",
+      "text":"ga(\"send\", \"event\", \"friendsuggestion\", \"dismiss\");\nga(\"send\", \"event\", \"friendsuggestion\", \"accept\");\nga(\"send\", \"event\", \"humankind\", \"destroy\");\n\nga(\"send\", \"event\", &lt;Category&gt;, &lt;Action&gt;);"
+    }
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+    {
+      "type":"footnote",
+      "text":"<h2>&rarr; Your part starts here.</h2>"
     }
   ],
   [],
   [
     {
-      "comment":"Our goal for this Practicum",
-      "type":"video",
-      "src":"video/complete_lab-27233.mov"
+      "type":"debug",
+      "title":"Goal",
+      "comment":"Goal 1",
+      "list":[{"problem":"Install pageview analytics on your portfolio.", "fix":""}]
     }
   ],
   [
@@ -88,185 +64,183 @@
       "list":["<a href='https://github.com/IntroHCI/lab7/fork' target=\"_blank\">https://github.com/IntroHCI/lab7/fork</a>"]
     }
   ],
-  [
-    {
-      "comment": "check-setup.sh",
-      "type": "code",
-      "title": "Terminal",
-      "text": "$ bash lab7/check-setup.sh"
-    },
-    {
-      "type": "debug",
-      "list": [{
-        "problem": "I got the error <pre><code>bash: lab7/check-setup.sh: No such file or directory</code></pre>",
-        "fix": "Make sure you're in your 'introHCI' directory and that you've cloned lab7 here."
-      }]
-    }
-  ],
-  [
-    {
-      "comment": "check-setup.sh",
-      "type": "code",
-      "title": "Terminal",
-      "text": "$ sudo bash lab7/check-setup.sh"
-    },
-    {
-      "type": "debug",
-      "list": [{
-        "problem":"What's the vagrant password?",
-        "fix":"vagrant"
-      }]
-    }
-  ],
+  [],
+  [],
   [],
   [
     {
       "comment":"Test node.js:http://localhost:3000",
       "type":"links",
       "list":["<a href='http://localhost:3000' target=\"_blank\">http://localhost:3000</a>"]
-    },
-    {
-      "type":"debug",
-      "list":[{
-        "problem":"When I run <code>node app.js</code> I get the following error <code><pre>Error: failed to connect to [localhost:xxxxx]</pre></code>",
-        "fix":"Mongo isn't running!  Did you remember to run the <code>check-setup.sh</code> script?"
-      }]
-    }
-  ],
-  [],
-  [],
-  [],
-  [
-    {
-      "comment":"Restart the server",
-      "title":"Debug Hints",
-      "type":"debug",
-      "list": [{
-        "problem":"I restarted the server, but nothing shows!",
-        "fix":"In index.js, add a console.log(projects) inside renderProjects. Is your data formatted correctly? Perhaps you need to change the schema. Don't forget to rerun node initDB.js after changing your schema."
-      }]
-    }
-  ],
-  [],
-  [],
-  [
-    {
-      "type":"debug",
-      "list": [{
-        "problem":"I can't access res in my callback." ,
-        "fix":"You need to declare the callback function within the projectInfo function to get access to res."
-      }]
     }
   ],
   [
     {
-      "comment":"Project Info Retrieval",
-      "type":"video",
-      "src":"video/practice-projectinfo-26941.mov"
-    },
-    {
-      "title":"Debug Hints",
-      "type":"debug",
-      "list": [{
-        "problem":"I console.log()ed the data and it looks correct, but wont render!" ,
-        "fix":"Hint:find() returns an array of results."
-      }]
-    }
-  ],
-  [],
-  [],
-  [
-    {
-      "comment":"Delete Project Button",
-      "type":"video",
-      "src":"video/practice-deleteproject-27154.mov"
-    },
-    {
-      "type":"debug",
-      "title":"Debug Hints",
-      "list":[
-            {
-              "problem":"Doesn't work and I can't findout why!",
-              "fix":"In your callback, make sure there's a 'if (err) { console.log(err) }'. What does the console output say?"
-            }
-              ]
-    },
-    {
-      "title":"Callback Structure",
-      "type":"code",
-      "text":"function deleteCallback(err) {\n  if(err) { console.log(err); }\n  ... \n}"
-    }
-  ],
-  [],
-  [],
-  [
-    {
-      "comment":"Delete Project Button",
-      "type":"video",
-      "src":"video/practice-addproject-27146.mov"
-    },
-    {
-      "type":"debug",
-      "title":"Debug Hints",
-      "list":[
-            {
-              "problem":"Doesn't work and I can't findout why!",
-              "fix":"In your callback, make sure there's a 'if (err) { console.log(err) }'. What does the console output say?"
-            }
-              ]
-    },
-    {
-      "title":"Callback Structure",
-      "type":"code",
-      "text":"function addCallback(err) {\n  if(err) { console.log(err); }\n  ... \n}"
-    }
-  ],
-  [],
-  [
-    {
-      "type":"code",
-      "title":"GitHub - Commit",
-      "text":"git status\ngit add ... \ngit commit -m \"putting it together lab\""
-    },
-    {
-      "type":"code",
-      "title":"Github - Push",
-      "text":"git push"
-    }
-  ],
-  [
-    {
-      "comment":"Delete Project Button",
-      "type":"video",
-      "src":"video/heroku_credit_card-28066.mov"
-    },
-    {
-      "type":"links",
-      "list":["<a href='https://www.heroku.com' target=\"_blank\">Heroku</a>"]
-    }
-  ],
-  [
-    {
+      "comment":"Reserve your Heroku URL",
       "type":"code",
       "title":"Heroku - Create",
       "text":"heroku create <i>newapplicationname</i>"
     },
     {
       "type":"code",
-      "title":"Heroku - Addon for Mongo",
-      "text":"heroku addons:add mongolab"
+      "title":"Heroku - Push",
+      "text":"git push heroku master"
+    }
+  ],
+  [
+    {
+      "comment":"Open a Google Analytics account",
+      "type":"links",
+      "list":["<a href='http://analytics.google.com/analytics/' target=\"_blank\">http://analytics.google.com/analytics/</a>"]
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "comment":"If you need to find the tracking code again later...",
+      "type":"debug",
+      "title":"Tracking Code",
+      "list":[{"problem":"Where do I get my code again if I've lost it?", "fix":"Use the instructions on the next slide."}]
+    }
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+    {
+      "type":"debug",
+      "title":"Goal",
+      "comment":"Goal 2",
+      "list":[{"problem":"Run an A/B test on a grid vs. the old vertical layout", "fix":""}]
+    }
+  ],
+  [],
+  [
+    {
+      "type":"debug",
+      "comment":"Write index.viewGrid",
+      "list":[{"problem":"It says \"Cannot GET /grid\"", "fix":"Did you add the route in app.js? (See Prev Slide)"}]
+    }
+  ],
+  [
+    {
+      "comment":"Send a boolean flag to the template",
+      "title":"Hint",
+      "type":"debug",
+      "list":[{"problem":"Hint: <a href='#slide-15'>Slide 15-Sending different data to the template</a> may have relevant information.", "fix":""}]
+    }
+  ],
+  [],
+  [
+    {
+      "comment":"Grid code",
+      "type":"code",
+      "text":"\n&lt;div class=&quot;row&quot;&gt;\n&lt;div class=&quot;project col-md-4&quot; id=&quot;{{projects.0.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.0.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.0.image}}&quot; alt=&quot;Lorem Pixel image&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.0.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-4&quot; id=&quot;{{projects.1.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.1.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.1.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.1.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=&quot;project col-md-4&quot; id=&quot;{{projects.2.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.2.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.2.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.2.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;row&quot;&gt;\n&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.3.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.3.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.3.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.3.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.4.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.4.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.4.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.4.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.5.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.5.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.5.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.5.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.6.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.6.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.6.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.6.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;row&quot;&gt;\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.7.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.7.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.7.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.7.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.8.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.8.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.8.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.8.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.9.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.9.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.9.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.9.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.10.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.10.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.10.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.10.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.11.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.11.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.11.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.11.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.12.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.12.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.12.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.12.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n"
+    },
+    {
+      "type":"debug",
+      "list":[{"problem":"It still looks the same!", "fix":"Restart node and maximize your browser window."}]
+    }
+  ],
+  [
+    {
+      "comment":"Record an event whenever the user clicks a Like button on a project",
+      "title":"Hint",
+      "type":"debug",
+      "list":[{
+        "problem":"How do I register a user click?",
+        "fix":"Check back to <a href='../lab3/#slide-42'>Lab 3 slide 42-Listening to clicks</a>"
+        },
+        {
+          "problem":"How do I add the Google Analytics event?",
+          "fix":"Remember back from <a href='#slide-12'>slide 12-Store any kind of event</a> on the form of <pre><code>ga(\"send\", \"event\", &lt;Category&gt;, &lt;Action&gt;);</code></pre> Substitute out category <code>'like'</code> into <code>&lt;Category&gt;</code>, and our action <code>'click'</code> into <code>&lt;Action&gt;</code>, and place it in the click event handler."
+        }
+      ]
+    }
+  ],
+  [],
+  [],
+  [],
+  [
+    {
+      "type":"code",
+      "title":"GitHub - Commit",
+      "text":"git status\ngit add ... \ngit commit -m \"initial analytics lab\""
+    },
+    {
+      "type":"code",
+      "title":"Github - Push",
+      "text":"git push"
     },
     {
       "type":"code",
       "title":"Heroku - Push",
       "text":"git push heroku master"
-    },
-    {
-      "type":"code",
-      "title":"Heroku - Initialize the Database",
-      "text":"heroku run node initDB.js"
     }
   ],
   [],
-  []
+  [],
+  [],
+  [],
+  [],
+  [
+    {
+      "type":"code",
+      "title":"GitHub - Commit",
+      "text":"git status\ngit add ... \ngit commit -m \"Added Experiment Header\""
+    },
+    {
+      "type":"code",
+      "title":"Heroku - Push",
+      "text":"git push heroku master"
+    }
+  ],
+  [
+    {
+      "type":"debug",
+      "comment":"Validate your experiment setup",
+      "list":[{"problem":"Experiment code not found", "fix":"Make sure you inserted the code on step 3 inside the &lt;head&gt;...&lt;/head&gt; block of index.handlebars"}]
+    }
+  ],
+  [],
+  [],
+  [],
+  [],
+  [
+    {
+      "type":"code",
+      "title":"GitHub - Commit",
+      "text":"git status\ngit add ... \ngit commit -m \"final analytics lab\""
+    },
+    {
+      "type":"code",
+      "title":"Github - Push",
+      "text":"git push"
+    },
+    {
+      "type":"code",
+      "title":"Heroku - Push",
+      "text":"git push heroku master"
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "type":"debug",
+      "title":"Stretch Goals",
+      "comment":"Stretch Goals",
+      "list":[{"problem":"Include analytic tracking for user timing.", "fix":""}]
+    },
+    {
+      "type":"links",
+      "title":"API",
+      "list":["<a href='https://developers.google.com/analytics/devguides/collection/analyticsjs/user-timings' target=\"_blank\">User-Timings Dev Guide</a>"]
+    }
+  ]
 ]
