@@ -36,7 +36,7 @@
     <div class="col-md-1">
       <h2>1</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.001.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.001.png" class="img-responsive col-md-6"
       title="1" />
     <div class="col-md-5">
       
@@ -57,7 +57,7 @@
     <div class="col-md-1">
       <h2>2</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.002.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.002.png" class="img-responsive col-md-6"
       title="2" />
     <div class="col-md-5">
       
@@ -71,7 +71,7 @@
     <div class="col-md-1">
       <h2>3</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.003.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.003.png" class="img-responsive col-md-6"
       title="3" />
     <div class="col-md-5">
       
@@ -85,7 +85,7 @@
     <div class="col-md-1">
       <h2>4</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.004.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.004.png" class="img-responsive col-md-6"
       title="4" />
     <div class="col-md-5">
       
@@ -99,7 +99,7 @@
     <div class="col-md-1">
       <h2>5</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.005.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.005.png" class="img-responsive col-md-6"
       title="5" />
     <div class="col-md-5">
       
@@ -121,7 +121,7 @@
     <div class="col-md-1">
       <h2>6</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.006.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.006.png" class="img-responsive col-md-6"
       title="6" />
     <div class="col-md-5">
       
@@ -135,7 +135,7 @@
     <div class="col-md-1">
       <h2>7</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.007.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.007.png" class="img-responsive col-md-6"
       title="7" />
     <div class="col-md-5">
       
@@ -149,7 +149,7 @@
     <div class="col-md-1">
       <h2>8</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.008.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.008.png" class="img-responsive col-md-6"
       title="8" />
     <div class="col-md-5">
       
@@ -163,7 +163,7 @@
     <div class="col-md-1">
       <h2>9</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.009.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.009.png" class="img-responsive col-md-6"
       title="9" />
     <div class="col-md-5">
       
@@ -177,7 +177,7 @@
     <div class="col-md-1">
       <h2>10</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.010.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.010.png" class="img-responsive col-md-6"
       title="10" />
     <div class="col-md-5">
       
@@ -191,7 +191,7 @@
     <div class="col-md-1">
       <h2>11</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.011.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.011.png" class="img-responsive col-md-6"
       title="11" />
     <div class="col-md-5">
       
@@ -205,7 +205,7 @@
     <div class="col-md-1">
       <h2>12</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.012.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.012.png" class="img-responsive col-md-6"
       title="12" />
     <div class="col-md-5">
       
@@ -228,7 +228,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>13</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.013.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.013.png" class="img-responsive col-md-6"
       title="13" />
     <div class="col-md-5">
       
@@ -242,7 +242,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>14</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.014.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.014.png" class="img-responsive col-md-6"
       title="14" />
     <div class="col-md-5">
       
@@ -256,7 +256,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>15</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.015.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.015.png" class="img-responsive col-md-6"
       title="15" />
     <div class="col-md-5">
       
@@ -270,7 +270,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>16</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.016.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.016.png" class="img-responsive col-md-6"
       title="16" />
     <div class="col-md-5">
       
@@ -284,7 +284,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>17</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.017.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.017.png" class="img-responsive col-md-6"
       title="17" />
     <div class="col-md-5">
       
@@ -298,7 +298,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>18</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.018.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.018.png" class="img-responsive col-md-6"
       title="18" />
     <div class="col-md-5">
       
@@ -312,7 +312,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>19</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.019.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.019.png" class="img-responsive col-md-6"
       title="19" />
     <div class="col-md-5">
       
@@ -326,7 +326,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>20</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.020.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.020.png" class="img-responsive col-md-6"
       title="20" />
     <div class="col-md-5">
       
@@ -340,7 +340,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>21</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.021.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.021.png" class="img-responsive col-md-6"
       title="21" />
     <div class="col-md-5">
       
@@ -354,7 +354,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>22</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.022.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.022.png" class="img-responsive col-md-6"
       title="22" />
     <div class="col-md-5">
       
@@ -372,7 +372,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>23</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.023.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.023.png" class="img-responsive col-md-6"
       title="23" />
     <div class="col-md-5">
       
@@ -386,7 +386,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>24</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.024.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.024.png" class="img-responsive col-md-6"
       title="24" />
     <div class="col-md-5">
       
@@ -408,7 +408,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>25</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.025.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.025.png" class="img-responsive col-md-6"
       title="25" />
     <div class="col-md-5">
       
@@ -429,7 +429,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>26</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.026.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.026.png" class="img-responsive col-md-6"
       title="26" />
     <div class="col-md-5">
       
@@ -443,7 +443,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>27</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.027.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.027.png" class="img-responsive col-md-6"
       title="27" />
     <div class="col-md-5">
       
@@ -457,7 +457,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>28</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.028.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.028.png" class="img-responsive col-md-6"
       title="28" />
     <div class="col-md-5">
       
@@ -471,7 +471,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>29</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.029.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.029.png" class="img-responsive col-md-6"
       title="29" />
     <div class="col-md-5">
       
@@ -492,7 +492,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>30</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.030.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.030.png" class="img-responsive col-md-6"
       title="30" />
     <div class="col-md-5">
       
@@ -516,7 +516,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>31</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.031.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.031.png" class="img-responsive col-md-6"
       title="31" />
     <div class="col-md-5">
       
@@ -537,7 +537,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>32</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.032.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.032.png" class="img-responsive col-md-6"
       title="32" />
     <div class="col-md-5">
       
@@ -551,7 +551,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>33</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.033.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.033.png" class="img-responsive col-md-6"
       title="33" />
     <div class="col-md-5">
       
@@ -565,7 +565,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>34</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.034.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.034.png" class="img-responsive col-md-6"
       title="34" />
     <div class="col-md-5">
       
@@ -587,7 +587,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>35</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.035.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.035.png" class="img-responsive col-md-6"
       title="35" />
     <div class="col-md-5">
       
@@ -601,7 +601,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>36</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.036.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.036.png" class="img-responsive col-md-6"
       title="36" />
     <div class="col-md-5">
       
@@ -615,7 +615,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>37</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.037.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.037.png" class="img-responsive col-md-6"
       title="37" />
     <div class="col-md-5">
       
@@ -629,7 +629,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>38</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.038.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.038.png" class="img-responsive col-md-6"
       title="38" />
     <div class="col-md-5">
       
@@ -643,7 +643,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>39</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.039.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.039.png" class="img-responsive col-md-6"
       title="39" />
     <div class="col-md-5">
       
@@ -657,7 +657,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>40</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.040.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.040.png" class="img-responsive col-md-6"
       title="40" />
     <div class="col-md-5">
       
@@ -671,7 +671,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>41</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.041.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.041.png" class="img-responsive col-md-6"
       title="41" />
     <div class="col-md-5">
       
@@ -685,7 +685,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>42</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.042.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.042.png" class="img-responsive col-md-6"
       title="42" />
     <div class="col-md-5">
       
@@ -707,7 +707,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>43</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.043.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.043.png" class="img-responsive col-md-6"
       title="43" />
     <div class="col-md-5">
       
@@ -721,7 +721,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>44</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.044.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.044.png" class="img-responsive col-md-6"
       title="44" />
     <div class="col-md-5">
       
@@ -743,14 +743,14 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>45</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.045.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.045.png" class="img-responsive col-md-6"
       title="45" />
     <div class="col-md-5">
       
       <div class="debug">
         <h4>Hint</h4>
         <div class="well well-sm">
-          <span class="lead"><p>Hint: <a href='#slide-15'>Slide 15-Sending different data to the template</a> may have relevant information.</p></span>
+          <span class="lead"><p>Hint: <a href='#slide-16'>Slide 16-Sending different data to the template</a> may have relevant information.</p></span>
           <p></p>
         </div>
       </div>
@@ -765,7 +765,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>46</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.046.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.046.png" class="img-responsive col-md-6"
       title="46" />
     <div class="col-md-5">
       
@@ -779,7 +779,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>47</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.047.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.047.png" class="img-responsive col-md-6"
       title="47" />
     <div class="col-md-5">
       
@@ -958,7 +958,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>48</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.048.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.048.png" class="img-responsive col-md-6"
       title="48" />
     <div class="col-md-5">
       
@@ -984,7 +984,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>49</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.049.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.049.png" class="img-responsive col-md-6"
       title="49" />
     <div class="col-md-5">
       
@@ -998,7 +998,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>50</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.050.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.050.png" class="img-responsive col-md-6"
       title="50" />
     <div class="col-md-5">
       
@@ -1012,7 +1012,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>51</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.051.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.051.png" class="img-responsive col-md-6"
       title="51" />
     <div class="col-md-5">
       
@@ -1026,7 +1026,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
     <div class="col-md-1">
       <h2>52</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.052.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.052.png" class="img-responsive col-md-6"
       title="52" />
     <div class="col-md-5">
       
@@ -1057,7 +1057,7 @@ git commit -m "initial analytics lab"</code></pre>
     <div class="col-md-1">
       <h2>53</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.053.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.053.png" class="img-responsive col-md-6"
       title="53" />
     <div class="col-md-5">
       
@@ -1071,7 +1071,7 @@ git commit -m "initial analytics lab"</code></pre>
     <div class="col-md-1">
       <h2>54</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.054.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.054.png" class="img-responsive col-md-6"
       title="54" />
     <div class="col-md-5">
       
@@ -1085,9 +1085,22 @@ git commit -m "initial analytics lab"</code></pre>
     <div class="col-md-1">
       <h2>55</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.055.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.055.png" class="img-responsive col-md-6"
       title="55" />
     <div class="col-md-5">
+      
+      <div class="code">
+        <h4>Coin flip</h4>
+        <pre class='pre-scrollable'><code>var random_num = Math.random();
+console.log(random_num);
+
+if (random_num > 0.5) {
+  projects['grid'] = false;
+  res.render('index', projects);
+} else {
+  res.redirect('/grid');
+}</code></pre>
+      </div>
       
     </div>
   </div>
@@ -1099,7 +1112,7 @@ git commit -m "initial analytics lab"</code></pre>
     <div class="col-md-1">
       <h2>56</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.056.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.056.png" class="img-responsive col-md-6"
       title="56" />
     <div class="col-md-5">
       
@@ -1113,7 +1126,7 @@ git commit -m "initial analytics lab"</code></pre>
     <div class="col-md-1">
       <h2>57</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.057.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.057.png" class="img-responsive col-md-6"
       title="57" />
     <div class="col-md-5">
       
@@ -1127,21 +1140,9 @@ git commit -m "initial analytics lab"</code></pre>
     <div class="col-md-1">
       <h2>58</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.058.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.058.png" class="img-responsive col-md-6"
       title="58" />
     <div class="col-md-5">
-      
-      <div class="code">
-        <h4>GitHub - Commit</h4>
-        <pre class='pre-scrollable'><code>git status
-git add ... 
-git commit -m "Added Experiment Header"</code></pre>
-      </div>
-      
-      <div class="code">
-        <h4>Heroku - Push</h4>
-        <pre class='pre-scrollable'><code>git push heroku master</code></pre>
-      </div>
       
     </div>
   </div>
@@ -1153,17 +1154,9 @@ git commit -m "Added Experiment Header"</code></pre>
     <div class="col-md-1">
       <h2>59</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.059.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.059.png" class="img-responsive col-md-6"
       title="59" />
     <div class="col-md-5">
-      
-      <div class="debug">
-        <h4>Troubleshoot</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>Experiment code not found</p></span>
-          <p>Make sure you inserted the code on step 3 inside the &lt;head&gt;...&lt;/head&gt; block of index.handlebars</p>
-        </div>
-      </div>
       
     </div>
   </div>
@@ -1175,7 +1168,7 @@ git commit -m "Added Experiment Header"</code></pre>
     <div class="col-md-1">
       <h2>60</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.060.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.060.png" class="img-responsive col-md-6"
       title="60" />
     <div class="col-md-5">
       
@@ -1189,7 +1182,7 @@ git commit -m "Added Experiment Header"</code></pre>
     <div class="col-md-1">
       <h2>61</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.061.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.061.png" class="img-responsive col-md-6"
       title="61" />
     <div class="col-md-5">
       
@@ -1203,9 +1196,17 @@ git commit -m "Added Experiment Header"</code></pre>
     <div class="col-md-1">
       <h2>62</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.062.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.062.png" class="img-responsive col-md-6"
       title="62" />
     <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>How do I reference my new <code>gridExperiment</code> partials?</p></span>
+          <p>Remember back to how we referenced the <code>googleAnalytics</code> partials!</p>
+        </div>
+      </div>
       
     </div>
   </div>
@@ -1217,29 +1218,15 @@ git commit -m "Added Experiment Header"</code></pre>
     <div class="col-md-1">
       <h2>63</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.063.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.063.png" class="img-responsive col-md-6"
       title="63" />
-    <div class="col-md-5">
-      
-    </div>
-  </div>
-  <hr />
-  
-
-
-  <div id="slide-64" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>64</h2>
-    </div>
-    <img src="2016-lab-07-analytics_yfk.064.png" class="img-responsive col-md-6"
-      title="64" />
     <div class="col-md-5">
       
       <div class="code">
         <h4>GitHub - Commit</h4>
         <pre class='pre-scrollable'><code>git status
 git add ... 
-git commit -m "final analytics lab"</code></pre>
+git commit -m "Added Experiment Header"</code></pre>
       </div>
       
       <div class="code">
@@ -1258,11 +1245,33 @@ git commit -m "final analytics lab"</code></pre>
   
 
 
+  <div id="slide-64" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>64</h2>
+    </div>
+    <img src="2016-lab-07-analytics.064.png" class="img-responsive col-md-6"
+      title="64" />
+    <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Experiment code not found</p></span>
+          <p>Make sure you inserted the code on step 3 inside the &lt;head&gt;...&lt;/head&gt; block of index.handlebars</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
   <div id="slide-65" class="row lab-slide">
     <div class="col-md-1">
       <h2>65</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.065.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.065.png" class="img-responsive col-md-6"
       title="65" />
     <div class="col-md-5">
       
@@ -1276,9 +1285,17 @@ git commit -m "final analytics lab"</code></pre>
     <div class="col-md-1">
       <h2>66</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.066.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.066.png" class="img-responsive col-md-6"
       title="66" />
     <div class="col-md-5">
+      
+      <div class="debug">
+        <h4>Hint</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>How do I clear my cookies so I can see an alternate version of the site?</p></span>
+          <p>You can do this by going to google chrome's settings, Show Advanced Settings&rarr;Content settings&rarr;All Cookies and Site Data. From there, search your heroku URL and Remove the cookie, like below.<img src='troubleshoot/clear_cookie.png' style='width:90%; margin:auto;' /></p>
+        </div>
+      </div>
       
     </div>
   </div>
@@ -1290,8 +1307,36 @@ git commit -m "final analytics lab"</code></pre>
     <div class="col-md-1">
       <h2>67</h2>
     </div>
-    <img src="2016-lab-07-analytics_yfk.067.png" class="img-responsive col-md-6"
+    <img src="2016-lab-07-analytics.067.png" class="img-responsive col-md-6"
       title="67" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-68" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>68</h2>
+    </div>
+    <img src="2016-lab-07-analytics.068.png" class="img-responsive col-md-6"
+      title="68" />
+    <div class="col-md-5">
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-69" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>69</h2>
+    </div>
+    <img src="2016-lab-07-analytics.069.png" class="img-responsive col-md-6"
+      title="69" />
     <div class="col-md-5">
       
       <div class="debug">

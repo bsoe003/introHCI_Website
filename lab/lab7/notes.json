@@ -132,7 +132,7 @@
       "comment":"Send a boolean flag to the template",
       "title":"Hint",
       "type":"debug",
-      "list":[{"problem":"Hint: <a href='#slide-15'>Slide 15-Sending different data to the template</a> may have relevant information.", "fix":""}]
+      "list":[{"problem":"Hint: <a href='#slide-16'>Slide 16-Sending different data to the template</a> may have relevant information.", "fix":""}]
     }
   ],
   [],
@@ -185,14 +185,40 @@
   ],
   [],
   [],
+  [
+    {
+      "type":"code",
+      "title":"Coin flip",
+      "text":"var random_num = Math.random();\nconsole.log(random_num);\n\nif (random_num > 0.5) {\n  projects['grid'] = false;\n  res.render('index', projects);\n} else {\n  res.redirect('/grid');\n}"
+    }
+  ],
+  [],
+  [],
+  [],
   [],
   [],
   [],
   [
     {
+      "type":"debug",
+      "comment":"Insert the experiment Javascript",
+      "list":[
+        {
+          "problem":"How do I reference my new <code>gridExperiment</code> partials?",
+          "fix":"Remember back to how we referenced the <code>googleAnalytics</code> partials!"
+        }]
+    }
+  ],
+  [
+    {
       "type":"code",
       "title":"GitHub - Commit",
       "text":"git status\ngit add ... \ngit commit -m \"Added Experiment Header\""
+    },
+    {
+      "type":"code",
+      "title":"Github - Push",
+      "text":"git push"
     },
     {
       "type":"code",
@@ -208,24 +234,16 @@
     }
   ],
   [],
-  [],
-  [],
-  [],
   [
     {
-      "type":"code",
-      "title":"GitHub - Commit",
-      "text":"git status\ngit add ... \ngit commit -m \"final analytics lab\""
-    },
-    {
-      "type":"code",
-      "title":"Github - Push",
-      "text":"git push"
-    },
-    {
-      "type":"code",
-      "title":"Heroku - Push",
-      "text":"git push heroku master"
+      "type":"debug",
+      "comment":"Is it working? - Clearing cookies",
+      "title":"Hint",
+      "list":[
+        {
+          "problem":"How do I clear my cookies so I can see an alternate version of the site?",
+          "fix":"You can do this by going to google chrome's settings, Show Advanced Settings&rarr;Content settings&rarr;All Cookies and Site Data. From there, search your heroku URL and Remove the cookie, like below.<img src='troubleshoot/clear_cookie.png' style='width:90%; margin:auto;' />"
+        }]
     }
   ],
   [],
