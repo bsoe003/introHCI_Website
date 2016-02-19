@@ -106,7 +106,21 @@
   ],
   [],
   [],
-  [],
+  [
+    {
+      "comment":"Test: is it sending data?",
+      "type":"debug",
+      "list":[
+        {
+          "problem":"How do I know my code is being included?",
+          "fix":"From within Chrome, check the end of the body of the html by right-clicking and selecting View Page Source. You should see the google analytics javascript code you pasted into googleAnalytics.handlebars at the bottom of <code>&lt;/body&gt;</code>."
+        },
+        {
+          "problem":"My code is included but I'm still not seeing the collect message in the Network tab.",
+          "fix":"A zealous Adblock sometimes blocks messages to google analytics. Try disabling your adblock plugin for the duration of this lab if you have one."
+      }]
+    }
+  ],
   [],
   [],
   [],
@@ -158,8 +172,7 @@
         },
         {
           "problem":"How do I add the Google Analytics event?",
-          "fix":"Remember back from <a href='#slide-12'>slide 12-Store any kind of event</a> on the form of <pre><code>ga(\"send\", \"event\", &lt;Category&gt;, &lt;Action&gt;);</code></pre> Substitute out category <code>'like'</code> into <code>&lt;Category&gt;</code>, and our action <code>'click'</code> into <code>&lt;Action&gt;</code>, and place it in the click event handler."
-        }
+          "fix":"Remember back from <a href='#slide-12'>slide 12-Store any kind of event</a> on the form of <pre><code>ga(\"send\", \"event\", &lt;Category&gt;, &lt;Action&gt;);</code></pre> Substitute out <code>&lt;Category&gt;</code> for <code>'like'</code>, and <code>&lt;Action&gt;</code> for <code>'click'</code> and place it in the click event handler." }
       ]
     }
   ],
@@ -243,6 +256,10 @@
         {
           "problem":"How do I clear my cookies so I can see an alternate version of the site?",
           "fix":"You can do this by going to google chrome's settings, Show Advanced Settings&rarr;Content settings&rarr;All Cookies and Site Data. From there, search your heroku URL and Remove the cookie, like below.<img src='troubleshoot/clear_cookie.png' style='width:90%; margin:auto;' />"
+        },
+        {
+          "problem":"This is a lot of work. Is there a better way?",
+          "fix":"In fact, yes! You could simply open an incognito window and it won't save cookies."
         }]
     }
   ],

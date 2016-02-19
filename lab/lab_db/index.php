@@ -45,6 +45,11 @@
   </div>
 <hr></hr>
 
+  <div class="row-lab-slide">
+    <h2>This lab is currently phased out and unsupported. The content is still useful for learning databases, but we might not be able to give you support until week 8.</h2>
+  </div>
+  <hr />
+
   <div id="slide-2" class="row lab-slide">
     <div class="col-md-1">
       <h2>2</h2>
@@ -529,7 +534,7 @@ function afterSaving(err) { // this is a callback
       <div class="links">
         <h4>Links</h4>
         <ul>
-          <li><a href='https://github.com/IntroHCI/lab7/fork' target="_blank">https://github.com/IntroHCI/lab7/fork</a></li>
+          <li><a href='https://github.com/IntroHCI/lab_DB/fork' target="_blank">https://github.com/IntroHCI/lab_DB/fork</a></li>
         </ul>
       </div>
 

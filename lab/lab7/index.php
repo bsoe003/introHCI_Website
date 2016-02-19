@@ -619,6 +619,18 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
       title="37" />
     <div class="col-md-5">
       
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>How do I know my code is being included?</p></span>
+          <p>From within Chrome, check the end of the body of the html by right-clicking and selecting View Page Source. You should see the google analytics javascript code you pasted into googleAnalytics.handlebars at the bottom of <code>&lt;/body&gt;</code>.</p>
+        </div>
+        <div class="well well-sm">
+          <span class="lead"><p>My code is included but I'm still not seeing the collect message in the Network tab.</p></span>
+          <p>A zealous Adblock sometimes blocks messages to google analytics. Try disabling your adblock plugin if you have one.</p>
+        </div>
+      </div>
+      
     </div>
   </div>
   <hr />
@@ -970,7 +982,7 @@ ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre>
         </div>
         <div class="well well-sm">
           <span class="lead"><p>How do I add the Google Analytics event?</p></span>
-          <p>Remember back from <a href='#slide-12'>slide 12-Store any kind of event</a> on the form of <pre><code>ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre> Substitute out category <code>'like'</code> into <code>&lt;Category&gt;</code>, and our action <code>'click'</code> into <code>&lt;Action&gt;</code>, and place it in the click event handler.</p>
+          <p>Remember back from <a href='#slide-12'>slide 12-Store any kind of event</a> on the form of <pre><code>ga("send", "event", &lt;Category&gt;, &lt;Action&gt;);</code></pre> Substitute out <code>&lt;Category&gt;</code> for <code>'like'</code>, and <code>&lt;Action&gt;</code> for <code>'click'</code> and place it in the click event handler.</p>
         </div>
       </div>
       
@@ -1294,6 +1306,10 @@ git commit -m "Added Experiment Header"</code></pre>
         <div class="well well-sm">
           <span class="lead"><p>How do I clear my cookies so I can see an alternate version of the site?</p></span>
           <p>You can do this by going to google chrome's settings, Show Advanced Settings&rarr;Content settings&rarr;All Cookies and Site Data. From there, search your heroku URL and Remove the cookie, like below.<img src='troubleshoot/clear_cookie.png' style='width:90%; margin:auto;' /></p>
+        </div>
+        <div class="well well-sm">
+          <span class="lead"><p>This is a lot of work. Is there a better way?</p></span>
+          <p>In fact, yes! You could simply open an incognito window and it won't save cookies.</p>
         </div>
       </div>
       

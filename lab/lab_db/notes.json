@@ -1,6 +1,11 @@
 [
   [],
-  [],
+  [
+    {
+      "type":"footnote",
+      "text":"<h2>This lab is currently phased out and unsupported. The content is still useful for learning databases, but we might not be able to give you support until week 8.</h2>"
+    }
+  ],
   [
     {
       "type":"debug",
