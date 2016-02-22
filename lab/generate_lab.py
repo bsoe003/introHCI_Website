@@ -120,6 +120,7 @@ def writeLabPage(directory, slide_images, slide_notes, lab_number):
   for index, slide_image in enumerate(slide_images):
     print('writing slide row '+str(index+1))
     note_html = ''
+    footnote_html = ''
     if index < len(slide_notes):
       note_html, footnote_html = writeSlideNotes(slide_notes[index])
     slide_template = string.replace(SLIDE_TEMPLATE,
