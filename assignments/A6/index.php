@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Introduction to Human-Computer Interaction: Assignment">
-    <title>HCI Design: Assignment 6</title>
+    <title>A6&thinsp;&middot;&thinsp;HCI Design</title>
 
     <!-- Bootstrap -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -60,7 +60,7 @@
                 <div id="assignment" class="sidenav-anchor">
                     <h2>Assignment</h2>
                     <p>This week is all about - that's right - functionality. You should be spending your time fleshing out your interactive prototype. Focus on getting the flow of your interaction working. Don't worry about making it look pretty yet. Don't stall or get too caught up in the look and feel of things. Fonts, colors, and pixel-perfect layout can come later. This week, you'll need to make good progress on the interaction design.</p>
-					<p> Using <a href=http://d.ucsd.edu/class/intro-hci/2015/lab/lab4>the handlebars techniques you learned in lab</a>, read data from JSON to customize the presentation of pages and deliver rich interactivity. By now you should have a good idea the kinds of data your app will utilize. This week, your app should be able to read JSON data and use it to customize templated pages. (Eventually, your app will also persistently store data.) As you learned <a href=/class/intro-hci/2015/lab/lab5>in Lab 5</a>, this means you will have a file like data.json that has data pre-stored, and your job is to retrieve that data and populate your app with it and add new objects to the data variable. You do not need to dynamically update the data.json file with new data. As an example, imagine you're developing Yelp, then you should have a list for each restaurant and each restaurant page fully rendered, but no need to track ratings or reviews.</p>
+					<p> Using <a href=http://d.ucsd.edu/class/intro-hci/2015/lab/lab4>the handlebars techniques you learned in lab</a>, read data from JSON to customize the presentation of pages and deliver rich interactivity. By now you should have a good idea the kinds of data your app will utilize. This week, your app should be able to read JSON data and use it to customize templated pages. As you learned <a href=/class/intro-hci/2015/lab/lab5>in Lab 5</a>, this means you will have a file like data.json that has data pre-stored, and your job is to retrieve that data and populate your app with it and add new objects to the data variable. You do not need to dynamically update the data.json file with new data. As an example, imagine you're developing Yelp, then you should have a list for each restaurant and each restaurant page fully rendered, but no need to track ratings or reviews.</p>
                     <p>Follow the development plan you created last week, and update it as you go. Mark tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.</p>
                 </div>
 				<div id="instudio" class="sidenav-anchor">
