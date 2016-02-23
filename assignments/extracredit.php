@@ -50,7 +50,10 @@
 
                 <div>
                     <h1>Extra Credit Assignments</h1>
-                    <p>You have three opportunities for extra credit. Feel free to do as many as you wish. They are all group extra credit opportunities. All three are due on 3/11/2016 at 3:30pm.</p>
+                    <p>You have three opportunities for extra credit. Feel free
+		    to do as many as you wish. They are all group extra credit
+		    opportunities. All three are due on Sunday 3/13/2016 at
+		    11:59pm.</p>
                 </div>
 
                 <div id="inspirations" class="sidenav-anchor">
