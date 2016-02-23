@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Introduction to Human-Computer Interaction: Assignment 4">
-		<title>HCI Design: Assignment 4</title>
+		<title>A4&thinsp;&middot;&thinsp;HCI Design</title>
 
 		<!-- Bootstrap -->
 		<link href="../../css/bootstrap.min.css" rel="stylesheet">
