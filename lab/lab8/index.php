@@ -224,13 +224,6 @@
       title="12" />
     <div class="col-md-5">
       
-      <div class="links">
-        <h4>Links</h4>
-        <ul>
-          <li><a href='https://developers.facebook.com/apps' target="_blank">https://developers.facebook.com/apps</a></li>
-        </ul>
-      </div>
-      
     </div>
   </div>
   <hr />
@@ -258,6 +251,13 @@
     <img src="2016-lab-08-thirdpartyAPI.014.png" class="img-responsive col-md-6"
       title="14" />
     <div class="col-md-5">
+      
+      <div class="links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href='https://developers.facebook.com/apps' target="_blank">https://developers.facebook.com/apps</a></li>
+        </ul>
+      </div>
       
     </div>
   </div>
@@ -315,6 +315,20 @@
       title="18" />
     <div class="col-md-5">
       
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-19" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>19</h2>
+    </div>
+    <img src="2016-lab-08-thirdpartyAPI.019.png" class="img-responsive col-md-6"
+      title="19" />
+    <div class="col-md-5">
+      
       <div class="code">
         <h4>Include the partials</h4>
         <pre class='pre-scrollable'><code>{{&gt; facebook}}
@@ -333,12 +347,12 @@
   
 
 
-  <div id="slide-19" class="row lab-slide">
+  <div id="slide-20" class="row lab-slide">
     <div class="col-md-1">
-      <h2>19</h2>
+      <h2>20</h2>
     </div>
-    <img src="2016-lab-08-thirdpartyAPI.019.png" class="img-responsive col-md-6"
-      title="19" />
+    <img src="2016-lab-08-thirdpartyAPI.020.png" class="img-responsive col-md-6"
+      title="20" />
     <div class="col-md-5">
       
       <div class="code">
@@ -358,7 +372,7 @@ function statusChangeCallback(response) {
   // for FB.getLoginStatus().
   if (response.status === 'connected') {
     // Logged into your app and Facebook.
-    FB.api('/me?fields=name,first_name,picture.width(480)', loginSuccessful);
+    FB.api('/me?fields=name,first_name,picture.width(480)', changeUser);
   }
 }</code></pre>
       </div>
@@ -377,12 +391,12 @@ function statusChangeCallback(response) {
   
 
 
-  <div id="slide-20" class="row lab-slide">
+  <div id="slide-21" class="row lab-slide">
     <div class="col-md-1">
-      <h2>20</h2>
+      <h2>21</h2>
     </div>
-    <img src="2016-lab-08-thirdpartyAPI.020.png" class="img-responsive col-md-6"
-      title="20" />
+    <img src="2016-lab-08-thirdpartyAPI.021.png" class="img-responsive col-md-6"
+      title="21" />
     <div class="col-md-5">
       
       <div class="debug">
@@ -407,20 +421,6 @@ function statusChangeCallback(response) {
   
 
 
-  <div id="slide-21" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>21</h2>
-    </div>
-    <img src="2016-lab-08-thirdpartyAPI.021.png" class="img-responsive col-md-6"
-      title="21" />
-    <div class="col-md-5">
-      
-    </div>
-  </div>
-  <hr />
-  
-
-
   <div id="slide-22" class="row lab-slide">
     <div class="col-md-1">
       <h2>22</h2>
@@ -428,13 +428,6 @@ function statusChangeCallback(response) {
     <img src="2016-lab-08-thirdpartyAPI.022.png" class="img-responsive col-md-6"
       title="22" />
     <div class="col-md-5">
-      
-      <div class="links">
-        <h4>Links</h4>
-        <ul>
-          <li><a href='https://developers.google.com/maps/documentation/javascript/' target="_blank">https://developers.google.com/maps/documentation/javascript/</a></li>
-        </ul>
-      </div>
       
     </div>
   </div>
@@ -449,6 +442,13 @@ function statusChangeCallback(response) {
     <img src="2016-lab-08-thirdpartyAPI.023.png" class="img-responsive col-md-6"
       title="23" />
     <div class="col-md-5">
+      
+      <div class="links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href='https://developers.google.com/maps/documentation/javascript/' target="_blank">https://developers.google.com/maps/documentation/javascript/</a></li>
+        </ul>
+      </div>
       
     </div>
   </div>
@@ -478,12 +478,6 @@ function statusChangeCallback(response) {
       title="25" />
     <div class="col-md-5">
       
-      <div class="code">
-        <h4>Terminal</h4>
-        <pre class='pre-scrollable'><code>{{&gt; google}}
-&lt;script src="/js/google.js"&gt;&lt;/script&gt;</code></pre>
-      </div>
-      
     </div>
   </div>
   <hr />
@@ -496,6 +490,26 @@ function statusChangeCallback(response) {
     </div>
     <img src="2016-lab-08-thirdpartyAPI.026.png" class="img-responsive col-md-6"
       title="26" />
+    <div class="col-md-5">
+      
+      <div class="code">
+        <h4>Terminal</h4>
+        <pre class='pre-scrollable'><code>{{&gt; googleMaps}}
+&lt;script src="/js/googleMaps.js"&gt;&lt;/script&gt;</code></pre>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  
+
+
+  <div id="slide-27" class="row lab-slide">
+    <div class="col-md-1">
+      <h2>27</h2>
+    </div>
+    <img src="2016-lab-08-thirdpartyAPI.027.png" class="img-responsive col-md-6"
+      title="27" />
     <div class="col-md-5">
       
       <div class="code">
@@ -521,24 +535,10 @@ function statusChangeCallback(response) {
       <div class="debug">
         <h4>Heads up!</h4>
         <div class="well well-sm">
-          <span class="lead"><p>Wait how does <code>initMap()</code> get called?</p></span>
+          <span class="lead"><p>Wait, how does <code>initMap()</code> get called?</p></span>
           <p>If you look in your <code>googleMaps.handlebars</code>, we put in the segment <code>&callback=initMap</code>. This means after Google Maps is done accepting your API request, it will call the callback <code>initMap</code> for you. Another example of the varied usage of callbacks!</p>
         </div>
       </div>
-      
-    </div>
-  </div>
-  <hr />
-  
-
-
-  <div id="slide-27" class="row lab-slide">
-    <div class="col-md-1">
-      <h2>27</h2>
-    </div>
-    <img src="2016-lab-08-thirdpartyAPI.027.png" class="img-responsive col-md-6"
-      title="27" />
-    <div class="col-md-5">
       
     </div>
   </div>
@@ -589,7 +589,7 @@ function statusChangeCallback(response) {
           <p>The video tag will show the video feed from our webcam. The canvas will show the image once we've taken the shot. Finally, the button will actually take the image!</p>
         </div>
         <div class="well well-sm">
-          <span class="lead"><p>Woah woah slow down. How does all this work?</p></span>
+          <span class="lead"><p>Whoa whoa slow down. How does all this work?</p></span>
           <p>Well it's slightly outside of the scope of this class, but you can read the <code>capture</code> function to understand how the video, canvas, and button are hooked together. The <code>successCallback</code> hooks up the <code>video</code> element to show the stream, and <code>button</code>'s click to an event that draws the current image in <code>video</code> to the <code>canvas</code>. You can also see <a href='https://dev.opera.com/articles/media-capture-in-mobile-browsers/'>Dev.Opera - Media Capture in Mobile Browsers</a> for a more detailed explanation.</p>
         </div>
       </div>
