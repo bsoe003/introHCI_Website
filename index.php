@@ -308,7 +308,7 @@
                             <p>Running Experiments</p>
                             <ul>
                                 <li>
-                                    <a href="lectures/cs147-2014-06-experiments.pdf"> slides</a>
+                                    <a href="lectures/IntroHCI-2016-Week7.pdf"> slides</a>
                                 </li>
                                 <li>Assigning participants to conditions <a href="https://ucsd.coursera.org/introhci-001/lecture/35">video</a></li>
                                 <li>In-Person Experiments <a href="https://ucsd.coursera.org/introhci-001/lecture/36">video</a></li>
@@ -318,8 +318,12 @@
                         </td>
                         <td>
                             <h6>February 18</h6>
-                            <p><a href="lab/lab7/">Databases</a></p>
-                        </td>
+                            <p><a href="lab/lab7/">Analytics and A/B Testing</a></p>
+                        
+			    <p>And in case you're interested to check out the
+			    old lab 7 ...</p>    
+			    <p><a href="lab/lab_db">Databases</a></p> 
+			</td>
                         <td>
                             <h6>Due Thursday, 2/18, 11:59&thinsp;pm</h6>
                             <p><a href="./assignments/A7">A7: Ready for testing</a></p>
@@ -332,15 +336,17 @@
                             <h6>February 23</h6>
                             <p>
                                 Input
-                                <ul>
-                                    <li><a href="lectures/HCI-Week8-Input.pdf">slides</a></li>
+                                 <ul>
+                                    <li><a href="lectures/IntroHCI-2016-Week8.pdf">slides</a></li>
+                                    <li>Finding, Filtering, &amp; Foraging <a href="https://www.coursera.org/learn/interaction-techniques/lecture/3dnn4">video</a></li>
+                                    <li>Designing Effective Search <a href="https://www.coursera.org/learn/interaction-techniques/lecture/rZEiq/designing-effective-search">video</a></li>
                                 </ul>
                             </p>
                             <p><b>Quiz 4</b></p>
                         </td>
                         <td>
                             <h6>February 25</h6>
-                            <p><a href="lab/lab8/">Analytics and A/B testing</a></p>
+                            <p><a href="lab/lab8/">Under construction...</a></p>
                         </td>
                         <td>
                             <h6>Due Thursday, 2/25, 11:59&thinsp;pm</h6>
@@ -352,19 +358,11 @@
                             <h6>9</h6></td>
                         <td>
                             <h6>March 1</h6>
-                            <p>
-                                <ul>
-                                    <li>
-                                        <a href="lectures/final_presentation.pdf">Stand and Deliver: Presenting Your Design Work</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.stanford.edu/group/eweek/2010/media/Presentation_Design_handout.pdf">Presentation Design &amp; Delivery Handout(Stanford Technology Ventures Program Forrest Glick)</a>
-                                    </li>
-                                </ul>
-                            </p>
-                            <p>Presenting design work</p>
+                            <p>Social computing</p>
+                            <p><b>Quiz 5</b></p>
+                            
                         </td>
-                        <td>
+                         <td>
                             <h6>March 3</h6>
                             <p>Project Workshop (no&nbsp;submission)
                                 <ul>
@@ -385,16 +383,27 @@
                             <h6>10</h6></td>
                         <td>
                             <h6>March 8</h6>
-                            <p>Social computing</p>
-                            <p><b>Quiz 5</b></p>
+                            <p>Presenting design work</p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <a href="lectures/final_presentation.pdf">Stand and Deliver: Presenting Your Design Work</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.stanford.edu/group/eweek/2010/media/Presentation_Design_handout.pdf">Presentation Design &amp; Delivery Handout(Stanford Technology Ventures Program Forrest Glick)</a>
+                                    </li>
+                                </ul>
+                            </p>
                         </td>
+                    
                         <td>
                             <h6>March 11</h6>
                             <p><b><a href="#">Final Show</a></b></p>
                         </td>
                         <td>
                             <p><a href="./assignments/A10">A10: Show &amp; Tell</a> (Due Weds 3/9,&nbsp;11:59&thinsp;pm)</p>
-                            <p><a href="./assignments/extracredit.php">Extra Credit Work</a> (Due Friday, 3/11,&nbsp;3:30&thinsp;pm)</p>
+                            <p><a href="./assignments/extracredit.php">Extra
+			    Credit Work</a> (Due Sunday, 3/13,&nbsp;11:59&thinsp;pm)</p>
                         </td>
                     </tr>
                 </tbody>
