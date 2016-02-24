@@ -58,15 +58,15 @@
 
                 <div id="plan" class="sidenav-anchor">
                     <h4>Launch Rate Comparison</h4>
-                    <p>We are going to be using <a href="http://woopra.com" target="_blank">Woopra</a> to run rate comparison you planned last week.</p>
-                    
+                    <p>We are going to be using <a href="http://analytics.google.com/analytics/" target="_blank">Google Analytics</a> to run rate comparison you planned last week.</p>
+
                     <p>Since you will be statistically analyzing the results, recruit <strong>at least 20 users</strong>. Put another way, that means that each person on your team should recruit at least 7 people each: a couple dorm-mates and a few family members and you're basically there. You can also use social media like Facebook and Twitter to recruit. You can even recruit other people in class! Make sure to launch your test several days before the deadline. How you schedule your analysis around your implementation plan is up to you. Do what's best for your app and your group. <a href=http://blog.optimizely.com/2013/04/30/71-things-to-ab-test>Here's some ideas from Optimizely.</a></p>
                 </div>
 
                 <div id="results" class="sidenav-anchor">
                     <h4>Results: Comparing Rates Online</h4>
                     <p>Collect your results from your A/B test that compares rates between conditions. You can use your A condition as the 'Expected' Value and the B condition as the 'Observed'. Present your data and the results: show the inputs to your Chi-squared analysis, your calculations, the Chi-squared result, and the p value. <a href="http://www.houseofkaizen.com/conversion-rate-optimisation/resources/calculators/split-test-significance"> This tool should help. </a> Remember that a Chi-squared test compares rates, not times. Discuss your findings: can you draw solid conclusions or are additional tests needed? What changes would you make based on these results?</p>
-                    <p>Use Woopra to track the pages that users view on your app. (You do not need to use Woopra's funnel feature.)</p>
+                    <p>Use Google Analytics to track the pages that users view on your app.</p>
                 </div>
 
                 <div id="fitfinish" class="sidenav-anchor">
@@ -77,6 +77,8 @@
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
                     <ul>
+                        <li>Your final app name. This is the name that will be used in your final presentation.</li>
+
                         <li>The data that you collected. Organize this information so that we can get a sense of the raw data that you gathered. Explicitly state how many participants were in each condition. What feedback (quantitative or qualitative) did you receive? We recommend organizing this information into a table or spreadsheet. <b>(Online Test Results)</b></li>
 
                         <li>Summary of your findings. You should present any statistical analysis that you performed, and any insights or discoveries that your test helped inform. <b>(Online Test Results)</b></li>
