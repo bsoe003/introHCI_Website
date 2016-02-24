@@ -319,11 +319,9 @@
                         <td>
                             <h6>February 18</h6>
                             <p><a href="lab/lab7/">Analytics and A/B Testing</a></p>
-                        
-			    <p>And in case you're interested to check out the
-			    old lab 7 ...</p>    
-			    <p><a href="lab/lab_db">Databases</a></p> 
-			</td>
+                            <p>If you're interested in learning databases,</p>
+                            <p><a href="lab/lab_db">Databases</a>(optional)</p> 
+                        </td>
                         <td>
                             <h6>Due Thursday, 2/18, 11:59&thinsp;pm</h6>
                             <p><a href="./assignments/A7">A7: Ready for testing</a></p>
@@ -346,7 +344,7 @@
                         </td>
                         <td>
                             <h6>February 25</h6>
-                            <p><a href="lab/lab8/">Under construction...</a></p>
+                            <p><a href="lab/lab8/">Third party APIs</a></p>
                         </td>
                         <td>
                             <h6>Due Thursday, 2/25, 11:59&thinsp;pm</h6>
