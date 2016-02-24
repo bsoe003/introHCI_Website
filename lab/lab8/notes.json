@@ -1,40 +1,11 @@
 [
-  [],
-  [],
-  [],
   [
-    {
-      "type":"debug",
-      "title":"Stretch Goals",
-      "comment":"Stretch Goals",
-      "list":[{"problem":"Include analytic tracking for user timing.", "fix":""}]
-    },
     {
       "type":"links",
-      "title":"API",
-      "list":["<a href='https://developers.google.com/analytics/devguides/collection/analyticsjs/user-timings' target=\"_blank\">User-Timings Dev Guide</a>"]
+      "title":"Student examples",
+      "list":["Check out this awesome lab 7 stretch goal!"]
     }
   ],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [
-    {
-      "comment":"Store any kind of event",
-      "type":"code",
-      "title":"Sample event calls",
-      "text":"ga(\"send\", \"event\", \"friendsuggestion\", \"dismiss\");\nga(\"send\", \"event\", \"friendsuggestion\", \"accept\");\nga(\"send\", \"event\", \"humankind\", \"destroy\");\n\nga(\"send\", \"event\", \"Category\", \"Action\");"
-    }
-  ],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
   [],
   [],
   [],
@@ -42,11 +13,26 @@
   [
     {
       "type":"debug",
-      "title":"Goal",
-      "comment":"Goal 1",
-      "list":[{"problem":"Install pageview analytics on your portfolio.", "fix":""}]
+      "title":"How will this lab help me?",
+      "list":[{
+        "problem":"This lab will teach you how to use the Facebook login, Google Maps API, and camera through getUserMedia.",
+        "fix":"The core lesson here is that there are third party APIs that we can utilize and avoid doing work that's already been done. You'll also get more practice using callbacks as the main form of communication between client and server. Even if you're not using any of these features in your assignments, hopefully this will get you started on using creating richer web applications."
+      }]
     }
   ],
+  [],
+  [
+    {
+      "type":"debug",
+      "title":"Heads up!",
+      "list":[{
+        "problem":"This isn't the only form callbacks take, or are used, but is an example! We'll see various forms of callbacks in the rest of the lab.",
+        "fix":""
+      }]
+    }
+  ],
+  [],
+  [],
   [
     {
       "type":"links",
@@ -54,19 +40,136 @@
       "list":["<a href='https://github.com/IntroHCI/lab8/fork' target=\"_blank\">https://github.com/IntroHCI/lab8/fork</a>"]
     }
   ],
+  [
+    {
+      "type":"links",
+      "comment":"Get application key",
+      "list":["<a href='https://developers.facebook.com/apps' target=\"_blank\">https://developers.facebook.com/apps</a>"]
+    }
+  ],
+  [],
+  [],
   [],
   [],
   [],
   [
     {
-      "comment":"Test node.js:http://localhost:3000",
-      "type":"links",
-      "list":["<a href='http://localhost:3000' target=\"_blank\">http://localhost:3000</a>"]
+      "comment": "Include facebook partials + add login button",
+      "type": "code",
+      "title": "Include the partials",
+      "text": "{{&gt; facebook}}\n&lt;script src=\"/js/facebook.js\"&gt;&lt;/script&gt;"
+    },
+    {
+      "type": "code",
+      "title": "Add login button",
+      "text": "&lt;fb:login-button scope=\"public_profile,email\" onlogin=\"checkLoginState();\"&gt;\n&lt;/fb:login-button&gt;"
     }
   ],
   [
     {
-      "comment":"Reserve your Heroku URL",
+      "comment": "The facebook.js",
+      "type": "code",
+      "title": "facebook.js",
+      "text": "function checkLoginState() {\n  FB.getLoginStatus(function(response) {\n    statusChangeCallback(response);\n  });\n}\n\nfunction statusChangeCallback(response) {\n  console.log('Facebook login status changed.');\n  console.log(response);\n  // The response object is returned with a status field that lets the\n  // app know the current login status of the person.\n  // Full docs on the response object can be found in the documentation\n  // for FB.getLoginStatus().\n  if (response.status === 'connected') {\n    // Logged into your app and Facebook.\n    FB.api('/me?fields=name,first_name,picture.width(480)', loginSuccessful);\n  }\n}"
+    },
+    {
+      "type":"debug",
+      "title":"Heads up!",
+      "list":[{
+        "problem":"Wait how does <code>checkLoginState()</code> get called?",
+        "fix":"If you look in your <code>index.handlebars</code>, we put in the segment <code>onlogin=\"checkLoginState();\"</code>. This means after Facebook is done accepting your login API request, it will call the callback <code>checkLoginState</code> for you. See how varied callbacks can be used!"
+      }]
+    }
+  ],
+  [
+    {
+      "type":"debug",
+      "title":"Hints",
+      "list":[{
+        "problem":"How do I get the name from facebook to replace Michael Bernstein?",
+        "fix":"Remember that the response data from facebook is stored in the <code>response</code> variable in <code>changeUser</code>. What's in <code>response</code>? Try printing it out onto the console!"
+      },
+      {
+        "problem":"How do I get the image from facebook to use in my <code>img</code>?",
+        "fix":"This is going to be similar to how we did it for name. Try peeking into what's inside <code>response</code> by logging it on the console. Try and see if you can get the URL to your facebook image to print onto the console."
+      },
+      {
+        "problem":"How do I replace just the <code>src</code> attribute of <code>img</code>?",
+        "fix":"You can change a single attribute of an element with the jQuery call <code>$.attr('src', <Some new URL>);</code>. Read more about it in the <a href='http://api.jquery.com/attr/#attr2'>jQuery docs!</a>"
+      }]
+    }
+  ],
+  [],
+  [
+    {
+      "type":"links",
+      "comment":"Get application key",
+      "list":["<a href='https://developers.google.com/maps/documentation/javascript/' target=\"_blank\">https://developers.google.com/maps/documentation/javascript/</a>"]
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "comment": "Include googleMaps partials",
+      "type": "code",
+      "title": "Terminal",
+      "text": "{{&gt; google}}\n&lt;script src=\"/js/google.js\"&gt;&lt;/script&gt;"
+    }
+  ],
+  [
+    {
+      "comment": "The googleMaps.js",
+      "type": "code",
+      "title": "googleMaps.js",
+      "text": "function initMap() {\n  // Create center marker at UCSD\n  var ucsd_ltlng = {lat:32.880, lng:-117.236};\n\n  // Create a map object and specify the DOM element for display.\n  var map = new google.maps.Map(document.getElementById('map'), {\n    center: ucsd_ltlng,\n    zoom: 15\n  });\n\n  var marker = new google.maps.Marker({\n      position: ucsd_ltlng,\n      map: map,\n      title: 'UCSD'\n  });\n}"
+    },
+    {
+      "type":"debug",
+      "title":"Heads up!",
+      "list":[{
+        "problem":"Wait how does <code>initMap()</code> get called?",
+        "fix":"If you look in your <code>googleMaps.handlebars</code>, we put in the segment <code>&callback=initMap</code>. This means after Google Maps is done accepting your API request, it will call the callback <code>initMap</code> for you. Another example of the varied usage of callbacks!"
+      }]
+    }
+  ],
+  [],
+  [],
+  [],
+  [
+    {
+      "type":"debug",
+      "title":"Hints",
+      "list":[{
+        "problem":"What exactly are we implementing here?",
+        "fix":"The video tag will show the video feed from our webcam. The canvas will show the image once we've taken the shot. Finally, the button will actually take the image!"
+      },
+      {
+        "problem":"Woah woah slow down. How does all this work?",
+        "fix":"Well it's slightly outside of the scope of this class, but you can read the <code>capture</code> function to understand how the video, canvas, and button are hooked together. The <code>successCallback</code> hooks up the <code>video</code> element to show the stream, and <code>button</code>'s click to an event that draws the current image in <code>video</code> to the <code>canvas</code>. You can also see <a href='https://dev.opera.com/articles/media-capture-in-mobile-browsers/'>Dev.Opera - Media Capture in Mobile Browsers</a> for a more detailed explanation."
+      }]
+    }
+  ],
+  [
+    {
+      "comment": "Include <code>camera.js</code>",
+      "type": "code",
+      "title": "Terminal",
+      "text": "&lt;script src=\"/js/camera.js\"&gt;&lt;/script&gt;"
+    }
+  ],
+  [
+    {
+      "type":"code",
+      "title":"GitHub - Commit",
+      "text":"git status\ngit add ... \ngit commit -m \"Third party APIs\""
+    },
+    {
+      "type":"code",
+      "title":"Github - Push",
+      "text":"git push"
+    },
+    {
       "type":"code",
       "title":"Heroku - Create",
       "text":"heroku create <i>newapplicationname</i>"
@@ -75,160 +178,37 @@
       "type":"code",
       "title":"Heroku - Push",
       "text":"git push heroku master"
+    },
+    {
+      "type":"debug",
+      "title":"Heads up!",
+      "list":[{
+        "problem":"Make sure to use https",
+        "fix":"Make sure to go to https://&lt;Your Heroku App Name&gt;.herokuapp.com as these 3rd party APIs will not work without it!"
+      }]
     }
   ],
   [
     {
-      "comment":"Open a Google Analytics account",
       "type":"links",
-      "list":["<a href='http://www.google.com/analytics/' target=\"_blank\">http://www.google.com/analytics/</a>"]
-    }
-  ],
-  [],
-  [],
-  [],
-  [
-    {
-      "comment":"If you need to find the tracking code again later...",
-      "type":"debug",
-      "title":"Universal Analytics Tracking Code",
-      "list":[{"problem":"Where do I get my code again if I've lost it?", "fix":"Use the instructions on the next slide."}]
-    }
-  ],
-  [],
-  [],
-  [
-    {
-      "comment":"Edit the code in both files so it can be tested on localhost",
-      "title":"Testing analytics on localhost",
-      "type":"code",
-      "text":"{ 'cookieDomain': 'none' }"
-    }
-  ],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [
-    {
-      "type":"debug",
-      "title":"Goal",
-      "comment":"Goal 2",
-      "list":[{"problem":"Run an A/B test on a grid vs. the old vertical layout", "fix":""}]
+      "list":["<a target='_blank' href='#slide-16'>Slide 16-Set Facebook API URL</a>"]
     }
   ],
   [],
   [
     {
       "type":"debug",
-      "comment":"Write index.viewGrid",
-      "list":[{"problem":"It says \"Cannot GET /grid\"", "fix":"Did you add the route in app.js? (See Prev Slide)"}]
-    }
-  ],
-  [
-    {
-      "comment":"Send a boolean flag to the template",
-      "title":"Hint",
-      "type":"debug",
-      "list":[{"problem":"Hint: Slide 14-16 may have relevant information.", "fix":""}]
-    }
-  ],
-  [],
-  [
-    {
-      "comment":"Grid code",
-      "type":"code",
-      "text":"\n&lt;div class=&quot;row&quot;&gt;\n&lt;div class=&quot;project col-md-4&quot; id=&quot;{{projects.0.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.0.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.0.image}}&quot; alt=&quot;Lorem Pixel image&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.0.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-4&quot; id=&quot;{{projects.1.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.1.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.1.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.1.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=&quot;project col-md-4&quot; id=&quot;{{projects.2.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.2.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.2.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.2.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;row&quot;&gt;\n&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.3.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.3.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.3.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.3.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.4.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.4.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.4.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.4.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.5.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.5.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.5.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.5.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-3&quot; id=&quot;{{projects.6.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.6.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.6.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.6.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;row&quot;&gt;\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.7.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.7.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.7.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.7.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.8.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.8.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.8.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.8.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.9.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.9.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.9.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.9.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.10.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.10.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.10.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.10.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.11.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.11.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.11.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.11.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;project col-md-2&quot; id=&quot;{{projects.12.id}}&quot;&gt;\n\t&lt;div class=&quot;thumbnail&quot;&gt;\n\t\t&lt;a href=&quot;/project/{{projects.12.id}}&quot;&gt;\n\t\t\t&lt;img src=&quot;images/{{projects.12.image}}&quot; alt=&quot;Lorem Pixel image&quot; class=&quot;img-responsive&quot;&gt;\n\t\t\t&lt;h4&gt;{{projects.12.title}}&lt;/h4&gt;\n\t\t&lt;/a&gt;\n\t\t&lt;button class=&quot;btn btn-default likeBtn&quot;&gt;Like&lt;/button&gt;\t\t\t\t\t\t\n\t\t&lt;div class=&quot;details&quot;&gt;&lt;/div&gt;\n\t&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n"
+      "title":"Stretch Goals",
+      "comment":"Stretch Goals",
+      "list":[{
+        "problem":"Three stretch goals this time. Pick at least one!",
+        "fix":"<ol><li>Incorporate your fb friends list into the website.</li><li>Add a new marker to Maps on click</li><li>When you take a photo with the camera, have it update your profile photo on the website.</li></ol>"
+      }]
     },
     {
-      "type":"debug",
-      "list":[{"problem":"It still looks the same!", "fix":"Restart node and maximize your browser window."}]
+      "type":"links",
+      "title":"Find more third party APIs at our development resources!",
+      "list":["<a target='_blank' href='http://d.ucsd.edu/class/intro-hci/2016/mobile_app_tips.php'>Development Resources</a>"]
     }
-  ],
-  [
-    {
-      "comment":"Record an event whenever the user clicks a Like button on a project",
-      "type":"code",
-      "title":"Hint",
-      "text":"ga(\"send\", \"event\", \"Category\", \"Action\");"
-    }
-  ],
-  [],
-  [],
-  [],
-  [],
-  [
-    {
-      "type":"code",
-      "title":"GitHub - Commit",
-      "text":"git status\ngit add ... \ngit commit -m \"initial analytics lab\""
-    },
-    {
-      "type":"code",
-      "title":"Github - Push",
-      "text":"git push"
-    },
-    {
-      "type":"code",
-      "title":"Heroku - Push",
-      "text":"git push heroku master"
-    }
-  ],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [
-    {
-      "type":"code",
-      "title":"GitHub - Commit",
-      "text":"git status\ngit add ... \ngit commit -m \"Added Experiment Header\""
-    },
-    {
-      "type":"code",
-      "title":"Heroku - Push",
-      "text":"git push heroku master"
-    }
-  ],
-  [
-    {
-      "type":"debug",
-      "comment":"Validate your experiment setup",
-      "list":[{"problem":"Experiment code not found", "fix":"Make sure you inserted the code on step 3 inside the &lt;head&gt;...&lt;/head&gt; block of index.handlebars"}]
-    }
-  ],
-  [],
-  [],
-  [],
-  [
-    {
-      "type":"code",
-      "title":"GitHub - Commit",
-      "text":"git status\ngit add ... \ngit commit -m \"final analytics lab\""
-    },
-    {
-      "type":"code",
-      "title":"Github - Push",
-      "text":"git push"
-    },
-    {
-      "type":"code",
-      "title":"Heroku - Push",
-      "text":"git push heroku master"
-    }
-  ],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  []
+  ]
 ]
