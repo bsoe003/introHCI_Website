@@ -40,7 +40,14 @@
       "list":["<a href='https://github.com/IntroHCI/lab8/fork' target=\"_blank\">https://github.com/IntroHCI/lab8/fork</a>"]
     }
   ],
-  [],
+  [ 
+    {
+      "type":"debug",
+      "list":[{
+        "problem":"Wait.. <code>node</code> just barfed... what do I do?",
+        "fix":"Try restarting your computer"}]
+    }
+  ],
   [],
   [
     {
@@ -80,7 +87,15 @@
         "problem":"Wait how does <code>checkLoginState()</code> get called?",
         "fix":"If you look in your <code>index.handlebars</code>, we put in the segment <code>onlogin=\"checkLoginState();\"</code>. This means after Facebook is done accepting your login API request, it will call the callback <code>checkLoginState</code> for you. See how varied callbacks can be used!"
       }]
+    },
+    {
+      "type":"debug",
+      "list":[{
+        "problem":"It's not working!?",
+        "fix":"Check your javascript console in developer tools"
+      }]
     }
+
   ],
   [
     {
@@ -160,6 +175,14 @@
   ],
   [
     {
+      "type":"debug",
+      "title":"Heads up!",
+      "list":[{
+        "problem":"Make sure to use https",
+        "fix":"Make sure to go to https://&lt;Your Heroku App Name&gt;.herokuapp.com as these 3rd party APIs will not work without it!"
+      }]
+    },
+    {
       "type":"code",
       "title":"GitHub - Commit",
       "text":"git status\ngit add ... \ngit commit -m \"Third party APIs\""
@@ -178,14 +201,6 @@
       "type":"code",
       "title":"Heroku - Push",
       "text":"git push heroku master"
-    },
-    {
-      "type":"debug",
-      "title":"Heads up!",
-      "list":[{
-        "problem":"Make sure to use https",
-        "fix":"Make sure to go to https://&lt;Your Heroku App Name&gt;.herokuapp.com as these 3rd party APIs will not work without it!"
-      }]
     }
   ],
   [

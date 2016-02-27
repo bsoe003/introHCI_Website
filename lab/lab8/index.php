@@ -224,6 +224,14 @@
       title="12" />
     <div class="col-md-5">
       
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Wait.. <code>node</code> just barfed... what do I do?</p></span>
+          <p>Try restarting your computer</p>
+        </div>
+      </div>
+      
     </div>
   </div>
   <hr />
@@ -382,6 +390,14 @@ function statusChangeCallback(response) {
         <div class="well well-sm">
           <span class="lead"><p>Wait how does <code>checkLoginState()</code> get called?</p></span>
           <p>If you look in your <code>index.handlebars</code>, we put in the segment <code>onlogin="checkLoginState();"</code>. This means after Facebook is done accepting your login API request, it will call the callback <code>checkLoginState</code> for you. See how varied callbacks can be used!</p>
+        </div>
+      </div>
+      
+      <div class="debug">
+        <h4>Troubleshoot</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>It's not working!?</p></span>
+          <p>Check your javascript console in developer tools</p>
         </div>
       </div>
       
@@ -627,6 +643,14 @@ function statusChangeCallback(response) {
       title="32" />
     <div class="col-md-5">
       
+      <div class="debug">
+        <h4>Heads up!</h4>
+        <div class="well well-sm">
+          <span class="lead"><p>Make sure to use https</p></span>
+          <p>Make sure to go to https://&lt;Your Heroku App Name&gt;.herokuapp.com as these 3rd party APIs will not work without it!</p>
+        </div>
+      </div>
+      
       <div class="code">
         <h4>GitHub - Commit</h4>
         <pre class='pre-scrollable'><code>git status
@@ -647,14 +671,6 @@ git commit -m "Third party APIs"</code></pre>
       <div class="code">
         <h4>Heroku - Push</h4>
         <pre class='pre-scrollable'><code>git push heroku master</code></pre>
-      </div>
-      
-      <div class="debug">
-        <h4>Heads up!</h4>
-        <div class="well well-sm">
-          <span class="lead"><p>Make sure to use https</p></span>
-          <p>Make sure to go to https://&lt;Your Heroku App Name&gt;.herokuapp.com as these 3rd party APIs will not work without it!</p>
-        </div>
       </div>
       
     </div>
