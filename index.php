@@ -320,7 +320,7 @@
                             <h6>February 18</h6>
                             <p><a href="lab/lab7/">Analytics and A/B Testing</a></p>
                             <p>If you're interested in learning databases,</p>
-                            <p><a href="lab/lab_db">Databases</a>(optional)</p> 
+                            <p><a href="lab/lab_db">Databases</a>(optional)</p>
                         </td>
                         <td>
                             <h6>Due Thursday, 2/18, 11:59&thinsp;pm</h6>
@@ -356,9 +356,17 @@
                             <h6>9</h6></td>
                         <td>
                             <h6>March 1</h6>
-                            <p>Social computing</p>
-                            <p><b>Quiz 5</b></p>
-                            
+                            <p>Presenting design work</p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <a href="lectures/final_presentation.pdf">Stand and Deliver: Presenting Your Design Work</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.stanford.edu/group/eweek/2010/media/Presentation_Design_handout.pdf">Presentation Design &amp; Delivery Handout(Stanford Technology Ventures Program Forrest Glick)</a>
+                                    </li>
+                                </ul>
+                            </p>
                         </td>
                          <td>
                             <h6>March 3</h6>
@@ -372,7 +380,7 @@
                             </p>
                         </td>
                         <td>
-                            <h6>Due Friday, 3/4, 3:30pm</h6>
+                            <h6>Due Thursday, 3/3, 11:59pm</h6>
                             <p><a href="./assignments/A9">A9: Results!</a></p>
                         </td>
                     </tr>
@@ -381,25 +389,19 @@
                             <h6>10</h6></td>
                         <td>
                             <h6>March 8</h6>
-                            <p>Presenting design work</p>
-                            <p>
-                                <ul>
-                                    <li>
-                                        <a href="lectures/final_presentation.pdf">Stand and Deliver: Presenting Your Design Work</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.stanford.edu/group/eweek/2010/media/Presentation_Design_handout.pdf">Presentation Design &amp; Delivery Handout(Stanford Technology Ventures Program Forrest Glick)</a>
-                                    </li>
-                                </ul>
-                            </p>
+                            <p>Social computing</p>
+                            <p><b>Quiz 5</b></p>
+
                         </td>
-                    
+
                         <td>
+                            <h6>March 10</h6>
+                            <p>Video Workshop (no&nbsp;submission)</p>
                             <h6>March 11</h6>
                             <p><b><a href="#">Final Show</a></b></p>
                         </td>
                         <td>
-                            <p><a href="./assignments/A10">A10: Show &amp; Tell</a> (Due Weds 3/9,&nbsp;11:59&thinsp;pm)</p>
+                            <p><a href="./assignments/A10">A10: Show &amp; Tell</a> (Due Thurs 3/10,&nbsp;11:59&thinsp;pm)</p>
                             <p><a href="./assignments/extracredit.php">Extra
 			    Credit Work</a> (Due Sunday, 3/13,&nbsp;11:59&thinsp;pm)</p>
                         </td>
