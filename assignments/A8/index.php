@@ -94,7 +94,7 @@
                 <div id="altredesign" class="sidenav-anchor">
                     <h4>Step 4: Create a meaningful redesign for A/B testing</h4>
                     <p>A/B testing is a powerful web design tool that leverages random assignment and the easy-to-use chi-squared statistical test. It requires measuring counting data of some kind, e.g. number of clickthroughs, coin flips, or pageviews. From your user testing, you should have identified many design breakdowns or opportunities and their potential solutions. Each solution will manipulate, or have consequences, on the user’s interaction in some way. For instance, changing the size of a button may increase the likelihood that a user follows an optimal navigational path. In this case, you can measure the effect of this manipulation by counting the number of users to follow this path. Identify and redesign ONE component of your prototype that resolves a breakdown or leverages an opportunity with a countable outcome. The redesigned component needs to be significantly different from the original design. Design is often a slow and iterated process, so select something small and manageable in scope. <a href="https://ucsd.coursera.org/introhci-001/lecture/40">See the lecture videos for more information.</a></p>
-                    <p>Submit pictures of a simple paper mock up of your redesign. Then, electronically create and submit <b>two separate URLs</b> for your redesign and your original application - don't write over your old code!</p>
+                    <p>Creating simple paper mockups of your redesign is highly recommended. Then, electronically create and submit <b>two separate URLs</b> for your redesign and your original application - don't write over your old code!</p>
                     <p>Submit a description of the online test you will run for the <a href="../A9/">next assignment</a>. How will you measure your manipulation? What are the possible outcomes and their interpretations?</p>
                 </div>
                 
@@ -145,7 +145,7 @@
 
                         <li>A detailed list of changes you will implement in your next iteration, with justifications. <b> (Planned Changes Based on Test)</b></li>
 
-                        <li>The URL of the original prototype you tested and the URL of the implemented alternative redesign of one interface element. <b>(Alternative Design)</b></li>
+                        <li>The URL of the original prototype you tested and the URL of the implemented alternative redesign of one interface element. Including submissions of the paper mockups would be very helpful. <b>(Alternative Design)</b></li>
 
                         <li>Description of online test. <b>(Description of Planned Online Test)</b></li>
 
