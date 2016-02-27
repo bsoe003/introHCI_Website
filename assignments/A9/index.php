@@ -72,18 +72,20 @@
                 <div id="fitfinish" class="sidenav-anchor">
                     <h4>Fit and Finish</h4>
                     <p>For all you designers out there, get ready. It's time to make it pretty. Concentrate on completing the changes based on the results of your in-person test. Attention to detail will serve you well. Make sure the app is optimized for the mobile interface. Same drill as the other weeks, keep <strong>updating your development plan.</strong></p>
+                    <p>Also this is the time work on branding your application. Create a finalized app name that encompasses and brands the function of your app clear, and submit it with your PDF.</p>
                 </div>
 
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
                     <ul>
-                        <li>Your final app name. This is the name that will be used in your final presentation.</li>
 
                         <li>The data that you collected. Organize this information so that we can get a sense of the raw data that you gathered. Explicitly state how many participants were in each condition. What feedback (quantitative or qualitative) did you receive? We recommend organizing this information into a table or spreadsheet. <b>(Online Test Results)</b></li>
 
                         <li>Summary of your findings. You should present any statistical analysis that you performed, and any insights or discoveries that your test helped inform. <b>(Online Test Results)</b></li>
 
                         <li>List of the changes you would make (as a result of the online tests). We understand that your test may have concluded only recently, and you would have had time to only make small changes. But we would like you to think about additional features or improvements that are motivated by your results. Add these to your development plan if you have time to complete them. <b>(List of Potential Revisions)</b></li>
+
+                        <li>Your final app name. This is the name that will be used in your final presentation. <b>(Fit and Finish)</b> </li>
 
                         <li>The URL of the prototype version that you want us to see. Do not forget to give us login information. Note: the URL must work at least until your assignment is graded. If it doesn't work, you'll receive no credit. <b>(Fit and Finish)</b> </li>
 
