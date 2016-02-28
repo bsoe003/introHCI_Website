@@ -176,12 +176,14 @@
                     <?php
                         $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/2");
                         $json = json_decode($result, true);
+                        $cur_item = 1;
                         for ($x = 0; $x < count($json["criteria"]); $x++) {
                             echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
-                            echo '<ol>';
                             $items = $json["criteria"][$x]["items"];
+                            echo '<ol start = '.$cur_item.'>';
                             for ($y = 0; $y < count($items); $y++) {
                                 echo '<li>'.$items[$y]["name"].'</li>';
+                                $cur_item++;
                             }
                             echo '</ol>';
                             echo '</ul>';
