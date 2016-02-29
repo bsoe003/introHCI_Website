@@ -398,7 +398,7 @@
                             <h6>March 10</h6>
                             <p>Video Workshop (no&nbsp;submission)</p>
                             <h6>March 11</h6>
-                            <p><b><a href="#">Final Show</a></b></p>
+                            <p><b><a href="./finalpresentation">Final Show</a></b></p>
                         </td>
                         <td>
                             <p><a href="./assignments/A10">A10: Show &amp; Tell</a> (Due Thurs 3/10,&nbsp;11:59&thinsp;pm)</p>
