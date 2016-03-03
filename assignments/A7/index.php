@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Introduction to Human-Computer Interaction: Assignment">
-    <title>HCI Design: Assignment 7</title>
+    <title>A7&thinsp;&middot;&thinsp;HCI Design</title>
 
     <!-- Bootstrap -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -36,41 +36,7 @@
 
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="../../index.html">HCI DESIGN</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class=""><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#calendar">Calendar</a></li>
-            <li><a href="../../studio.html">Studio</a></li>
-            <li ><a href="../../mobile_app_tips.html">Development Resources</a></li>
-            <li class="dropdown active">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="../../logistics.html#prereqs">Prerequisites</a></li>
-                  <li><a href="../../logistics.html#lab">Lab</a></li>
-                  <li><a href="../../logistics.html#grading">Grading</a></li>
-                  <li><a href="../../logistics.html#attendance">Attendance</a></li>
-                  <li><a href="../../logistics.html#faq">FAQ</a></li>
-                </ul>
-            </li>
-            <li><a href="../../index.html#calendar">Submit work</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://piazza.com/ucsd/winter2015/cogs120/home">Questions(Piazza forum)</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+    <? include "../../nav.php" ?>
 
     <div class="container">
         <div class="row">
@@ -93,24 +59,14 @@
 
                 <div id="assignment" class="sidenav-anchor">
                     <h2>Assignment</h2>
-                    <p>By the end of this week, your interactive prototypes should be fully functional. Your app should write JSON data as well as read it. (The JSON data won't be persistent when you close the browser, but it will endure across pages within the same session.) Your app should have several pages where users can submit and view data stored in JSON. Remember, we are not at the "making it pretty" phase yet, so don't procrastinate by playing with Photoshop. If you planned it out right and you have been doing your work, you should be in good shape. If not, it's time to step it up. You will get much less out of user testing if you are still struggling with bugs and a half finished interface. Now is also the time to make sure your app fits into a mobile form factor, <a href = "https://developer.chrome.com/devtools/docs/device-mode" target="_blank"> use Google device mode to help with this </a> or your own devices.</p>
+                    <p>By the end of this week, your interactive prototypes should be fully functional. Your app should write JSON data as well as read it. (The JSON data will only be persistent until the node server restarts.) Your app should have several pages where users can submit and view data stored in JSON. Remember, we are not at the "making it pretty" phase yet, so don't procrastinate by playing with Photoshop. If you planned it out right and you have been doing your work, you should be in good shape. If not, it's time to step it up. You will get much less out of user testing if you are still struggling with bugs and a half finished interface. Now is also the time to make sure your app fits into a mobile form factor, <a href = "https://developer.chrome.com/devtools/docs/device-mode" target="_blank"> use Google device mode to help with this </a> or your own devices.</p>
 
-                    <p>Follow the development plan you created last week, and update it as you go. Keep marking tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.</p>
-					
-					<p>
+                    <p>Keep on keeping on. Follow the development plan you created last week, and update it as you go. Mark tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.</p>
                 </div>
-				<div id="submit" class="sidenav-anchor">
-                    <h2>3 things you don't need to do this week</h2>
-                    These will happen in future assignments.
-                    <ol>
-                    <li>Write persistent data</li>
-                    <li>Handle queries</li>
-                    <li>Make it pretty</li>
-                    </ol>
-                </div>
+				
 				<div id="submit" class="sidenav-anchor">
                     <h2>In Studio</h2>
-					<p>In studio, to follow up this assignment, you will receive feedback in the form of a brief heuristic evaluation from another member of your studio directly. Your team will pool that feedback, update your implementation plan accordingly, and then present your app to the whole studio.</p>
+					<p>In studio, to follow up this assignment, you will receive feedback in the form of a brief heuristic evaluation from another member of your studio directly. Your team will pool that feedback and update your implementation plan accordingly.</p>
 				</div>
                 <div id="examples" class="sidenav-anchor">
                     <h2>Student Examples</h2>
@@ -122,8 +78,7 @@
                     <p><a href="../examples/images/a07e1p1.mp4">GradeSource++</a>: This example project from last year abstracts GradeSource for you and works with the data to show you where you are in a class. </p>
                     <p><a href="../examples/images/a07e2p1.mp4">Balancr</a>: This app helps people balance their time between work and play. They have done a wonderful job making the app functional-- you can create a sign-up, add activities, and see it reflected on the pie chart.</p>
 					<p>For both examples above, the data that undergirds the functionality of the apps are pre-populated and updated from JSON. For instance, login information should be stored as JSON. You should have a pre-canned user that is persistent, and the ability for creating a new user whose credentials will be stored in JSON for the duration of the session. <a href="http://d.ucsd.edu/class/intro-hci/2015/lab/lab6/index.html" target="_blank"> Look to Lab 6 for the necessary machinery to implement this. </a></p>
-					
-                    <p><b> Example of task description for an office hour reservation app that encourages group discussions: Make an appointment with a professor and mark it public so that other people can join. Then cancel this appointment and make a new one. </b></p>
+
                 </div>
 
                 <div id="submit" class="sidenav-anchor">
@@ -139,73 +94,34 @@
                     <p>Note: since we may grade your assignment up to a few days after submission, per the honor code, we expect that the prototype URL show the state of your prototype at the time of submission. You will very likely be updating your prototype after submission, but please do so on another version.</p>
                     <a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a>
                 </div>
-
+                <br>
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Evaluation criteria &amp; Grading rubric</h2>
-                    <div class="table-responsive">
-                        <table class="table">
-                            <tbody>
-                                <tr>
-                                    <th id="guiding" valign="top" align=right>Category</th>
-                                    <th id="nope" valign="top" colspan=3 align=center>Nope</th>
-                                    <th id="weak" valign="top" colspan=3 align=center>Weak</th>
-                                    <th id="proficient" valign="top" colspan=3 align=center>Proficient</th>
-                                    <th id="mastery" valign="top" colspan=3 align=center><a href=../../logistics.html#Submit>Mastery</a></th>
-                                </tr>
-                                <tr>
-                                    <td>Functionality<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td colspan=3>No pages are connected and interactive. The app is not available through heroku or equivalent.</td>
-                                    <td colspan=3>Prototype lacks a lot of features or has many bugs.</td>
-                                    <td colspan=3>Prototype is mostly complete but may still lack one or two features.</td>
-                                    <td colspan=3>Prototype is completely functional and ready for user testing. While not completely polished, the overall look and feel is reflective of the final prototype.</td>
-                                </tr>
-                                <tr>
-                                    <td>Data/Templates<br /><span style="color:lightGray;">2 points</span></td>
-                                    <td colspan=4>No Github URL; or if Github URL present, no data customization.</td>
-                                    <td colspan=4>Data customization (e.g., JSON/Handlebars) in key places.</td>
-                                    <td colspan=4>Pervasive data customization and templating. All major functionality is templated rather than copied & pasted.</td>
-                                </tr>
-                                <tr>
-                                    <td>Mobile Design<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td colspan=3>Prototype is not designed for a mobile form factor.</td>
-                                    <td colspan=3>Minimal attempt to design the prototype for a mobile form factor.</td>
-                                    <td colspan=3>Prototype is somewhat designed for a mobile form factor.</td>
-                                    <td colspan=3>The prototype's information architecture is well-tuned for a mobile form factor.</td>
-                                </tr>
-                                <tr>
-                                    <td>Goals<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td colspan=3>No goals were met.</td>
-                                    <td colspan=3>Only a few goals or equivalent were met.</td>
-                                    <td colspan=3>Most, but not all, of the goals or equivalent were met.</td>
-                                    <td colspan=3>All goals or equivalent were met. Stretch goals need not be met.</td>
-                                </tr>
-                                <tr>
-                                    <td>Updated Development Plan<br /><span style="color:lightGray;">2 pts</span></td>
-                                    <td colspan=4>No significant updates to plan, or plan.</td>
-                                    <td colspan=4>Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable.</td>
-                                    <td colspan=4>Plan is detailed and reflects progress, new tasks, and any changes to previous tasks.</td>
-                                </tr>
-                                <tr>
-                                    <td headers="guiding">Task Description<br><span style="color:lightGray;">2 pts</span></td>
-                                    <td colspan=4>Task description missing, shorter than 2 sentences, or extremely vague.</td>
-                                    <td colspan=4>2-3 sentence task description present. Task is either overly vague (confusing) or too specific (telling us what buttons to click). Not clear that you'll learn what you need to improve your app.</td>
-                                    <td colspan=4>The 2-3 sentences clearly describe a concrete task that reflects your app's core functionality. The task will help you learn what you need to improve your app.</td>
-                                </tr>
-                                <tr>
-                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 pt. Reserved for unusually impressive submissions.</span></td>
-                                    <td colspan=11 align=right>Your prototype is amazing and the TAs are extremely impressed with how complete it is. Not only is everything working, you have either solved an incredibly difficult engineering problem or you have introduced an extremely unique design. Your prototype shows thought and care. For example, even though not required for this week, you used a real database (Mongo) and made it sing.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
+                    <?php
+                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/7");
+                        $json = json_decode($result, true);
+                        $cur_item = 1;
+                        for ($x = 0; $x < count($json["criteria"]); $x++) {
+                            echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
+                            $items = $json["criteria"][$x]["items"];
+                            echo '<ol start = '.$cur_item.'>';
+                            for ($y = 0; $y < count($items); $y++) {
+                                echo '<li>'.$items[$y]["name"].'</li>';
+                                $cur_item++;
+                            }
+                            echo '</ol>';
+                            echo '</ul>';
+                        }
+                    ?>
                 </div>
 
                 <div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
                     <h2>Group Evaluation, Team Evaluation</h2>
                     <p>
-                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1RZhTl5IablTnyqM1ogS6QFWxxJlmlp8Ixrj2cBwuz3Q/">During studio, click here to assess your group's work as a collective unit.</a>
+                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/forms/d/1fHVNKvRHpM-lhLDc9hUeOqcmd72t7gsqoQywcRoI9UE/">During studio, click here to assess your group's work as a collective unit.</a>
                         </br>
-                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1AeU1Gv9M-s-sipgRR4WeEss4opHSsqvex5ZVvGin9Xg/"> During studio, click here to assess your own work and each of your team member's work.</a>
+                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/forms/d/1zhp4aQdu3FOqe9PnoW_gO4rrKunUBLXe1Fzo3BkLuDM/"> During studio, click here to assess your own work and each of your team member's work.</a>
                     </p>
                 </div>
             </div>

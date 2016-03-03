@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Introduction to Human-Computer Interaction: Assignment">
-    <title>HCI Design: Assignment 6</title>
+    <title>A6&thinsp;&middot;&thinsp;HCI Design</title>
 
     <!-- Bootstrap -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -36,41 +36,7 @@
 
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="../../index.html">HCI DESIGN</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class=""><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#calendar">Calendar</a></li>
-            <li><a href="../../studio.html">Studio</a></li>
-            <li ><a href="../../mobile_app_tips.html">Development Resources</a></li>
-            <li class="dropdown active">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="../../logistics.html#prereqs">Prerequisites</a></li>
-                  <li><a href="../../logistics.html#lab">Lab</a></li>
-                  <li><a href="../../logistics.html#grading">Grading</a></li>
-                  <li><a href="../../logistics.html#attendance">Attendance</a></li>
-                  <li><a href="../../logistics.html#faq">FAQ</a></li>
-                </ul>
-            </li>
-            <li><a href="../../index.html#calendar">Submit work</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://piazza.com/ucsd/winter2015/cogs120/home">Questions(Piazza forum)</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+    <? include "../../nav.php" ?>
 
     <div class="container">
         <div class="row">
@@ -94,7 +60,7 @@
                 <div id="assignment" class="sidenav-anchor">
                     <h2>Assignment</h2>
                     <p>This week is all about - that's right - functionality. You should be spending your time fleshing out your interactive prototype. Focus on getting the flow of your interaction working. Don't worry about making it look pretty yet. Don't stall or get too caught up in the look and feel of things. Fonts, colors, and pixel-perfect layout can come later. This week, you'll need to make good progress on the interaction design.</p>
-					<p> Using <a href=http://d.ucsd.edu/class/intro-hci/2015/lab/lab4>the handlebars techniques you learned in lab</a>, read data from JSON to customize the presentation of pages and deliver rich interactivity. By now you should have a good idea the kinds of data your app will utilize. This week, your app should be able to read JSON data and use it to customize templated pages. (Eventually, your app will also persistently store data.) As you learned <a href=/class/intro-hci/2015/lab/lab5>in Lab 5</a>, this means you will have a file like data.json that has data pre-stored, and your job is to retrieve that data and populate your app with it and add new objects to the data variable. You do not need to dynamically update the data.json file with new data. As an example, imagine you're developing Yelp, then you should have a list for each restaurant and each restaurant page fully rendered, but no need to track ratings or reviews.</p>
+					<p> Using <a href=http://d.ucsd.edu/class/intro-hci/2015/lab/lab4>the handlebars techniques you learned in lab</a>, read data from JSON to customize the presentation of pages and deliver rich interactivity. By now you should have a good idea the kinds of data your app will utilize. This week, your app should be able to read JSON data and use it to customize templated pages. As you learned <a href=/class/intro-hci/2015/lab/lab5>in Lab 5</a>, this means you will have a file like data.json that has data pre-stored, and your job is to retrieve that data and populate your app with it and add new objects to the data variable. You do not need to dynamically update the data.json file with new data. As an example, imagine you're developing Yelp, then you should have a list for each restaurant and each restaurant page fully rendered, but no need to track ratings or reviews.</p>
                     <p>Follow the development plan you created last week, and update it as you go. Mark tasks that have been completed and add new ones if you need to. Make sure that your next week is planned out with goals and who is responsible for each task. (If you'd like to give yourself the option of "late days", set an early deadline so your schedule has some flexibility.) Re-evaluate your stretch goals and what's feasible and what isn't. You may decide that your plan is too ambitious, or you may decide that your plan is too conservative; maneuver accordingly.</p>
                 </div>
 				<div id="instudio" class="sidenav-anchor">
@@ -131,63 +97,31 @@
 
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Evaluation criteria &amp; Grading rubric</h2>
-                    <div class="table-responsive">
-                        <table class="table">
-                            <tbody>
-                                <tr>
-                                    <th id="guiding" valign="top">Category</th>
-                                    <th id="unsatisfactory" valign="top">Nope</th>
-                                    <th id="minimum" valign="top">Weak</th>
-                                    <th id="satisfactory" valign="top">Proficient</th>
-                                    <th id="above" valign="top">Mastery</th>
-                                </tr>
-                                <tr>
-                                    <td>Interaction Flow<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td>0: No pages are connected and interactive.</td>
-                                    <td>1: Few pages are connected interactive. </td>
-                                    <td>3: Most pages are connected and interactive.</td>
-                                    <td>4: Overall flow and navigation are complete. Pages are fleshed out and interactive.</td>
-                                </tr>
-                                <tr>
-                                    <td>Reading data w/JSON & Handlebars (or equivalent)<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>0: No pages read JSON data with Handlebars (or equivalent).</td>
-                                    <td>1: A few pages read data. OR header/footer included programmatically, as opposed to copy&paste (either sufficient). Handlebars were used only sometimes.</td>
-                                    <td>2: Most pages read JSON data OR login/other rich interactivity implemented (either sufficient). Handlebars were used.</td>
-                                    <td>3: The entire prototype uses Handlebars to read JSON data and deliver rich interactivity.</td>
-                                </tr>
-                                <tr>
-                                    <td>Goals Met<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td>0: No goals were met.</td>
-                                    <td>1: Only a few goals or equivalent were met.</td>
-                                    <td>3: Most, but not all, of the goals or equivalent were met.</td>
-                                    <td>4: All goals or equivalent were met. Stretch goals need not be met.</td>
-                                </tr>
-                                <tr>
-                                    <td>Development Plan: Quality & Updates<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td>No updates to plan.</td>
-                                    <td>Aspects of the plan remain are not actionable or overly vague; changes were insufficient. For example, "working on the home page" is much too vague as a line item :)<br>And/or only one member did the majority of the work.</td>
-                                    <td>Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable. Only two members did the majority of the work, excepting external constraints that were identified.</td>
-                                    <td>Plan items are comprehensive and actionable (like "Implement allergies as a search parameter"). Plan reflects progress, new tasks, and any changes to previous tasks. All three members contributed by taking into account external constraints and thoughtfully distributing workload.</td>
-                                </tr>
-                                <tr>
-                                    <td headers="guiding" colspan=2><br>Supporting Info<br><span style="color:lightGray;"><span style="color:lightGray;">1 point.</span></td>
-                                    <td colspan=3 align=right>Github Repo URL & 2-sentence task description present.</td>
-                                </tr>
-                                <tr>
-                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 pt. Reserved for unusually impressive submissions.</span></td>
-                                    <td colspan=3 align=right>Pages are complete and all functionality is in place. Weekly stretch goals are met. The team is way ahead of the curve with respect to the interactions in their application.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
+                    <?php
+                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/6");
+                        $json = json_decode($result, true);
+                        $cur_item = 1;
+                        for ($x = 0; $x < count($json["criteria"]); $x++) {
+                            echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
+                            $items = $json["criteria"][$x]["items"];
+                            echo '<ol start = '.$cur_item.'>';
+                            for ($y = 0; $y < count($items); $y++) {
+                                echo '<li>'.$items[$y]["name"].'</li>';
+                                $cur_item++;
+                            }
+                            echo '</ol>';
+                            echo '</ul>';
+                        }
+                    ?>
                 </div>
 
                 <div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
                     <h2>Group Evaluation, Team Evaluation</h2>
                     <p>
-                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1LclkizllpeAHFqAUDrlAzLDekO2I9MMFK3AETUlpwLY/edit">During studio, click here to assess your group's work as a collective unit.</a>
+                        <a target="_blank" class="btn btn-primary" href="https://docs.google.com/forms/d/1x935lHCmU4OoM7ET8kz7-bKBfOJWUManRHWf1s6Iw78/viewform">During studio, click here to assess your group's work as a collective unit.</a>
                         </br>
-                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1vLE2OjB8j2EHR8tprweCiGPop1201OpVKP5YRERkCCQ/edit"> During studio, click here to assess your own work and each of your team member's work.</a>
+                        <a target="_blank" class="btn btn-primary" style="margin-top:10px" href="https://docs.google.com/forms/d/1Z5oqvzyLD81bpD2ZO4AtLUqQ3dZDJNCVAnz4gftwf5E/viewform"> During studio, click here to assess your own work and each of your team member's work.</a>
                     </p>
                 </div>
 

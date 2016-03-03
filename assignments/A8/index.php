@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Introduction to Human-Computer Interaction: Assignment">
-    <title>HCI Design: Assignment 8</title>
+    <title>A8&thinsp;&middot;&thinsp;HCI Design</title>
 
     <!-- Bootstrap -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -36,41 +36,7 @@
 
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="../../index.html">HCI DESIGN</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class=""><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#calendar">Calendar</a></li>
-            <li><a href="../../studio.html">Studio</a></li>
-            <li ><a href="../../mobile_app_tips.html">Development Resources</a></li>
-            <li class="dropdown active">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="../../logistics.html#prereqs">Prerequisites</a></li>
-                  <li><a href="../../logistics.html#lab">Lab</a></li>
-                  <li><a href="../../logistics.html#grading">Grading</a></li>
-                  <li><a href="../../logistics.html#attendance">Attendance</a></li>
-                  <li><a href="../../logistics.html#faq">FAQ</a></li>
-                </ul>
-            </li>
-            <li><a href="../../index.html#calendar">Submit work</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://piazza.com/ucsd/winter2015/cogs120/home">Questions(Piazza forum)</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+    <? include "../../nav.php" ?>
 
     <div class="container">
         <div class="row">
@@ -88,48 +54,50 @@
 
                 <div id="brief" class="sidenav-anchor">
                     <h2>Brief</h2>
-                    <p>The goal of this assignment is to test your prototype with people and learn from that experience. To get the kinks out of your application, first test it with a couple of people.</p>
+                    <p>The goal of this assignment is to test your prototype with two people to further streamline your app and inform your A/B test question and design.</p>
                 </div>
 
                 <div id="assignment" class="sidenav-anchor">
                     <h2>Assignment</h2>
                 </div>
 
-                <div id="usertests" class="sidenav-anchor">
-                    <h4>Step 1: Watch people use your prototype</h4>
-                    <p>Watch <strong>at least two different people</strong> use your interactive prototype. These do not have to be planned out ahead of time, but try to get people who are somewhat similar to the real people who will be using your application.</p>
-                    <p>Just like when you conducted the <a href=../A4>Heuristic Evaluations</a>, each team member will have its own role during testing. One person will be the facilitator, one will be in charge of taking notes/photos/video/etc. Any team member who is not currently in one of those two roles should observe and take notes. This time your user will not be writing down the problems they find for you. It's your job to learn what the people testing your prototype are thinking; the feedback they provide you will be invaluable for your next iteration. <strong>Your goal is to find ways to improve your interface.</strong> Look for breakdowns and pain points in your interface and try to understand what the problems are and how you might fix them.</p>
-                    <p>When possible, <strong>modify/update your prototype</strong> before running the next participant.</p>
-				</div>
-				<div id="protocol" class="sidenav-anchor">
-					<h4>Step 2: Develop a protocol</h4>
-                    <p>It is important you <strong>keep the task consistent</strong> between participants: use the same script, follow the same protocol, answer questions in the same way. This is a fast study, not a formal one. Still, any study requires a bit of planning: Prepare an outline of how the user test will be run, written instructions that you will read to the users, and any other materials (e.g. questionnaires, interview questions) that will be used during the session. This is called your experimental protocol, which is a step-by- step guide on how to run the experiment. It should be detailed enough that someone else could take the protocol and run your experiment without you being there. It ensures that you carry out the experiment in the same way for each participant.</p>
-					
-					<h5>Your experimental protocol should cover: </h5>
-					<ol>
+                <div id="protocol" class="sidenav-anchor">
+                    <h4>Step 1: Develop a protocol</h4>
+                    
+                    <p>Protocols, or "usability scripts," help keep tests consistent across testers and facilitators. Write a user testing protocol that covers:</p>
+                    
+                    <ul>
                     <li>Preparation and setting up</li>
-                    <li>Gaining informed consent (Even if your participants are close friends, you will need to create a consent form. <a href="http://www.indiana.edu/~usable/templates/Participant_consent_form.htm">You can use this consent form</a> to create one if you find it helpful.)</li>
-                    <li>Executing the test, who does what</li>
-					<li>How your observations will be recorded</li>
-					<li>Debriefing the participant and a team debrief</li>
-                    </ol>
-					<p>Submit your experimental protocol and signed consent form for each participant. Immediately after each test, do a quick debrief with your team and write down any reactions or thoughts that came up. You will most likely forget them, so it's important to write them down right after the test.</p>
-                    <p><strong>Submit a photo or sketch of each participant testing your prototype.</strong> As with the needfinding assignment, these photos and captions should show breakdowns and design opportunities. How you compose your photo will depend on the app/task. If the key thing is that it happens in a particular location (say in a grocery store), make sure to show the context. If the key issue is what's on screen, take an over-the-shoulder shot of the person interacting.</p>
-                </div>
-
-                <div id="results" class="sidenav-anchor">
-                    <h4>Step 3: Analyze your results</h4>
-                    <p>After testing, take some time with your team to reflect on your findings. Go through all the notes and other recordings. Try to be objective; don't write problems off. Discuss as a team and try and define some general patterns in people's behavior.  When you identify some interesting points, talk deeply about them - ask each other questions, recreate the different tests, analyze the decisions people made, other paths they could have taken, and so on. Let your insights guide redesigns for your next prototype iteration. <strong>The end product of your discussion should be a list of changes that you will implement. Make this list detailed and understandable to people outside of your team.</strong> Of all the bugs that you have identified, fix the bugs that are either small and easy to fix or too severe to ignore. Make sure that you do this before moving on to the next step of this assignment. </p>
-                </div>
-
-                <div id="altredesign" class="sidenav-anchor">
-                    <h4>Step 4: Create an alternative design</h4>
-                    <p>Select <strong>ONE</strong> component of your prototype and come up with a redesign for that part. The redesigned component needs to be significantly different from the original design and likely to satisfy a real user need either not satisfied or satisfied differently in the original design. This is <strong>NOT</strong> meant to be a huge redesign of your prototype. We want you to select something small and manageable in scope (similar to the alternative website designs shown in lecture). Designers often go through many many different versions of prototypes before their final design, so we want you to get familiar with the process (given our time constraints for the course). Mock up a few screens of your redesign that you will be able to use with a user, and <a href="http://en.wikipedia.org/wiki/KISS_principle">keep it simple</a>. Electronically create and submit a URL to your redesign (build the interactive screens from your paper prototype). Remember to keep the URL to this redesign separate from your original application (you will need both for testing). As you think about how to revise your design, it may help you to sketch it on paper before you implement it in code.</p>
+                    <li>Gaining informed consent <a href="http://www.indiana.edu/~usable/templates/Participant_consent_form.htm">using this form</a></li>
+                    <li>Executing the test, identify who does what</li>
+                    <li>Written instructions that you will read to the testers, and any other materials (e.g. questionnaires, interview questions) that will be used during the session</li>
+                    <li>How your observations will be recorded</li>
+                    <li>Debriefing the tester and a team debrief</li>
+                    </ul>
+                    
+                    <p>Submit your testing protocol and signed consent form for each participant. Immediately after each test, do a quick debrief with your team and write down any reactions or thoughts that came up.</p>
 				</div>
-				<div id="studyplan" class="sidenav-anchor">
-                    <h4>Step 5: Plan to test that alternative online</h4>
-                    <p>Next week, you will use the Web to gather usage data about your application by launching an A/B test online. Refer to the lecture notes regarding controlled web experiments (e.g. A/B testing, control groups, etc.). Think about what you are asking, and how to prepare a study to answer it. <strong>Try to think of A/B tests that will give you information that this week's user testing didn't (or couldn't).</strong> Next week, when you launch your A/B test online, the alternative redesign you implemented this week will be the 'B' of your A/B test. You will need to have access to both versions of this component to run your online tests - don't write over your old code!</p>
+                
+				<div id="usertests" class="sidenav-anchor">
+					<h4>Step 2: Watch people use your prototype</h4>
+                    <p>Observe <b>at least</b> two different people test your interactive prototype. Try to find representative testers who you would expect to use your app.</p>
+                    <p>One person will facilitate the test and interact with the tester, and the rest of the team will be in charge of taking notes/photos/video/etc. This time your user will not be writing down the problems they find for you. It's your job to learn what the people testing your prototype are thinking; the feedback they provide you will be invaluable for your next iteration. Your goal is to find ways to improve your interface.</p>
+                    <p>Submit a photo or sketch of each tester using your prototype. As with the needfinding assignment, these photos <b>with captions</b> should show breakdowns and design opportunities. Contextualize them by capturing the action, e.g. using over-the-shoulder shots, and the setting. Look for other breakdowns and pain points in your interface and try to understand what the problems are and how you might fix them. When possible, modify/update your prototype before running the next participant.</p>
                 </div>
+                
+                <div id="results" class="sidenav-anchor">
+                    <h4>Step 3: Compile your results</h4>
+                    <p>After testing, take some time with your team to reflect on your findings. Go through all the notes and other records. Try to be objective; don't write problems off. Discuss as a team and define some general patterns in people's behavior. When you identify some interesting points, talk deeply about them - ask each other questions, recreate the different tests, analyze the decisions people made, other paths they could have taken, and so on.</p>
+                    <p>Submit a detailed and understandable list of changes that you will implement as a result of your testing and discussion, with justifications. Fix the bugs that are either small and easy to fix, or too severe to ignore. Make sure that you do this before moving on to the next step of this assignment.</p>
+                </div>
+                
+                <div id="altredesign" class="sidenav-anchor">
+                    <h4>Step 4: Create a meaningful redesign for A/B testing</h4>
+                    <p>A/B testing is a powerful web design tool that leverages random assignment and the easy-to-use chi-squared statistical test. In general, it requires measuring count, or frequency, data of some kind, e.g. number of heads in a series of coin flips, or number of users out of all visitors to visit a certain screen in your app. From your user testing, you should have identified many design breakdowns or opportunities and their potential solutions. Each solution will manipulate, or have consequences, on the user’s interaction in some way. For instance, changing the size or location of a button may increase the likelihood that a user follows an optimal navigational path. In this case, you can measure the effect of this manipulation by counting the number of users to follow this path, and those who didn't, using the chi-squared test. Identify and redesign ONE component of your prototype that resolves a breakdown or leverages an opportunity with an outcome that users can be binarily classified into, e.g. clicked or didn't click. The redesigned component needs to be noticeably different from the original design. Design is often a slow and iterated process, so select something small and manageable in scope. <a href="https://ucsd.coursera.org/introhci-001/lecture/40">See the lecture videos for more information.</a></p>
+                    <p>Creating simple paper mockups of your redesign is highly recommended. Then, electronically create and submit <b>two separate URLs</b> for your redesign and your original application - don't write over your old code!</p>
+                    <p>Submit a description of the online test you will run for the <a href="../A9/">next assignment</a>. How will you measure your manipulation? What are the possible outcomes and their interpretations?</p>
+                </div>
+                
 				<div id="instudio" class="sidenav-anchor">
                     <h4>In Studio</h4>
 					<p>In studio, you will present your ideas informally to the other teams: What were some major findings? What changes did they translate to? What are you going to do moving forward? Then you will work with your studio leader to prepare for A/B testing!</p>
@@ -137,7 +105,7 @@
 
                 <div id="examples" class="sidenav-anchor">
                     <h2>Student Examples</h2>
-                    <p>Here are two student examples from last year. Keep in mind that last year, students had to submit paper prototypes of their redesign in addition to the implemented version.</p>
+                    <p>Here are three student examples from last year.</p>
                     <ul>
                         <li><a href="../examples/a08example1.html">Example 1</a> - This is an example of an A+ level assignment. This group obviously put a lot of thought into their in-person test, and was able to motivate their redesign from the conclusions they drew from the in-person test.</li>
                         <li><a href="../examples/a08example2.html">Example 2</a> - This is an example of a B level assignment. This group lost points for not including their consent form for the in-person test. We also wished the feedback was more substantive beyond obvious usability bugs (one of which had been mentioned by the TA in a previous assignment). For the online test description, we were not convinced that measuring click rates was the right metric to measure success.</li>
@@ -171,37 +139,50 @@
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
                     <ul>
-						<li>The URL of the original prototype you tested.</li>
-                        <li>Your experimental protocol and signed consent forms, as well as any materials you gave to the user as part of your tests (either as text, PDF or a scanned image). Examples may include scripts you read aloud to the user, questionnaires, surveys or other materials you wrote.<b> (Experimental Protocol & Documentation)</b></li>
+                        <li>Your testing protocol and signed consent forms, as well as any materials you gave to the user as part of your tests (either as text, PDF or a scanned image). <b> (Testing Protocol & Documentation)</b></li>
 						
 						<li>Captioned photos for each participant testing your prototype. <b>(Photo Documentation)</b></li>
 
-                        <li>A list of changes you will implement in your next iteration. For each change, include a brief explanation for why you selected it. Describe it with enough detail that someone outside of your team can understand it. <b>(Planned Changes Based on Test)</b></li>
+                        <li>A detailed list of changes you will implement in your next iteration, with justifications. <b> (Planned Changes Based on Test)</b></li>
 
-                        <li>URL of the implemented alternative redesign of one interface element. <b>(Alternative Design)</b></li>
+                        <li>The URL of the original prototype you tested and the URL of the implemented alternative redesign of one interface element. Including submissions of the paper mockups would be very helpful. <b>(Alternative Design)</b></li>
 
-                        <li>Description of online test. In 2 to 3 sentences, describe the online test you will run for the <a href="../A9/">next assignment</a>. How will you measure which alternative is better? Remember, what people do is different than what they say. <b>(Description of Planned Online Test)</b></li>
+                        <li>Description of online test. <b>(Description of Planned Online Test)</b></li>
 
-                        <li>Last week and this week's PDF of development plan. We recommend submitting a PDF of your Google Spreadsheet. This gives you a snapshot for comparison. <b>(Updated Development Plan)</b></li>
+                        <li>Copy of last week’s and this week’s plan submitted via PDF in a readable and easy-to-compare format. Link to Google Sheet with history should also be submitted to help with grading. <b>(Updated Development Plan)</b></li>
                     </ul>
 
                     <a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit your formatted pdf here</a>
 
 
                 </div>
-
+                <br>
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Evaluation criteria &amp; Grading rubric</h2>
-                    <div class="table-responsive">
-<? include "rubric.html" ?>                        
-                    </div>
+                    <p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
+                    <?php
+                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/8");
+                        $json = json_decode($result, true);
+                        $cur_item = 1;
+                        for ($x = 0; $x < count($json["criteria"]); $x++) {
+                            echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
+                            $items = $json["criteria"][$x]["items"];
+                            echo '<ol start = '.$cur_item.'>';
+                            for ($y = 0; $y < count($items); $y++) {
+                                echo '<li>'.$items[$y]["name"].'</li>';
+                                $cur_item++;
+                            }
+                            echo '</ol>';
+                            echo '</ul>';
+                        }
+                    ?>
                 </div>
 
-                <div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
+                <div id='self-assessment' class='sidenav-anchor' style='margin-top: 10px'>
                     <h2>Group Evaluation, Team Evaluation</h2>
                     <p>
-                        <a class="btn btn-primary" target="_blank"  href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1Tkx91b09KVt1IYpvusnxig2BdmtbNHw9w8oHaNm7AMk/edit">During studio, click here to assess your group's work as a collective unit.</a></br>
-                        <a class="btn btn-primary" target="_blank" style="margin-top: 10px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1RVZbm6zWwH0O39JiJWt3TjwbfBfaoVyu95kvM_RZSuE"> During studio, click here to assess your own work and each of your team member's work.</a>
+                        <a class="btn btn-primary" target="_blank"  href="https://docs.google.com/forms/d/14w-wx_UB_Ejogrmx1qevMB1lYCGIOwmRr6aARBweWeg/">During studio, click here to assess your group's work as a collective unit.</a></br>
+                        <a class="btn btn-primary" target="_blank" style="margin-top: 10px" href="https://docs.google.com/forms/d/1q6tepXzwa9Mz5trskJWiJDWIX2LKR7UUz9Iz3os5DBM/"> During studio, click here to assess your own work and each of your team member's work.</a>
                     </p>
                 </div>
             </div>

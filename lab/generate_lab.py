@@ -1,4 +1,9 @@
 #!/usr/bin/python
+###############################################
+# You can find information on how to run this script and how notes.json
+# works by viewing the doc in google drive "TA Guides/TA Tools/How to
+# Edit Labs".
+###############################################
 import argparse
 from os import listdir
 from os.path import isfile, join
@@ -115,6 +120,7 @@ def writeLabPage(directory, slide_images, slide_notes, lab_number):
   for index, slide_image in enumerate(slide_images):
     print('writing slide row '+str(index+1))
     note_html = ''
+    footnote_html = ''
     if index < len(slide_notes):
       note_html, footnote_html = writeSlideNotes(slide_notes[index])
     slide_template = string.replace(SLIDE_TEMPLATE,
@@ -141,9 +147,9 @@ def writeLabPage(directory, slide_images, slide_notes, lab_number):
   slide_html = '\n'.join(slides)
   page = string.replace(page, "LAB_NUMBER", lab_number)
   page = string.replace(page, TEMPLATE_CONTENT, slide_html)
-  with open(directory + '/index.html', 'w') as out:
+  with open(directory + '/index.php', 'w') as out:
     out.write(page.encode('utf-8'))
-  print("Wrote " + directory + '/index.html')
+  print("Wrote " + directory + '/index.php')
 
 
 if __name__ == "__main__":
@@ -169,11 +175,6 @@ if __name__ == "__main__":
 
   print('Trying to load notes from: '+directory+'/notes.json')
   slide_notes = json.load(open(directory+'/notes.json'))
-
-  #slide_notes = [None] * len(slide_images)
-  #for i in range(0,len(slide_images)):
-  #  if str(i+1) in json_data:
-  #    slide_notes[i] = json_data[str(i+1)]
 
   #print(isinstance(slide_notes, list))
   #print(isinstance(slide_notes[0], list))

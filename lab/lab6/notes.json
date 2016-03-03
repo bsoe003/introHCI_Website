@@ -1,21 +1,21 @@
 [
   [],
+  [
+    {
+     "type":"links",
+     "title":"Student examples",
+     "list": ["Check out these awesome lab 5 stretch goals from your peers"]
+    }
+  ],
   [],
   [
     {
       "type":"debug",
-      "title":"Stretch Goals",
-      "comment":"Stretch Goals",
-      "list":[{"problem":"Integrate AJAX requests to at least one relevant external API into your portfolio", "fix":""}]
-    },
-    {
-      "type":"links",
-      "list": [
-                "<a href='http://www.panoramio.com/api/data/api.html' target='_blank' >Panoramio</a>",
-                "<a href='http://www.wefeelfine.org/api.html' target='_blank'>We Feel Fine</a>",
-                "<a href='http://data.worldbank.org/developers/api-overview' target='_blank'>World Bank</a>",
-                "<a href='https://developer.spotify.com/technologies/web-api/' target='_blank'>Spotify</a>"
-              ]
+      "title":"How will this lab help me?",
+      "list":[{
+        "problem":"This lab will get you well-versed in serving data from the server, and changing your page without refreshing the page. They form an important portion of your app. Especially, Assignment 7 includes these tasks!",
+        "fix":""
+      }]
     }
   ],
   [],
@@ -64,6 +64,7 @@
   [],
   [],
   [],
+  [],
   [
     {
       "comment":"$.get() $.post()",
@@ -87,6 +88,10 @@
       "comment":"Final Result",
       "type":"video",
       "src":"video/final-result.mov"
+    },
+    {
+      "type":"footnote",
+      "text":"<h2>&rarr; Your part starts here.</h2>"
     }
   ],
   [
@@ -146,8 +151,23 @@
       "list":["<a href='http://localhost:3000/project/1' target=\"_blank\">http://localhost:3000/project/1</a>"]
     }
   ],
-  [],
-  [],
+  [
+    {
+      "comment":"Call the AJAX Endpoint",
+      "type":"links",
+      "list":["<a target='_blank'href='#slide-14'>Slide 14: Example use of $.get</a>"]
+    }
+  ],
+  [
+    {
+      "comment":"Write the callback function",
+      "type":"debug",
+      "list":[{
+        "problem":"Wait what's the callback?",
+        "fix":"Check back on <a target='_blank' href='#slide-14'>slide 14</a> and 15. The callback will be called once your <code>$.get(&lt;URL&gt;, &lt;callback&gt;);</code> inside the <code>addProjectDetails</code> completes, and will have the result of the <code>GET</code> passed in. If you're extra curious it's the success parameter mentioned in the <a target='_blank' href='https://api.jquery.com/jquery.get/'>jquery.get documentation.</a>"
+      }]
+    }
+  ],
   [
     {
       "comment":"Insert the project details into the page (1)",
@@ -155,11 +175,32 @@
       "title":"Hint",
       "list":[{
         "problem":"I'm having trouble figuring out how to select the right div!",
-        "fix":"Try looking at lab 3, slide 21"
+        "fix":"Try looking at <a target='_blank' href='../lab3/#slide-24'>lab 3 slide 24</a> for selecting the correct class based on the id. Once you've done that, you're one step away."
+      },
+      {
+        "problem":"I'm still having problems picking the details class out for the specific project id!",
+        "fix":"Yes this is an interesting selector puzzle! You can use selectors to select a hierarchy like so: <a target='_blank' href='../lab3/#slide-22'>slide 22-Selectors:space indicate hierarchy</a> or <a href='https://api.jquery.com/descendant-selector/'>jQuery: Descendant Selector</a>. If you want more practice with selectors, have fun with this game: <a href='http://flukeout.github.io/'>CSS Diner</a>."
+      },
+      {
+        "problem":"Wait, wait! Where do I get the ID from?",
+        "fix":"Ah... another thinker! Without giving too much away, take a look at what is inside the <code>result</code> variable."
       }]
     }
   ],
-  [],
+  [
+    {
+      "comment":"Insert the project details into the page (2)",
+      "type":"debug",
+      "title":"Hint",
+      "list":[{
+        "problem":"What should it look like when I click a project?",
+        "fix":"<p><a target='_blank' href='images/details_result.png'><img src='images/details_result.png' style='width:90%; margin:auto;'/></a></p>Also see the video in <a target='_blank' href='#slide-33'>slide 33</a>"
+      },
+      {
+        "problem":"How do I create the HTML string?",
+        "fix":"Check back on <a target='_blank' href='#slide-15'>slide 15</a>. It will be very similar to the way we construct the string variable <code>projectHTML</code> in that slide."
+      }]
+  }],
   [],
   [],
   [],
@@ -212,7 +253,24 @@
   [
     {
       "type":"links",
-      "list":["<a href='http://hci.st/lab-submit' target=\"_blank\">http://hci.st/lab-submit</a>"]
+      "list":["<a target='_blank' href='http://www.ucsd-hci.com/student_labs' target=\"_blank\">Submission link</a>"]
+    }
+  ],
+  [
+    {
+      "type":"debug",
+      "title":"Stretch Goals",
+      "comment":"Stretch Goals",
+      "list":[{"problem":"Integrate AJAX requests to at least one relevant external API into your portfolio", "fix":""}]
+    },
+    {
+      "type":"links",
+      "list": [
+                "<a href='http://www.panoramio.com/api/data/api.html' target='_blank' >Panoramio</a>",
+                "<a href='http://www.wefeelfine.org/api.html' target='_blank'>We Feel Fine</a>",
+                "<a href='http://data.worldbank.org/developers/api-overview' target='_blank'>World Bank</a>",
+                "<a href='https://developer.spotify.com/technologies/web-api/' target='_blank'>Spotify</a>"
+              ]
     }
   ],
   [],

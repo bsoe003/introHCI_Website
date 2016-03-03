@@ -1,14 +1,28 @@
 [
   [],
   [],
+  [
+    {
+      "type":"debug",
+      "title":"How will this lab help me?",
+      "list":[{
+        "problem":"This lab will get you well-versed in using JSON and handlebars to generate pages. They form an important portion of your app. Assignment 6 and 7 include these tasks!",
+        "fix":""
+      }]
+    }
+  ],
   [],
-  [],  
-  [],
+  [
+    {
+      "type":"footnote",
+      "text":"<h2>&rarr; Your part starts here.</h2>"
+    }
+  ],
   [
     {
       "type":"links",
       "comment":"Starter code github link",
-      "list":["<a href='https://github.com/IntroHCI/lab5'>https://github.com/IntroHCI/lab5</a>"]
+      "list":["<a target='_blank' href='https://github.com/IntroHCI/lab5'>https://github.com/IntroHCI/lab5</a>"]
     }
   ],
   [
@@ -23,6 +37,14 @@
       "list": [{
         "problem": "I got the error <pre><code>bash: lab5/check-setup.sh: No such file or directory</code></pre>",
         "fix": "Make sure you're in your 'introHCI' directory and that you've cloned lab5 here."
+        },
+        {
+          "problem": "I get errors that look like <pre><code>check-setup.sh: line 2: $'\\r': command not found</code></pre>",
+          "fix": "Try following the <code>sed</code> instructions in <a target='_blank' href='../lab4/#slide-27'>lab4 slide 27</a> but run it on the </code>lab5/check-setup.sh</code>"
+        },
+        {
+          "problem":"I get errors of the form <code>You don't have ****</code>.",
+          "fix":"Check <a target='_blank' href='../lab4/#slide-28'>slide 28 of lab4</a>."
       }]
     }
   ],
@@ -36,11 +58,18 @@
     {
       "type": "debug",
       "list": [{
-        "problem":"What's the vagrant password?",
+        "problem":"What's the vagrant password again?",
         "fix":"vagrant"
+      },
+      {
+        "problem":"I got the error <pre><code>ERROR: You must run this script with sudo</code></pre>",
+        "fix":"Try the same command but this time write <code>sudo</code> before the command. <pre><code>sudo bash lab5/check-setup.sh</pre></code> Pro-tip: Find out what sudo means and what it does. (Hint: Use manual pages on terminal: <code>man sudo</code> (interesting!) or use Google (boring))"
       }]
     }
   ],
+  [],
+  [],
+  [],
   [],
   [],
   [
@@ -61,6 +90,10 @@
       "type":"debug",
       "list":[
       {
+        "problem":"<pre><code>module.js:340\n    throw err;\n           ^\n      error: cannot find module '/home/vagrant/app.js'</code></pre>",
+        "fix":"are you in the lab5 directory?"
+      },
+      {
         "problem": "When I try to run <code>node app.js</code> I get a bunch of error messages, including the line <pre><code>Error: listen EADDRINUSE</code></pre>",
         "fix": "This probably happened because Node crashed.  For instance, Vagrant might have disconnected you all of a sudden.<br /> To fix this problem, tell your browser to refresh http://localhost:3000 until you get \"No data received\" or a similar message.  Now try starting Node again.  Everything should be fine. <br /><br />Explanation: The message <code>EADDRINUSE</code> means that Node can't start listening on port 3000 because it's already in use.  The problem is that the last instance of Node failed to properly release port 3000 when it crashed.  By refreshing the webpage, we're getting the OS to realize 'Oh, the Node server isn't using port 3000 anymore' and consequently release it."
       }]
@@ -70,7 +103,7 @@
     {
       "comment":"Test that it's working on localhost",
       "type":"links",
-      "list":["<a href='http://localhost:3000' target=\"_blank\">http://localhost:3000</a>"]
+      "list":["<a target='_blank' href='http://localhost:3000' target=\"_blank\">http://localhost:3000</a>"]
     },
     {
       "type":"debug",
@@ -78,9 +111,35 @@
     }
   ],
   [],
-  [],
-  [],
   [
+    {
+      "comment":"Import the Javascript",
+      "type":"debug",
+      "list":[{
+        "problem":"I don't understand how to include javascript in my html. Where is the html?",
+	"fix":"\".handlebar\" files contain the html and \"public/js\" contains the javascript files(See <a target='_blank'href='../lab4/#slide-13'>Lab 4-slide 13</a> for a review of where HTML comes from)! Now ala <a target='_blank' href='../lab3/#slide-39'>Lab3-slide 39: Linking js to an HTML file</a>, add the script tags with the script files location in the handlebar file."
+      },
+      {
+        "problem":"My console doesn't say <em>Javascript connected</em> when I included my javascript like so <pre><code>&lt;script src=\"public/js/{javascripti filename}.js\"&gt;&lt;/script&gt;</code></pre>",
+        "fix":"You don't need the <code>public</code> at the beginning of src. Node.js automatically sets the root(\"/\") as our <code>public</code> directory. This goes for including css in the next slide as well."
+      },
+      {
+        "problem":"I think I have included the javascript correctly but my browser console keeps saying this upon refresh: <pre><code>Uncaught ReferenceError: $ is not defined</code></pre>",
+        "fix":"You have included the files correctly. Just ensure that the jquery script is the first one you include, followed by hci-friends and bootstrap. Include order matters!"
+      }]
+    }
+  ],
+  [
+    {
+      "type":"links",
+      "list":["<a target='_blank' href='../lab2/#slide-52'>Lab 2-slide 52: Using link tags</a>"]
+    }
+  ],
+  [
+    {
+      "type":"links",
+      "list":["<a target='_blank' href='../lab2/#slide-54'>Lab 2-slide 54: Add Bootstrap container class</a>"]
+    },
     {
       "comment":"Set up the Bootstrap container",
       "type":"code",
@@ -92,17 +151,45 @@
     {
       "comment":"Stub out the HTML for one friend",
       "type":"links",
-      "title":"Image Link",
-      "list":["http://lorempixel.com/500/500/people"]
+      "title":"Random image generator link",
+      "list":["<a target='_blank' href='http://lorempixel.com/500/500/people'>http://lorempixel.com/500/500/people</a>"]
+    }
+  ],
+  [
+    {
+      "type":"links",
+      "list":["<a target='_blank' href='../lab4/#slide-35'>Lab 4-slide 35: Passing JSON from index.js</a>"]
+    }
+  ],
+  [
+    {
+      "type":"links",
+      "list":["<a target='_blank' href='../lab4/#slide-32'>Lab 4-slide 32: Access the passed in JSON through handlebars</a>"]
+    }
+  ],
+  [
+    {
+      "type":"links",
+      "list":["<a target='_blank' href='../lab2/#slide-42'>Lab2-slide42: CSS selectors</a>"]
     }
   ],
   [],
   [],
-  [],
-  [],
-  [],
-  [],
-  [],
+  [
+    { 
+      "type":"links",
+      "list":["<a target='_blank' href='../lab3/#slide-14'> Lab3-slide14: Adding click listener</a>"] 
+    }
+  ],
+  [
+    {
+      "type":"debug",
+      "list": [{
+        "problem":"When I click on the name, it says that it can't find an anagram for that name.",
+        "fix":"The most common cause here is that your click listener is not listening to the right element. For example, if you put the click listener on the entire div, when you call text(), it will return a bunch of whitespace around the name, and it won't match our list of anagram keys. Make sure you're selecting only the element that actually has the text inside of it."
+      }]
+    }
+  ],
   [
     {
       "comment":"Anagram demo",
@@ -144,7 +231,18 @@
   [
     {
       "type":"links",
-      "list":["<a href='http://hci.st/lab-submit' target=\"_blank\">http://hci.st/lab-submit</a>"]
+      "list":["<a target='_blank' href='http://www.ucsd-hci.com/student_labs'>Submission link</a>"]
+    }
+  ],
+  [
+    {
+      "type":"debug",
+      "title":"Stretch Goals",
+      "comment":"Stretch Goals",
+      "list":[{
+        "problem":"Add additional social network-style functionality to the site. e.g. news feed, profile pages for friends.",
+        "fix":""
+      }]
     }
   ]
 ]

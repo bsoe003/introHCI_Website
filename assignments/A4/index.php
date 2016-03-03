@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Introduction to Human-Computer Interaction: Assignment 4">
-		<title>HCI Design: Assignment 4</title>
+		<title>A4&thinsp;&middot;&thinsp;HCI Design</title>
 
 		<!-- Bootstrap -->
 		<link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -36,41 +36,7 @@
 
 
 		<!-- Fixed navbar -->
-		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		  <div class="container">
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-			  <a class="navbar-brand" href="../../index.html">HCI DESIGN</a>
-			</div>
-			<div class="navbar-collapse collapse">
-			  <ul class="nav navbar-nav">
-				<li class=""><a href="../../index.html">Home</a></li>
-				<li><a href="../../index.html#calendar">Calendar</a></li>
-				<li><a href="../../studio.html">Studio</a></li>
-				<li ><a href="../../mobile_app_tips.html">Using on-device resources</a></li>
-				<li class="dropdown active">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-					  <li><a href="../../logistics.html#prereqs">Prerequisites</a></li>
-					  <li><a href="../../logistics.html#lab">Lab</a></li>
-					  <li><a href="../../logistics.html#grading">Grading</a></li>
-					  <li><a href="../../logistics.html#attendance">Attendance</a></li>
-					  <li><a href="../../logistics.html#faq">FAQ</a></li>
-					</ul>
-				</li>
-				<li><a href="../../index.html#calendar">Submit work</a></li>
-			  </ul>
-			  <ul class="nav navbar-nav navbar-right">
-				<li><a href="http://piazza.com/ucsd/winter2015/cogs120/home">Questions(Piazza forum)</a></li>
-			  </ul>
-			</div><!--/.nav-collapse -->
-		  </div>
-		</div>
+		<? include "../../nav.php" ?>
 
 		<div class="container">
 			<div class="row">
@@ -120,7 +86,7 @@
 						<p>Use Nielsen's heuristics as a guide and specify what heuristic(s) each problem is related to. If you come across problems that don't fall neatly into particular heuristics, mark that no heuristics apply. As long as your discussion of the problems clearly shows that you understand and are trying to apply Nielsen's heuristics, you will get full credit in the heuristics category (see the grading rubric). Getting the problem written down with a severity rating is the more important part. Use Nielsen's <a href="http://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/" target="_blank">Severity Ratings for Usability Problems</a>.</p>
 						<p>If you use a Google document, make sure that both you and the team you are evaluating has access to your evaluation. Go over both of the team's prototypes. You can use the comparison to inform your feedback. The evaluation will be part of your submission this week.</p>
 
-						<p><b>For mobile apps of our courses scale, each evaluator should take about 20 minutes.</b></p> 
+						<p><b>For mobile apps of our courses scale, each evaluator should take about 20 minutes.</b></p>
 					</div>
 
 					<div id="meetwithothers" class="sidenav-anchor">
@@ -128,17 +94,27 @@
 						<p>Meet with the two (or more for uneven group sizes) other evaluators of the same prototypes and (at least) one member of the prototype's design team. Together, discuss the general characteristics of the UI you evaluated, and suggest potential improvements to address major usability problems that you identified. Aggregate your evaluation with the other evaluations for the prototypes. Did you agree on the most severe usability problems with the other evaluators? Come to an agreement on which problems are most important, then brainstorm potential solutions with the team you evaluated.</p>
 						<p>Finally, with the other evaluators, distill all of this down to one paragraph where you address the major problems you all identified, as well as the potential solutions. Include a sentence or two reflecting on what kinds of things you found heuristic evaluation valuable for, and what kinds of things it's not very useful for. All evaluators of the same prototypes will submit the same paragraph.</p>
 					</div>
-					
+
 					<div id="createhome" class="sidenav-anchor">
 						<h4>Step 5: (Team) Create a Home Screen </h4>
 						<p>To get your feet wet with web development of your app, create a home screen. It should include the suggestions your evaluators have.  It shouldn't be pretty yet: don't worry about styling.</p>
 					</div>
+          <div id="reada4" class="sidenav-anchor">
+              <h4>In Studio</h4>
+              <p>You will present your heurisitc evaluations, with the group that you evaluated with(not your usual project group). Prepare a 2-minute presentation of the things you learned:
+              <ul>
+                <li>What did you like about the prototype?</li>
+                <li>What did you wish the group had done?</li>
+                <li>What were some common findings you arrived at?</li>
+              </ul>
+              </p>
+          </div>
 					<div id="examples" class="sidenav-anchor">
 						<h2>Student Examples</h2>
 						<p><a href="http://d.ucsd.edu/class/intro-hci/2015/assignments/examples/pdfs/a04e1.pdf">Example 1</a> - This student did an incredibly thorough heuristic evaluation. We especially like how this student incorporated comparative feedback. Keep in mind that the this assignment was slightly different last year.</p>
 						<p><a href="http://d.ucsd.edu/class/intro-hci/2015/assignments/examples/a04example2.html">Example 2</a> - This is a weak example of a heuristic evaluation, as it wasn’t very thorough. The general structure of this example is decent, however, where problems are listed for each prototype and the heuristics and severity scores are identified. This example would have benefitted more from comparison of the prototypes. </p>
 					</div>
-					
+
 					<div id="faq" class="sidenav-anchor">
 						<br><h2>Frequently Asked Questions</h2>
 						<div class="row">
@@ -146,7 +122,7 @@
 								<strong>How many heuristic violations should we find?</strong>
 							</div>
 							<div class="col-md-8">
-								<p> We're not requiring an exact number of heuristic violations-- you can follow the assignment examples as a guideline for what we are expecting.</p>
+								<p>See the rubric. We don't have a maximum limit on the number of heuristic violations, by the way, and actually encourage having as many as possible. You can follow the assignment examples as a guideline for what we are expecting.</p>
 							</div>
 						</div>
 
@@ -184,7 +160,7 @@
 					<div id="evaluation" class="sidenav-anchor">
 						<h2>Evaluation Criteria &amp; Grading Rubric</h2>
 						<p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
-	                    <?php
+	                    <!--?php
 	                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/4");
 	                        $json = json_decode($result, true);
 	                        for ($x = 0; $x < count($json["criteria"]); $x++) {
@@ -197,14 +173,18 @@
 	                            echo '</ol>';
 	                            echo '</ul>';
 	                        }
-	                    ?>
-						<!-- <div class="table-responsive">
-							<? include "rubric.html" ?>                      
-						</div> -->
+	                    ?-->
+						 <div class="table-responsive">
+							<? include "rubric.html" ?>
+						</div>
+                        
 					</div>
 					<div id='self-assessment' class='sidenav-anchor'>
 						<h2>Self assessment</h2>
-						<a class='btn btn-primary' href="https://docs.google.com/forms/d/1251ynXaVlBblx6dsac-r3p7QDcXEfPIXh3ZSEVAvbmM/viewform">During studio, click here to self assess your work.</a>
+						<a class='btn btn-primary' href="https://docs.google.com/forms/d/14b3tCOoOcWpZgQa7523DIlJWz3SbHbA9H5y_71naNRQ/viewform">During studio, click here to self assess your work.</a>
+                        <br/><br/>
+						<h2>Mid-quarter evaluation</h2>
+						<a class='btn btn-primary' href="https://docs.google.com/forms/d/1F8QM-8qMxfpnHOE3p9floMcOrEeerEuTKQLnN0kSixo/viewform">During studio, click here to evaluate the course.</a>
 					</div>
 				</div>
 			</div>
@@ -213,7 +193,7 @@
 		<footer>
 			<p>This course was created by <a href='http://d.ucsd.edu/srk'>Scott Klemmer</a>, and revised in collaboration with <a href='http://hci.stanford.edu/msb'>Michael Bernstein</a>, and our teaching staffs. Instructors: you are welcome to use these materials for your own class, and dozens of courses around the world do. We share all course materials <a href=https://creativecommons.org/licenses/by/4.0/deed.en_US
 			>through a CC-BY license</a>. Please let Scott know if you use them, and also any suggestions you have. We thank <a href=http://www.calit2.net/>CalIT2</a> and the <a href=http://www.jacobsschool.ucsd.edu/moxiecenter>Moxie Center</a> for helping support our studios.</p>
-		</footer>   
+		</footer>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
