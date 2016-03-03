@@ -359,6 +359,7 @@
                             <p>Presenting design work</p>
                             <p>
                                 <ul>
+                                    <li><a href="lectures/IntroHCI-2016-Week9.pdf">slides</a></li>
                                     <li>
                                         <a href="lectures/final_presentation.pdf">Stand and Deliver: Presenting Your Design Work</a>
                                     </li>

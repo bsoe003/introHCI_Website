@@ -69,13 +69,13 @@
                     <p><a class="btn btn-primary" href="http://web.stanford.edu/group/eweek/2010/media/Presentation_Design_handout.pdf">Presentation Design Handout</a></p>
 
                     <h4>Poster: Demonstrating your design process</h4>
-                    <p>You will also be creating another visual deliverable in the form of a poster. The slide and the poster differ in content in that the slide aims to convey the main idea of your app while the poster illustrates your design process. Your poster should convey your design decisions, iterations, and what your learned from users. Take the core concepts and communicate them rather than explaining every detail. The poster dimensions should be 24" wide, 30" high.</p>
+                    <p>You will also be creating another visual deliverable in the form of a poster. The slide and the poster differ in content in that the slide aims to convey the main idea of your app while the poster illustrates your design process. Your poster should convey your design decisions, iterations, and what you learned from users. It should highlight the features that make your app's solution to a user problem unique. Take the core concepts and communicate them rather than explaining every detail.</p>
+                    <p>Some things to think about for your poster: How are you going to explain your prototype to people? Will you hand your mobile Web application to visitors to try, or will you walk them through a demo? Why did you make that decision? What are you going to say to them? What part of your design do you want to emphasize? Keep in mind that attendees don't have all the background and insight into your application. Present them with the user need first, show your solution, and explain why your work is unique. Your poster should stand on its own without explanation. If you show photos, make sure everything is visible and legible. There will be many people there and you will not be able to engage every single person who will look at your poster.</p>
+                    <p>The poster dimensions should be 24" wide, 30" high (portrait orientation). Butcher paper will be provided for you to make your poster.</p>
+                    <p>Each poster will be visited by three critics (staff and/or jurors). After the presentation, your poster will be kept by the staff for archival and display purposes. </p>
 
                     <h4>Walkthrough</h4>
-                    <p>How are you going to explain your prototype to people? Will you hand your mobile Web application to visitors to try, or will you walk them through a demo? Why did you make that decision? What are you going to say to them? What part of your design do you want to emphasize? Keep in mind that attendees don't have all the background and insight into your application. Present them with the user need first, show your solution, and explain why your work is unique. Your poster should stand on its own without explanation. There will be many people there and you will not be able to engage every single person who will look at your poster.</p>
                     <p>Finally, prepare a 1-minute walkthrough of your prototype. Keep it short, while showing off all the features of your application. You will present your walkthrough to a TA who will video record you for 1-minute during the final presentations. This will also be good practice for when jurors visit your poster and app. Your quick walkthrough should inspire jurors to pick up the phone and continue to play around with your app. It is important to have a walkthrough rehearsed. There will be many people there and it is important to come across as prepared and knowledgeable to your visitors.</p>
-                    <p>Each poster will be visited by two critics (staff and/or jurors).</p>
-                    <p>Your poster will be kept by the staff for archival and display purposes. </p>
 
                 </div>
         <div id="examples" class="sidenav-anchor">
@@ -90,11 +90,11 @@
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
                     <ul>
-                        <li>Fill out the Final App form (One per group): <a href="http://goo.gl/forms/Lf07KYIGGA">http://goo.gl/forms/Lf07KYIGGA</a> </li>
-                        <li>A URL to your final functional prototype.</li>
+                        <li>A URL to your final functional prototype and a URL to your GitHub repository.</li>
                         <li>A zipped file of your latest functional code (for archival/educational purposes).</li>
+                        <li>Your Pitch: The text to your pitch that will clearly take ~30 seconds to deliver.</li>
                         <li>Your Slide: 1 JPG/PNG file, 1024x768 showing your interface. No audio or animation.</li>
-                        <li>A photo of your poster. Posters will be hung on the wall. Your poster will be 24" wide and 30" high, in portrait orientation. We suggest using the butcher paper we gave you in studio. People will view your poster from both far away and up close. If you show photos, make sure everything is visible and legible.</li>
+                        <li>A photo of your poster. Your poster will be 24" wide and 30" high, in portrait orientation. We suggest using the butcher paper we gave you in studio. People will view your poster from both far away and up close.</li>
                     </ul>
                     <a href="http://www.ucsd-hci.com" class='btn btn-primary'>Submit a zipped file here including everything listed above</a>
                 </div>

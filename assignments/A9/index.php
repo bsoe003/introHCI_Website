@@ -49,7 +49,7 @@
             <div class="col-md-9" id="assignment-description">
 
                 <div>
-                    <h1>Assignment 9: Test your prototype online</h1>
+                    <h1>Assignment 9: Results!</h1>
                 </div>
 
                 <div id="assignment" class="sidenav-anchor">
@@ -57,7 +57,7 @@
                 </div>
 
                 <div id="plan" class="sidenav-anchor">
-                    <h4>Launch Rate Comparison</h4>
+                    <h4>Launch A/B Test</h4>
                     <p>We are going to be using <a href="http://analytics.google.com/analytics/" target="_blank">Google Analytics</a> to run rate comparison you planned last week.</p>
 
                     <p>Since you will be statistically analyzing the results, recruit <strong>at least 20 users</strong>. Put another way, that means that each person on your team should recruit at least 7 people each: a couple dorm-mates and a few family members and you're basically there. You can also use social media like Facebook and Twitter to recruit. You can even recruit other people in class! Make sure to launch your test several days before the deadline. How you schedule your analysis around your implementation plan is up to you. Do what's best for your app and your group. <a href=http://blog.optimizely.com/2013/04/30/71-things-to-ab-test>Here's some ideas from Optimizely.</a></p>
@@ -65,8 +65,10 @@
 
                 <div id="results" class="sidenav-anchor">
                     <h4>Results: Comparing Rates Online</h4>
-                    <p>Collect your results from your A/B test that compares rates between conditions. You can use your A condition as the 'Expected' Value and the B condition as the 'Observed'. Present your data and the results: show the inputs to your Chi-squared analysis, your calculations, the Chi-squared result, and the p value. <a href="http://www.houseofkaizen.com/conversion-rate-optimisation/resources/calculators/split-test-significance"> This tool should help. </a> Remember that a Chi-squared test compares rates, not times. Discuss your findings: can you draw solid conclusions or are additional tests needed? What changes would you make based on these results?</p>
-                    <p>Use Google Analytics to track the pages that users view on your app.</p>
+                    <p>Collect your results from your A/B test which should be comparing the number of users who, for instance, either clicked through a navigational funnel or didn't, viewed a particular page or didn't, or pressed a button or didn't, in both your A and B conditions. Present your data and the results: show the inputs to your chi-squared test, your calculations, the resulting chi-squared value, and the p value. Tables of both your observed and expected values are the best way to visualize your data and calculations. <a href="http://www.houseofkaizen.com/conversion-rate-optimisation/resources/calculators/split-test-significance"> This tool</a> is a helpful resource for calculating the chi-square statistic (note that it corrects for small sample sizes). However, you <i>must</i> show your work for your calculations. <a href=https://www.coursera.org/learn/design-principles/lecture/tOvhD>Watch this video to see how it's done.</a> Remember that the chi-squared test compares numbers of users, not times. If you find yourself using a different measure, e.g. time spent on a page, then find the appropriate statistical test to show your calculations and interpret its results. The TA's will not help with anything other than the chi-squared test, so do so at your own risk.</p>
+                    
+                    Next, discuss your findings: can you draw solid conclusions or are additional experiments needed? What changes would you make based on these results? What other things would you test in the future?</p>
+                    
                 </div>
 
                 <div id="fitfinish" class="sidenav-anchor">
@@ -97,66 +99,30 @@
 
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Evaluation criteria &amp; Grading rubric</h2>
-                    <div class="table-responsive">
-                        <table class="table">
-                            <tbody>
-                                <tr>
-                                    <th id="guiding" valign="top">Category</th>
-                                    <th colspan=5 id="unsatisfactory" valign="top">Nope</th>
-                                    <th colspan=5 id="minimum" valign="top">Adequacy</th>
-                                    <th colspan=5 id="satisfactory" valign="top">Proficiency</th>
-                                    <th colspan=5 id="above" valign="top">Mastery</th>
-                                </tr>
-                                <tr>
-                                    <td>Online Test Results<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td colspan=4>No conclusions listed.</td>
-                                    <td colspan=4>Either only statistical analysis or insights are given.</td>
-                                    <td colspan=4>Statistical analysis has errors. Two common errors: 1) using time as input to a CHI-squared test (CHI-squared compares rates). 2) assuming a 50% success rate as your 'expected', as opposed to using the rate in the A condition as 'expected'.</td>
-                                    <td colspan=4>Statistical analysis is correct. Conclusions are trivial: they don't engage the content of the design.</td>
-                                    <td colspan=4>Statistical analysis is correct, and includes a clear assessment on the strength of the data. Conclusions are clear and straightforward.</td>
-                                </tr>
-                                <tr>
-                                    <td>List of Potential Revisions<br /><span style="color:lightGray;">4 points</span></td>
-                                    <td colspan=5>No revisions listed.</td>
-                                    <td colspan=5>The revisions are obvious or trivial. The major problems are not addressed by the revisions.</td>
-                                    <td colspan=5>Revisions are made without much consideration to the user experience. The revisions are chosen to cater to a lower level of technical difficulty.</td>
-                                    <td colspan=5>Several possible revisions are presented for different portions of the user interface. The revisions are creative and address the major problems. Changes are clearly justified and informed from the data gathered (both in person and online).</td>
-                                </tr>
-
-                                <tr>
-                                    <td>Fit and Finish<br /><span style="color:lightGray;">2 points</span></td>
-                                    <td colspan=6>Prototype is incomplete still has some bugs.</td>
-                                    <td colspan=7>Prototype is complete, but may lack some details or polish.</td>
-                                    <td colspan=7>Prototype is very polished, and ready to be presented.</td>
-                                <tr>
-
-                                </tr>
-                                <tr>
-                                    <td>Goals<br /><span style="color:lightGray;">3 points</span></td>
-                                    <td colspan=5>No goals were met.</td>
-                                    <td colspan=5>Only a few goals or equivalent were met.</td>
-                                    <td colspan=5>Most, but not all, of the goals or equivalent were met.</td>
-                                    <td colspan=5>All goals or equivalent were met. Stretch goals need not be met.</td>
-                                </tr>
-                                <tr>
-                                    <td>Updated Development Plan<br /><span style="color:lightGray;">2 points</span></td>
-                                    <td colspan=6>No updates or only minor changes to plan. </td>
-                                    <td colspan=7>Plan is mostly updated, but is lacking some detail or deadlines seem unreasonable. </td>
-                                    <td colspan=7>Plan is detailed and reflect progress, new tasks, and any changes to previous tasks.</td>
-                                </tr>
-                                <tr>
-                                    <td headers="guiding" colspan=2><br>Outside the Box<br><span style="color:lightGray;"><span style="color:lightGray;">1 point. Up to 5% of submissions.</span></td>
-                                    <td colspan=19 align=right>Not only are several possible revisions presented for different portions of the user interface, your revisions are extremely creative and approaches the problems in your interface in an effective and innovative way. An incredible amount of thought and consideration has gone into solving the underlying problems.</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <p>The rubric below contains criteria that are worth one point each and will be graded independently and in a binary fashion.</p>
+                    <?php
+                        $result = file_get_contents("http://www.ucsd-hci.com/api/assignment/9");
+                        $json = json_decode($result, true);
+                        $cur_item = 1;
+                        for ($x = 0; $x < count($json["criteria"]); $x++) {
+                            echo '<ul list-style-type:none>'.$json["criteria"][$x]["group"];
+                            $items = $json["criteria"][$x]["items"];
+                            echo '<ol start = '.$cur_item.'>';
+                            for ($y = 0; $y < count($items); $y++) {
+                                echo '<li>'.$items[$y]["name"].'</li>';
+                                $cur_item++;
+                            }
+                            echo '</ol>';
+                            echo '</ul>';
+                        }
+                    ?>
                 </div>
 
                 <div id='self-assessment' class='sidenav-anchor' style='margin-top: 20px'>
                     <h2>Group Evaluation, Team Evaluation</h2>
                     <p>
-                        <a class="btn btn-primary" target="_blank" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1UDEDD-VkJaNlSkKz5q5htfU6_W1chiVzNvjt_a-qib8">During studio, click here to assess your group's work as a collective unit.</a></br>
-                        <a class="btn btn-primary" target="_blank" style="margin-top: 20px" href="https://docs.google.com/a/eng.ucsd.edu/forms/d/1ixO49-zWN-zjxI_vp42_LVifxzv5PYrpZfMmTAZuLJo"> During studio, click here to assess your own work and each of your team member's work.</a>
+                        <a class="btn btn-primary" target="_blank" href="https://docs.google.com/forms/d/1N3Zkc1ggX3lJc7hJTto-jIEfw2JLHACuGy7PiiLBcNE/viewform">During studio, click here to assess your group's work as a collective unit.</a></br>
+                        <a class="btn btn-primary" target="_blank" style="margin-top: 20px" href="https://docs.google.com/forms/d/1YEHywUFrJDPbxXCSzoA8kYS3GB_Bq5oyi9Re2Rmr2YA/viewform"> During studio, click here to assess your own work and each of your team member's work.</a>
                     </p>
                 </div>
 
